@@ -116,6 +116,30 @@
     </li>
         </ul>
     </li>
+    <li class="toctree-l2"><a class="reference internal" href="#cham-cong-phan-ca">Chấm công phân ca</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#thiet-lap-phan-ca">Thiết lập phân ca</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#thiet-lap-ky-hieu-cong_1">Thiết lập ký hiệu công</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#thiet-lap-ca-lam-viec">Thiết lập ca làm việc</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#phan-ca-chi-tiet-cho-cac-phongban-nhan-vien">Phân ca chi tiết cho các phòng/ban, nhân viên</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#e-nghi-oi-ca">Đề nghị đổi ca</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#thiet-lap-oi-ca">Thiết lập đổi ca</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#phe-duyettu-choi-oi-ca">Phê duyệt/Từ chối đổi ca</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#tong-hop-cong-phan-ca">Tổng hợp công phân ca</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#chot-du-lieu-tong-hop-cong">Chốt dữ liệu tổng hợp công</a>
+    </li>
     </ul>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../payroll/">Tính lương</a>
@@ -575,13 +599,13 @@
 <p><em>Trong trường hợp ngày n, cán bộ chấm công muốn chốt công luôn; để lấy được cả dữ liệu chấm công ngày hiện tại, người dùng thực hiện đồng bộ công bằng cách bấm </em><em>Đồng bộ</em><em> &gt;&gt; Chọn thời gian cần đồng bộ &gt;&gt; Hệ thống hiển thị cảnh báo sẽ xoá toàn bộ dữ liệu trên bảng công trong khoảng thời gian được chọn và tự động đồng bộ lại &gt;&gt; Người dùng xác nhận </em><em>Đồng ý</em><em> &gt;&gt; Hệ thống thực hiện đồng bộ và hiển thị lại bảng công.</em></p>
 </li>
 <li>
-<p><em>Cán bộ chấm công có thể thực hiện xuất dữ liệu bảng công bằng cách bấm </em><em>Xuất báo cáo</em>* *</p>
+<p><em>Cán bộ chấm công có thể thực hiện xuất dữ liệu bảng công bằng cách bấm </em><em>Xuất báo cáo</em>**</p>
 </li>
 <li>
 <p><em>Trường hợp cán bộ chấm công muốn kiểm tra dữ liệu vào ra của nhân viên, người dùng vào menu Chấm công &gt;&gt; Người quản lý &gt;&gt; Chấm công để xem dữ liệu vào/ ra theo điểm danh trên web, hoặc Chấm công &gt;&gt; Camera AI &gt;&gt; Lịch sử Check In để xem dữ liệu vào/ra theo camera</em></p>
 </li>
 </ul>
-<h3 id="cham-cong-thu-cong">Chấm công thủ công</h3>
+<h3 id="cham-cong-thu-cong"><a href="">Chấm công thủ công</a></h3>
 <p>Vào menu <strong>Chấm công</strong> &gt;&gt; Chọn <strong>Tổng hợp công</strong> &gt;&gt; Màn hình hiển thị bảng tổng hợp công. Cán bộ chấm công có thể sửa, hoặc thêm mới công cho nhân viên bằng cách click đúp vào ô công của nhân viên, màn hình hiện ra như sau:</p>
 <p><img alt="image-20220620114903383" src="../images/image-20220620114903383.png" /></p>
 <p>Cán bộ chấm công thực hiện nhập/ sửa công vào ô <strong>Thời gian làm</strong> theo quy tắc: <strong>[Ký hiệu công 1]:[Số giờ công]; [Ký hiệu công 2]: [Số giờ công]</strong> và bấm <strong>Lưu &amp; Đóng</strong></p>
@@ -646,6 +670,111 @@
 </ul>
 </li>
 </ul>
+<h2 id="cham-cong-phan-ca">Chấm công phân ca</h2>
+<p>Chức năng này phục vụ cho các công ty, đơn vị có nhiều ca làm việc, và phân bổ ca làm việc khác nhau cho các nhân viên. </p>
+<h3 id="thiet-lap-phan-ca"><strong>Thiết lập phân ca</strong></h3>
+<p><strong>Đối tượng sử dụng:</strong> Cán bộ Nhân sự, Cán bộ chấm công</p>
+<p><strong>Mục đích sử dụng:</strong> </p>
+<ul>
+<li>
+<p>Người dùng tạo ca làm việc, chi tiết phân ca, đổi ca làm việc cho nhân viên để phù hợp với tình hình hoạt động của công ty.</p>
+</li>
+<li>
+<p>Nhân viên có hình thức làm việc theo ca thì người dùng mới có thể phân ca cho nhân viên đó. Hình thức làm việc của nhân viên được thiết lập trong mục <strong>Người quản lý</strong> &gt;&gt; <strong>Nhân viên</strong> &gt;&gt; <strong>Thông tin công việc</strong> &gt;&gt; <strong>Lịch làm việc</strong> &gt;&gt; <strong>Hình thức làm việc</strong></p>
+</li>
+</ul>
+<p><img alt="image-20220630172021350" src="../images/image-20220630172021350.png" /></p>
+<h3 id="thiet-lap-ky-hieu-cong_1"><strong>Thiết lập ký hiệu công</strong></h3>
+<p>Kí hiệu công là kí hiệu hiển thị trong bảng tổng hợp công, qua kí hiệu đó người dùng biết được loại ngày làm việc của các nhân viên để dễ dàng tổng hợp theo loại công và tính lương, ví dụ: ký hiệu <strong>X</strong> thể hiện công ngày thường, kí hiệu <strong>OT</strong>: công tăng ca.</p>
+<p><strong><em>Các bước thực hiện:</em></strong></p>
+<p><em>Bước 1:</em> Người dùng truy cập vào ứng dụng <strong>Chấm công</strong> &gt; Chọn mục <strong>Cấu hình</strong> &gt; Nhấn chọn <strong>Ký hiệu công</strong>: Hiển thị danh sách kí hiệu công &gt; Nhấn nút <strong>Tạo</strong></p>
+<p><img alt="image-20220630172006579" src="../images/image-20220630172006579.png" /></p>
+<p><em>Bước 2:</em> Nhập tên công, mã công, loại công &gt; Nhấn <strong>Lưu</strong></p>
+<p><img alt="image-20220630172100570" src="../images/image-20220630172100570.png" /></p>
+<h3 id="thiet-lap-ca-lam-viec"><strong>Thiết lập ca làm việc</strong></h3>
+<p><em>Bước 1:</em> Người dùng truy cập vào ứng dụng <strong>Chấm công</strong> &gt; Chọn mục <strong>Ca làm việc</strong> &gt; Nhấn chọn <strong>Ca làm việc</strong>: Hiển thị danh sách ca làm việc &gt; Nhấn nút <strong>Tạo</strong></p>
+<p><img alt="image-20220630172139806" src="../images/image-20220630172139806.png" /></p>
+<p><em>Bước 2:</em> Điền đầy đủ thông tin vào các trường bắt buộc &gt; Nhấn <strong>Lưu</strong></p>
+<p><img alt="image-20220630172203579" src="../images/image-20220630172203579.png" /></p>
+<p>Tại màn hình Danh sách ca làm việc, thêm mới một bản ghi Ca làm việc vừa tạo</p>
+<p><strong>Lưu ý:</strong> <em>Các ca làm việc khác nhau, nhưng cùng tính chất thì người dùng có thể thiết lập chung 1 ký hiệu công</em></p>
+<p><img alt="image-20220630172228714" src="../images/image-20220630172228714.png" /></p>
+<p><em>Tuỳ vào mục đích người sử dụng muốn hiển thị lên bảng tổng hợp chấm công là ký hiệu công gì, tương ứng với ca làm việc nào, thì người dùng chọn Ký hiệu công tương ứng tại trường "Ký hiệu". Ví dụ, nếu muốn nhân viên đi làm "Ca 3" khi hiển thị lên bảng tổng hợp công với ký hiệu công là "Tăng ca  3 (TC3)" thì thực hiện thiết lập như sau</em>: </p>
+<ul>
+<li>Thiết lập kí hiệu công với tên: <strong><em>Tăng ca 3</em></strong>, mã: <strong><em>TC3</em></strong>, loại công: <strong><em>Chấm công</em></strong>.</li>
+</ul>
+<p><img alt="image-20220704094921831" src="../images/image-20220704094921831.png" /></p>
+<ul>
+<li>Thiết lập ca làm việc với tên: <strong><em>Ca 3</em></strong>, mã: <strong><em>TC3</em></strong>, kí hiệu: <strong><em>TC3</em></strong></li>
+</ul>
+<p><img alt="image-20220704100524336" src="../images/image-20220704100524336.png" /></p>
+<p><em>Sau đó thực hiện phân ca như các bước dưới đây</em>.</p>
+<h3 id="phan-ca-chi-tiet-cho-cac-phongban-nhan-vien">Phân ca chi tiết cho các phòng/ban, nhân viên</h3>
+<p><strong>Đối tượng sử dụng:</strong> Cán bộ nhân sự.</p>
+<p><strong>Các bước thực hiện:</strong></p>
+<p><em>Bước 1:</em> Người dùng truy cập vào ứng dụng <strong>Chấm công</strong> &gt; Chọn mục <strong>Ca làm việc</strong> &gt; Nhấn chọn <strong>Phân ca chi tiết:</strong> Hiển thị danh sách chi tiết phân ca &gt; Nhấn nút <strong>Tạo</strong></p>
+<p><img alt="image-20220630172252742" src="../images/image-20220630172252742.png" /></p>
+<p><em>Bước 2:</em> Điền đầy đủ thông tin Chi tiết phân ca vào các trường bắt buộc:</p>
+<p><img alt="image-20220630172342982" src="../images/image-20220630172342982.png" /></p>
+<p><strong><em>Lưu ý:</em></strong> </p>
+<ul>
+<li><em>Nếu chọn phòng ban áp dụng, hệ thống sẽ hiển thị tất cả nhân viên trong phòng ban đó và áp dụng ca làm việc này (người dùng có thể xoá nhân viên không áp dụng ca làm việc):</em></li>
+</ul>
+<p><img alt="image-20220630172405997" src="../images/image-20220630172405997.png" /></p>
+<ul>
+<li><em>Người dùng cũng có thể chọn nhân viên từ các đơn vị khác nhau để phân ca bằng cách không chọn phòng ban áp dụng mà chọn cụ thể từng nhân viên:</em></li>
+</ul>
+<p><img alt="image-20220630172439423" src="../images/image-20220630172439423.png" /></p>
+<ul>
+<li><em>Người dùng không thể Tạo chi tiết phân ca với các ca làm việc có thời gian trùng nhau. Trường hợp người dùng chưa muốn duyệt Chi tiết phân ca thì nhấn Lưu để Lưu bản nháp.</em></li>
+<li><em>Phải có ít nhất 1 nhân viên được phân ca làm việc mới có thể Duyệt Chi tiết phân ca</em></li>
+</ul>
+<p><em>Bước 3:</em> </p>
+<p>Bấm nút <strong>Duyệt</strong> <img alt="2022-06-29_10h57_28" src="../images/2022-06-29_10h57_28.png" /> để duyệt Chi tiết phân ca. Chi tiết phân ca sau khi được duyệt sẽ xuất hiện tại Bảng tổng hợp phân ca. </p>
+<p>Người dùng xem Bảng tổng hợp phân ca bằng cách vào mục <strong>Ca làm việc</strong> &gt;&gt; <strong>Bảng tổng hợp phân ca</strong>     </p>
+<h2 id="e-nghi-oi-ca"><strong>Đề nghị đổi ca</strong></h2>
+<h3 id="thiet-lap-oi-ca"><strong>Thiết lập đổi ca</strong></h3>
+<p><strong>Mục đích sử dụng:</strong> Nhân viên đã được phân ca có thể tạo đề nghị đổi ca để đổi sang ca làm việc khác.</p>
+<p><strong>Đối tượng sử dụng:</strong> Nhân viên được phân ca làm việc </p>
+<p><em>Bước 1:</em>  Người dùng truy cập vào ứng dụng <strong>Chấm công</strong> &gt; Chọn mục <strong>Ca làm việc</strong> &gt; Nhấn chọn <strong>Đề nghị đổi ca</strong>: Hiển thị danh sách Đề nghị đổi ca &gt; Nhấn nút <strong>Tạo</strong></p>
+<p><img alt="image-20220630172544999" src="../images/image-20220630172544999.png" /></p>
+<p><em>Bước 2:</em> Điền thông tin vào các trường bắt buộc</p>
+<p><img alt="image-20220630172608741" src="../images/image-20220630172608741.png" /></p>
+<p>Sau đó nhấn <strong>Lưu</strong>, bản ghi ở trạng thái Nháp, chờ duyệt.</p>
+<h3 id="phe-duyettu-choi-oi-ca"><strong>Phê duyệt/Từ chối đổi ca</strong></h3>
+<p><strong>Mục đích sử dụng:</strong> Các yêu cầu đổi ca được tạo phải được phê duyệt mới có thể đổi ca trên Bảng tổng hợp phân ca. Người có quyền duyệt có thể phê duyệt hoặc từ chối yêu cầu đổi ca.</p>
+<p><strong>Đối tượng sử dụng:</strong> </p>
+<p>Quản lý của nhân viên, quản lý phân ca hoặc người quản trị phân hệ chấm công </p>
+<p>Với mỗi yêu cầu đổi ca, người được chọn duyệt trong yêu cầu đổi ca mới có thể phê duyệt yêu cầu đổi ca đó.</p>
+<p><strong>Cách thực hiện:</strong></p>
+<ul>
+<li>Tại tài khoản của người duyệt, màn hình hiển thị 02 nút: Duyệt và Từ chối</li>
+</ul>
+<p><img alt="2022-06-30_14h27_00" src="../images/2022-06-30_14h27_00.png" /></p>
+<ul>
+<li>Người dùng chấp thuận đề nghị đổi ca thì nhấn <strong>Duyệt</strong>, bản ghi chuyển về trạng thái Duyệt. Tại Bảng tổng hợp phân ca, ca của hai nhân viên đó sẽ được thay đổi cho nhau:</li>
+</ul>
+<p><img alt="2022-06-30_14h29_01" src="../images/2022-06-30_14h29_01.png" /></p>
+<ul>
+<li>Ngược lại, người dùng nhấn <strong>Từ chối</strong>, bản ghi chuyển về trạng thái Từ chối. Không có sự thay đổi nào ở Bảng tổng hợp phân ca. Người duyệt có thể chuyển bản ghi về trạng thái Nháp bằng cách nhấn vào <strong>Chuyển về Nháp</strong> để người đề nghị đổi ca có thể chỉnh sửa.</li>
+</ul>
+<p><img alt="2022-06-29_14h51_16" src="../images/2022-06-29_14h51_16.png" /></p>
+<h2 id="tong-hop-cong-phan-ca"><strong>Tổng hợp công phân ca</strong></h2>
+<p>Các nghiệp vụ, lưu ý trên bảng tổng hợp công, người dùng xem thêm tại <a href="#Tổng hợp công">đây</a></p>
+<p>Người dùng xem bảng tổng hợp công trên hệ thống bằng cách vào menu <strong>Chấm công</strong> &gt;&gt; Chọn <strong>Tổng hợp công</strong>: Hệ thống hiển thị dữ liệu chấm công của tất cả nhân viên (bao gồm cả nhân viên làm theo giờ hành chính, và các nhân viên làm theo ca) tại tháng hiện tại như hình sau: </p>
+<p><img alt="image-20220704135832272" src="../images/image-20220704135832272.png" /></p>
+<h2 id="chot-du-lieu-tong-hop-cong">Chốt dữ liệu tổng hợp công</h2>
+<p><strong>Mục đích sử dụng:</strong> Dữ liệu tại bảng tổng hợp công vẫn có thể sửa, xoá, thay đổi, nhập dữ liệu từ file excel. Do đó, khi tới kì chốt công, sau khi nhân viên rà soát dữ liệu công đúng với số công thực tế, người dùng thực hiện chốt dữ liệu. Việc chốt dữ liệu sẽ là kết quả tổng hợp công cuối cùng, bảng dữ liệu công sẽ bị khoá và không thể thay đổi để đảm bảo dữ liệu đầu vào cho việc tính lương.</p>
+<p><strong>Đối tượng sử dụng:</strong> Cán bộ chấm công.</p>
+<p><strong>Các bước thực hiện:</strong> </p>
+<ul>
+<li>Người dùng truy cập vào ứng dụng <strong>Thiết lập</strong> &gt; Chọn <strong>Chấm công</strong> &gt; Tích chọn ô <strong>Chốt công</strong>: Hiển thị Ngày chốt công &gt; Chọn ngày chốt công.</li>
+</ul>
+<p><img alt="image-20220701111813406" src="../images/image-20220701111813406.png" /></p>
+<ul>
+<li>Sau khi chọn ngày chốt công, người dùng nhấn <strong>Lưu</strong> <img alt="image-20220701094320279" src="../images/image-20220701094320279.png" />. Khi đó, dữ liệu trên bảng tổng hợp công từ ngày được chọn là ngày chốt trở về trước được khoá dữ liệu, người dùng không thể can thiệp sửa, xoá, nhập dữ liệu công từ file excel.</li>
+</ul>
+<p><img alt="image-20220701104118965" src="../images/image-20220701104118965.png" /></p>
               
             </div>
           </div><footer>
