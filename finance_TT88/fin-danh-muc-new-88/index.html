@@ -144,6 +144,8 @@
         <ul>
     <li class="toctree-l5"><a class="reference internal" href="#tao-moi-hang-hoa-truc-tiep-tren-giao-dien">Tạo mới hàng hóa trực tiếp trên giao diện</a>
     </li>
+    <li class="toctree-l5"><a class="reference internal" href="#on-vi-tinh-chuyen-oi">Đơn vị tính Chuyển đổi</a>
+    </li>
     <li class="toctree-l5"><a class="reference internal" href="#import-vat-tu-hang-hoa">Import vật tư, hàng hóa</a>
     </li>
     <li class="toctree-l5"><a class="reference internal" href="#export-vat-tu-hang-hoa">Export vật tư, hàng hóa</a>
@@ -239,6 +241,12 @@
     <li class="toctree-l3"><a class="reference internal" href="#phi-bao-ve-moi-truong">Phí bảo vệ môi trường</a>
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#thue-bao-ve-moi-truong">Thuế bảo vệ môi trường</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#on-vi-tinh">Đơn vị tính</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#on-vi-tinh_1">Đơn vị tính</a>
     </li>
         </ul>
     </li>
@@ -690,6 +698,60 @@
 <li>Chọn <strong>đơn vị tính</strong> phù hợp với hàng hóa đang nhập</li>
 </ul>
 <p><strong>Bước 4:</strong> Nhấn <strong>Lưu</strong> để lưu lại thông tin</p>
+<h5 id="on-vi-tinh-chuyen-oi">Đơn vị tính Chuyển đổi</h5>
+<p>Với một Vật tư hàng hóa có thể có nhiều hơn 1 Đơn vị tính trong quá trình Mua/Bán.</p>
+<p>Để quản lý thông tin Đơn vị của một Sản phẩm sẽ gồm các thông tin về Đơn vị tính như sau:</p>
+<ul>
+<li>Đơn vị tính chính: Là đơn vị tính chính của sản phẩm, khi mua hàng dùng Đơn vị tinh khác thì đến phần Quản lý kho đề quy đổi về Đơn vị tính chính của sản phẩm</li>
+<li>Đơn vị tính mua hàng: Là đơn vị dùng trong quá trình Mua hàng, có thể khác với Đơn vị tính chính</li>
+<li>Đơn vị tính chuyển đổi (được khai báo tại Tab Đơn vị tính chuyển đổi tại màn hình chức năng <strong>Vật tư hàng hóa</strong>): là các đơn vị tính được khai báo gắn với Sản phẩm nhưng khác ĐƠn vị tính chính và có thông tin Quy đổi so với Đơn vị tính chính. Gồm 2 giá trị quy đổi:</li>
+<li>Lớn hơn Đơn vị chính</li>
+<li>Nhỏ hơn Đơn vị chính</li>
+</ul>
+<p><strong>Ví dụ:</strong></p>
+<ul>
+<li>Sản phẩm Nước khoáng Lavie 500ml: quản lý theo Đơn vị tính là Thùng hoặc Chai. Mỗi Thùng có 24 chai: Khi đó có thể khai báo</li>
+</ul>
+<p><strong>Cách 1:</strong> </p>
+<ul>
+<li>Đơn vị tính chính: <strong>Thùng</strong></li>
+<li>Đơn vị tính mua hàng: Là Thùng  hoặc Chai</li>
+<li>Tại Đơn vị tính quy đổi sẽ khai báo thêm: Đơn vị tính là <strong>Chai</strong> - Loại chuyển đổi là <strong>Nhỏ hơn Đơn vị chính</strong> - Tỷ lệ là <strong>24</strong></li>
+</ul>
+<p><strong>Cách 2:</strong> </p>
+<ul>
+<li>Đơn vị tính chính: <strong>Chai</strong></li>
+<li>Đơn vị tính mua hàng: Là Thùng  hoặc Chai</li>
+<li>Tại Đơn vị tính quy đổi sẽ khai báo thêm: Đơn vị tính là <strong>Thùng</strong> - Loại chuyển đổi là <strong>Lớn hơn Đơn vị chính</strong> - Tỷ lệ là <strong>24</strong></li>
+</ul>
+<p><strong>Bước 1</strong>: Vào thông tin chi tiết Vật tư hàng hóa:</p>
+<ul>
+<li>Vào Danh mục: Chọn chức năng Vật tư hàng hóa. Nhấn <strong>Chi tiết</strong> để vào danh mục</li>
+<li>Tại Chức năng Danh mục: Chọn Vật tư hàng hóa cần khai báo thông tin Đơn vị tính chuyển đổi</li>
+</ul>
+<p><img alt="" src="../images/fin_Danhmuc_VTHH_DanhSach.png" /></p>
+<p><strong>Bước 2</strong>: Tại màn hình Chi tiết vật tư  hàng hóa: Nhấn nút <strong>Sửa</strong></p>
+<p><img alt="" src="../images/fin_Danhmuc_VTHH_Sua.png" /></p>
+<p><strong>Bước 3</strong>: Khai báo thông tin tại <strong>Tab Đơn vị tính chuyển đổi</strong></p>
+<ul>
+<li>
+<p>Chọn Đơn vị tính = Chai</p>
+</li>
+<li>
+<p>Chọn Loại chuyển đổi = Nhỏ hơn đơn vị chính</p>
+</li>
+<li>
+<p>Nhập Tỷ lệ = 24</p>
+</li>
+</ul>
+<p>==&gt; Khi đó hệ thống sẽ hiểu: 1 Thùng (Đơn vị tính chính) = 24 Chai</p>
+<p><img alt="" src="../images/fin_Danhmuc_VTHH_Sua_nhapThongTin.png" /></p>
+<p><strong>Bước 4</strong>: Nhấn nút <strong>Lưu</strong> để hoàn thành khai báo</p>
+<p><img alt="" src="../images/fin_Danhmuc_VTHH_Sua_Luu.png" /></p>
+<p>Sau khi khai báo thành công Đơn vị tính chuyển đổi:</p>
+<ul>
+<li>Trong quá trình Mua/Bán Nước khoáng Lavie: Có thể dùng cả 2 đơn vị tính là: Thùng hoặc Chai</li>
+</ul>
 <h5 id="import-vat-tu-hang-hoa">Import vật tư, hàng hóa</h5>
 <p>Vào danh mục hàng hóa vật tư, thực hiện Import vật tư hàng hóa cần sử dụng</p>
 <p><strong>Cách 1:</strong> Tại màn hình danh sách vật tư hàng hóa, chuyển cách xem dạng danh sách bằng cách chọn nút <strong>Xem bằng danh sách</strong></p>
@@ -1258,7 +1320,7 @@
 <li><strong>Mã viết tắt</strong>: Nhập mã viết tắt của Sổ nhật ký</li>
 </ul>
 <p><strong>Bước 3</strong>: Nhấn <strong>Lưu</strong></p>
-<h2 id="khac">Khác</h2>
+<h2 id="khac"><em>Khác</em></h2>
 <h3 id="nhom-ban-hang">Nhóm bán hàng</h3>
 <p><strong>Mục đích</strong></p>
 <p>Được tạo ra trong trường hợp Doanh nghiệp cần quản lý doanh số theo nhóm bán hàng</p>
@@ -1521,6 +1583,40 @@
 </ul>
 <p><strong>Bước 3</strong>: Nhấn <strong>Lưu</strong></p>
 <p><img alt="fin_danhmuc_H_ThueBVMT_Luu" src="../images/fin_danhmuc_H_ThueBVMT_Luu.png" /></p>
+<h2 id="on-vi-tinh"><em>Đơn vị tính</em></h2>
+<h3 id="on-vi-tinh_1">Đơn vị tính</h3>
+<p><strong>Mục đích</strong></p>
+<p>Quản lý toàn bộ thông tin Đơn vị tính được sử dụng cho các sản phẩm vật tư hàng hóa của Doanh nghiệp</p>
+<p>Chức năng Danh mục <strong>Đơn vị tính</strong> được quản lý tập trung tại phần <strong>Danh mục</strong></p>
+<p><strong>Các bước thực hiện</strong></p>
+<p><strong>Bước 1:</strong> Vào <strong>Danh mục</strong>: chọn <strong>Đơn vị tính</strong> và nhấn nút <strong>Chi tiết</strong></p>
+<p><img alt="" src="../images/fin_Danhmuc_DVT.png" /></p>
+<p><strong>Bước 2</strong>: Thông tin trên Danh sách</p>
+<p>Hệ thống tự động tạo sẵn các Đơn vị tính hay được dùng cho các sản phẩm; Người dùng có thể sử dụng luôn các Đơn vị tính này</p>
+<p>Hoặc tự tạo các Đơn vị tính áp dụng riêng cho sản phẩm của Doanh nghiệp.</p>
+<p><img alt="" src="../images/fin_Danhmuc_DVT_DanhSach.png" /></p>
+<p><strong>Bước 3</strong>: Khai báo Đơn vị tính</p>
+<ul>
+<li>Để khai báo: Người dùng nhấn nút <img alt="" src="../images/fin_banhang_taomoi.png" />: Hệ thống tạo 1 dòng dữ liệu trên Danh sách để người dùng nhập thông tin</li>
+</ul>
+<p><img alt="" src="../images/fin_Danhmuc_DVT_DanhSach_Tao.png" /></p>
+<p><strong>Bước 4</strong>: Nhấn <strong>Lưu</strong></p>
+<p><img alt="" src="../images/fin_Danhmuc_DVT_DanhSach_Tao_Luu.png" /></p>
+<p><strong>Kết quả:</strong></p>
+<ul>
+<li>Hệ thống tạo ra một Đơn vị tính với thông tin là Thông tin vừa nhập</li>
+<li>Hệ thống tự động tạo ra 1 Nhóm đơn vị tính với Thông tin theo Đơn vị tính đã khai báo</li>
+</ul>
+<p><img alt="" src="../images/fin_Danhmuc_NhomDVT_DanhSach.png" /></p>
+<p><strong>Lưu ý:</strong></p>
+<ul>
+<li>
+<p>Khi thay đổi thông tin bên Đơn vị tính (thay đổi về Tên, Tính hiệu lực): Thông tin bên Nhóm đơn vị tính sẽ được thay đổi tương ứng</p>
+</li>
+<li>
+<p>Với Nhóm Đơn vị tính được tạo ra khi khai báo Đơn vị tính: Sẽ không được phép Sửa/Xóa bên chức năng Nhóm đơn vị tính</p>
+</li>
+</ul>
               
             </div>
           </div><footer>
