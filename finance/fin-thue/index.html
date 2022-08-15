@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../../img/favicon.ico" />
-    <title>Fin thue - Hướng dẫn sử dụng hệ thống vESS</title>
+    <title>*Quy trình nghiệp vụ* - Hướng dẫn sử dụng hệ thống vESS</title>
     <link rel="stylesheet" href="../../css/theme.css" />
     <link rel="stylesheet" href="../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
@@ -13,7 +13,7 @@
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Fin thue";
+        var mkdocs_page_name = "*Quy tr\u00ecnh nghi\u1ec7p v\u1ee5*";
         var mkdocs_page_input_path = "finance\\fin-thue.md";
         var mkdocs_page_url = null;
       </script>
@@ -87,11 +87,11 @@
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../fin-danh-muc/">Khai báo danh mục</a>
+                  <li class="toctree-l1"><a class="" href="../fin-danh-muc.md">Khai báo danh mục</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../fin-tien-TM/">Quản lý tiền - Tiền mặt</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../fin-tien-NH/">Quản lý tiền - Tiền gửi</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../fin-tien-TG/">Quản lý tiền - Tiền gửi</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../fin-mua-hang/">Mua hàng</a>
                   </li>
@@ -108,6 +108,8 @@
                   <li class="toctree-l1"><a class="reference internal" href="../fin-ccdc/">Công cụ dụng cụ</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../fin-giathanh/">Giá thành</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../fin-bao-cao/">Báo cáo</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../fin-log-histories/">Lịch sử phát triển sản phẩm</a>
                   </li>
@@ -245,7 +247,7 @@
       <div class="wy-nav-content">
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li><li>Fin thue</li>
+    <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li><li>*Quy trình nghiệp vụ*</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -255,17 +257,603 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h3 id="quan-ly-thue"><strong>Quản lý thuế</strong></h3>
-<h4 id="quy-trinh-nghiep-vu"><em>Quy trình nghiệp vụ</em></h4>
-<p><em>[Mô tả thông tin chung]</em></p>
-<p>Kế toán tổng hợp được sử dụng để cập nhật các phiếu kế toán tổng quát, các bút toán điều chỉnh, phân bổ, đánh giá, kết chuyển cuối kỳ; thực hiện lên sổ sách kế toán và báo cáo tài chính theo quy định.</p>
-<p><strong>Quy trình nghiệp vụ</strong></p>
-<p><em>[Hình luồng quy trình nghiệp vụ của Module]</em></p>
-<p><em>[Hình ảnh]</em></p>
-<p><strong>Các luồng quy trình</strong></p>
-<p><em>[Liệt kê các luồng quy trình nghiệp vụ có trong Module, có link đến Phần Hướng dẫn chi tiết]</em></p>
-<p>·     Lập chứng từ ghi sổ đơn lẻ. Chi tiết nghiệp vụ <strong>tại đây</strong></p>
-<p>·     Lập chứng từ ghi sổ đồng loạt. Chi tiết nghiệp vụ <strong>tại đây</strong></p>
+                <h1 id="quy-trinh-nghiep-vu"><em>Quy trình nghiệp vụ</em></h1>
+<p>Giúp thiết lập các thông tin như thông tin đại lý thuế để in lên báo cáo thuế trong trường hợp đơn vị thuê đại lý thuế kê khai thuế; thông tin đơn vị cung cấp dịch vụ kế toán để in lên báo cáo tài chính trong trường hợp đơn vị thuê đơn vị cung cấp dịch vụ kế toán lập báo cáo tài chính; thông tin cơ quan thuế phục vụ cho việc in báo cáo thuế từ phần mềm và nộp cho cơ quan thuế qua phần mềm HTKK.</p>
+<p><img alt="" src="../images/dbt_Thue_TabChung.png" /></p>
+<h3 id="cac-luong-quy-trinh"><strong>Các luồng quy trình</strong></h3>
+<p>·     Thuế thu nhập doanh nghiệp. Chi tiết nghiệp vụ <strong><a href="#thue-thu-nhap-doanh-nghiep">tại đây</a></strong></p>
+<p>·     Thuế thu nhập cá nhân. Chi tiết nghiệp vụ <strong><a href="#thue-thu-nhap-ca-nhan">tại đây</a></strong></p>
+<p>·     Thuế tài nguyên. Chi tiết nghiệp vụ <strong><a href="#thue-tai-nguyen">tại đây</a></strong></p>
+<p>·     Thuế tiêu thụ đặc biệt. Chi tiết nghiệp vụ <strong><a href="#thue-tieu-thu-dac-biet">tại đây</a></strong></p>
+<p>·     Thuế giá trị gia tăng. Chi tiết nghiệp vụ <strong><a href="#thue-gia-tri-gia-tang">tại đây</a></strong></p>
+<h2 id="thue-thu-nhap-doanh-nghiep"><em>Thuế thu nhập doanh nghiệp</em></h2>
+<h3 id="mo-ta-nghiep-vu">Mô tả nghiệp vụ</h3>
+<p><strong>Nghiệp vụ</strong></p>
+<p>Nhân viên kinh doanh tìm kiếm khách hàng thông qua khách hàng tiềm năng, khách hàng cũ, đối tác, nhà phân phối</p>
+<p>Nhân viên kinh doanh sẽ tiếp thị, giới thiệu sản phẩm dịch vụ để chào hàng</p>
+<p>Đối với những khách hàng có nhu cầu mua sản phẩm/dịch vụ, nhân viên kinh doanh sẽ tiến hành:</p>
+<ul>
+<li>Căn cứ kết quả sản xuất, kinh doanh, kế toán thực hiện tạm nộp số thuế thu nhập doanh nghiệp của quý chậm nhất vào ngày thứ ba mươi của quý tiếp theo quý phát sinh nghĩa vụ thuế; doanh nghiệp không phải nộp tờ khai thuế thu nhập doanh nghiệp tạm tính hàng quý.</li>
+<li>Kết thúc năm tài chính, kế toán căn cứ kết quả hoạt động sản xuất kinh doanh của doanh nghiệp tính toán thuế TNDN phải nộp trong năm.</li>
+<li>Kế toán nộp tờ khai quyết toán thuế TNDN năm cho cơ quan thuế.</li>
+<li>Kế toán nhận lại tờ khai quyết toán thuế TNDN năm đã xác nhận của cơ quan thuế (nếu nộp trực tiếp) hoặc nhận được mail xác nhận đã nhận được tờ khai của cơ quan thuế (nếu nộp qua mạng).</li>
+<li>Nếu phải nộp thêm thì nộp bổ sung cho Kho bạc, nếu đã nộp quá thì được giảm trừ vào số thuế nộp lần sau.Quyết toán thuế TNDN (03/TNDN)</li>
+</ul>
+<h3 id="xem-video-huong-dan"><strong>Xem video hướng dẫn</strong></h3>
+<p><iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Module thuế - Thuế thu nhập doanh nghiệp" 
+    src="https://www.youtube.com/embed/mfykUBaroiU"
+></iframe>
+</p>
+<h3 id="huong-dan-tren-phan-mem">Hướng dẫn trên phần mềm</h3>
+<p><strong>Các bước thực hiện</strong></p>
+<p><strong>Bước 1 :</strong> Vào phân hệ <strong>Thuế</strong>, Chọn <strong>Thuế thu nhập Doanh nghiệp</strong>, <strong>Chọn Quyết toán thuế TNDN (03/TNDN)</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn <strong>Tạo</strong></p>
+<p><img alt="" src="../images/dbt_Thue_ThueTNDN_TaoMoi.png" /></p>
+<p><strong>Bước 2 :</strong> Tại <strong>Chọn kỳ tính thuế</strong> thực hiện nhập dữ liệu đầu vào của tờ khai thuế</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTNDN_03_NhapTTKyTinhThue.png" /></p>
+<ul>
+<li>
+<p>Tại Đơn vị: Chọn Đơn vị cần quyết toán thuế</p>
+</li>
+<li>
+<p>Tại Năm: Chọn Năm cần quyết toán</p>
+</li>
+<li>
+<p>Tại Từ ngày….Đến ngày: Nhập thời gian quyết toán</p>
+</li>
+<li>
+<p>Tại Loại tờ khai: Nhập Loại tờ khai thuế</p>
+</li>
+<li>
+<p>Tại Phụ lục: Chọn Phục lục nộp thuế</p>
+</li>
+</ul>
+<p><strong>Bước 3 :</strong> Nhấn <strong>Đồng ý</strong> để tạo tờ khai tạo tờ khai quyết toán thuế TNDN (03/TNDN)</p>
+<p><strong>Chú ý</strong>: Nếu đã tồn tại tờ khai quyết toán thuế doanh nghiệp có cùng đơn vị, cùng năm kê khai thì thực hiện chọn Loại tờ khai là Tờ khai bổ sung.</p>
+<p>Hệ thống không cho phép tạo tờ khai bổ sung khi đã tồn tại tờ khai liền kề trước đó có cùng đơn vị, năm ở trạng thái Nháp.</p>
+<p><strong>Bước 4 :</strong> Tại tab Tờ khai nhấn <strong>Sửa</strong> để thực hiện nhập thông tin tờ khai</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTNDN_03_ToKhai.png" /></p>
+<ul>
+<li>
+<p>Tại Phụ lục: Chọn Phục lục nộp thuế  Tích chọn <strong>Doanh nghiệp có quy mô vừa và nhỏ</strong> hoặc <strong>Doanh nghiệp có cơ sở hạch toán phụ thuộc</strong> hoặc <strong>Doanh nghiệp thuộc đối tượng kê khai thông tin giao dịch liên kết</strong></p>
+</li>
+<li>
+<p><strong>[04] Ngành nghề có tỷ lệ doanh thu cao nhất</strong>: Chọn ngành nghề có doanh thu cao nhất của doanh nghiệp</p>
+</li>
+<li>
+<p><strong>[05] Tỷ lệ (%)</strong>: Tỷ lệ phần trăm doanh thu của ngành nghề được chọn</p>
+</li>
+<li>
+<p><strong>Tab Chỉ tiêu tờ khai</strong>: Các chỉ tiêu được thực hiện lấy dữ liệu tương ứng theo cấu hình chỉ tiêu</p>
+</li>
+<li>Tại <strong>L. Gia hạn nộp thuế (nếu có)</strong> : Thực hiện nhập các thông tin nếu doanh nghiệp được gia hạn nộp thuế</li>
+</ul>
+<p><img alt="" src="../images/dbt_Thue_ThueTNDN_03_ToKhaiMucL.png" /></p>
+<ul>
+<li>Tại <strong>M. Tiền chậm nộp của khoản chênh lệch từ 20% trở nên đến ngày hết hạn nộp hồ sơ quyết toán thuế TNDN (trường hợp kê khai quyết toán và nộp thuế theo quyết toán trước thời hạn thì tính đến ngày nộp thuế)</strong> : Thực hiện khai báo số ngày nộp chậm, thời gian, và số tiền nộp chậm</li>
+</ul>
+<p><img alt="" src="../images/dbt_Thue_ThueTNDN_03_ToKhaiMucM.png" /></p>
+<ul>
+<li>Tại mục <strong>I. Ngoài các Phụ lục của tờ khai này, chúng tôi gửi kèm các tài liệu sau,</strong> thực hiện nhấn <strong>Tệp đính kèm</strong> để thực hiện đính kèm các tài liệu liên quan</li>
+</ul>
+<p><img alt="" src="../images/dbt_Thue_ThueTNDN_03_ToKhaiMucI.png" /></p>
+<p><strong>Bước 4:</strong> Khai báo thông tin tại <em>Phụ lục</em></p>
+<p><strong>Phụ lục 03-01A/TNDN</strong></p>
+<p>Phụ lục kết quả hoạt động sản xuất kinh doanh dành cho người nộp thuế thuộc các ngành sản xuất, thương mại, dịch vu.</p>
+<p>Để thêm mới phụ lục thì người dùng có thể chọn lúc tạo tờ khai quyết toán thuế doanh nghiệp hoặc nhấn <strong>Thêm phụ lục</strong> và chọn Phụ lục 03-01A/TNDN</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTNDN_03_ThemPL.png" /></p>
+<p>Nhấn Lấy dữ liệu để hệ thống tự động tính dữ liệu theo các chỉ tiêu được cấu hình ở Cấu hình <em>Phụ lục 03-1A_TNDN</em> tại Cấu hình thuế thu nhập doanh nghiệp.</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTNDN_03_PL03_01A.png" /></p>
+<p><strong>Phụ lục 03-02A/TNDN</strong></p>
+<p>Khi làm tờ khai quyết toán thuế TNDN 03/TNDN, nếu doanh nghiệp của bạn năm nay (tức năm đang làm tờ khai quyết toán) có phát sinh thu nhập chịu thuế và có số lỗ của các năm trước còn trong thời hạn chuyển lỗ vào năm quyết toán thuế thì làm <strong>phụ lục 03-2A/TNDN</strong> để giảm thu nhập chịu thuế.</p>
+<p>Để thêm mới phụ lục thì người dùng có thể chọn lúc tạo tờ khai quyết toán thuế doanh nghiệp hoặc nhấn <strong>Thêm phụ lục</strong> và chọn Phụ lục 03-02A/TNDN</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTNDN_03_ThemPL.png" /></p>
+<p>Nhấn <em>Lấy dữ liệu</em> để hệ thống tự động tính dữ liệu theo các chỉ tiêu được cấu hình ở Cấu hình <strong>Phụ lục 03-2A_TNDN</strong> tại Cấu hình thuế thu nhập doanh nghiệp.</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTNDN_03_PL03_02A.png" /></p>
+<ul>
+<li>Năm phát sinh lỗ: Hiển thị năm năm gần nhất với năm quyết toán</li>
+<li>
+<p>Số lỗ phát sinh: Tự động tính tổng tiền thuế của chỉ tiêu C4 tại tab Chỉ tiêu tờ khai nếu C4 &lt; 0 với Tờ khai theo từng năm </p>
+</li>
+<li>
+<p>Số lỗ đã chuyển trong các kỳ tính thuế trước: Tự động tính Tổng số lỗ được chuyển trong kỳ tình thuế này của những tờ khai theo từng năm </p>
+</li>
+<li>
+<p>Số lỗ được chuyển trong kỳ tính thuế này: Tự động tính Số lỗ còn được chuyển của năm , số tiền của chỉ tiêu C4 mà &gt;0 tại tab Chỉ tiêu tờ khai đang thực hiện</p>
+</li>
+<li>
+<p>Số lỗ được chuyển sang các kỳ thuế sau : Mặc định bằng Số lỗ phát sinh – Số lỗ đã chuyển trong các kỳ tính thuế trước – Số lỗ được chuyển trong kỳ tính thuế này</p>
+</li>
+</ul>
+<p><strong>Bước 5:</strong> Nhấn <strong>Lưu</strong> sau khi đã kê khai xong</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTNDN_03_Luu.png" /></p>
+<p><strong>Bước 6:</strong> Người dùng nhấn <strong>Xác nhận</strong> để hoàn thành kê khai thuế</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTNDN_03_XacNhan.png" /></p>
+<p><strong>Bước 7:</strong> Nhấn <strong>Xuất XML</strong> để thực hiện xuất file xml theo yêu cầu</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTNDN_03_XuatXML.png" /></p>
+<h2 id="thue-thu-nhap-ca-nhan"><em>Thuế thu nhập cá nhân</em></h2>
+<h3 id="mo-ta-nghiep-vu_1">Mô tả nghiệp vụ</h3>
+<ul>
+<li>Hàng tháng/quý, doanh nghiệp khấu trừ thuế Thu nhập cá nhân của công nhân viên</li>
+<li>​       Nợ TK 3341       Phải trả công nhân viên</li>
+<li>​       Có TK 3335       Thuế thu nhập cá nhân</li>
+<li>Nộp thuế TNCN vào NSNN</li>
+<li>Nợ TK 3335      Thuế thu nhập cá nhân</li>
+<li>Có TK 111/112    Tiền mặt/Tiền gửi ngân hàng</li>
+<li>Cuối năm, thực hiện quyết toán thuế TNCN. Nếu phát sinh số thuế TNCN được hoàn thì hạch toán như sau:</li>
+<li>Nhận tiền hoàn thuế TNCN:<ul>
+<li>Nợ TK111/112    Tiền mặt/Tiền gửi ngân hàng\</li>
+<li>Có TK 3388       Phải trả khác</li>
+</ul>
+</li>
+<li>Trả tiền hoàn thuế cho công nhân viên<ul>
+<li>Nợ TK 3388           Phải trả khác</li>
+<li>Có TK 111/112        Tiền mặt/Tiền gửi ngân hàng</li>
+</ul>
+</li>
+</ul>
+<h3 id="xem-video-huong-dan_1">Xem video hướng dẫn</h3>
+<p><iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Module thuế - Thuế thu nhập cá nhân" 
+    src="https://www.youtube.com/embed/4ugrAQ5Awr4"
+></iframe>
+</p>
+<h3 id="huong-dan-tren-phan-mem_1">Hướng dẫn trên phần mềm</h3>
+<h4 id="to-khai-thue-thu-nhap-ca-nhan">Tờ khai thuế thu nhập cá nhân</h4>
+<p><strong>Các bước thực hiện</strong></p>
+<p><strong>Bước 1</strong>: Vào phân hệ <strong>Thuế</strong>, Chọn <strong>Thuế thu nhập cá nhân</strong>, <strong>Chọn Tờ khai thuế</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn <strong>Tạo</strong></p>
+<p><img alt="" src="../images/dbt_Thue_ThueTNCN_TaoMoi.png" /></p>
+<p><strong>Bước 2:</strong> Tại <em>Chọn kỳ tính thuế</em> thực hiện khai báo các thông tin để tạo tờ khai thuế</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTNCN_NhapTTKyTinhThue.png" /></p>
+<ul>
+<li>Tại Đơn vị: Chọn Đơn vị kê khai thuế</li>
+<li>Tích chọn Tờ khai tháng hoặc Tờ khai quý</li>
+<li>Nếu tờ khai tháng: Chọn Tháng và Năm kê khai thuế</li>
+<li>Nếu tờ khai quý: Chọn Qúy và Năm kê khai thuế</li>
+<li>
+<p>Tích chọn Tờ khai </p>
+</li>
+<li>
+<p>Nếu tờ khai bổ sung: Nhập lần khai bổ sung. Hệ thống mặc định số lần tính theo kỳ khai báo thuế</p>
+</li>
+</ul>
+<p>Nhấn <strong>Đồng ý</strong> để thực hiện tạo tờ khai thuế TNCN</p>
+<p>NOTE: Nếu đã tồn tại tờ khai quyết toán thuế thu nhập cá nhân có cùng đơn vị, cùng kỳ kê khai thì thực hiện chọn Loại tờ khai là Tờ khai bổ sung.</p>
+<p>Hệ thống không cho phép tạo tờ khai bổ sung khi đã tồn tại tờ khai liền kề trước đó có cùng đơn vị, năm ở trạng thái Nháp.</p>
+<p><strong>Bước 3:</strong> Tại tab Tờ khai nhấn <strong>Sửa</strong> để thực hiện nhập thông tin tờ khai</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTNCN_ToKhai.png" /></p>
+<p>Thực hiện khai báo thông tin theo từng chỉ tiêu trong bảng tờ khai.</p>
+<p><strong>Bước 4:</strong> Nhấn <strong>Lưu</strong> sau khi đã kê khai xong</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTNCN_Luu.png" /></p>
+<p><strong>Bước 5:</strong> Người dùng nhấn <strong>Xác nhận</strong> để hoàn thành kê khai thuế</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTNCN_XacNhan.png" /></p>
+<p><strong>Bước 6:</strong> Nhấn <strong>Xuất XML</strong> để thực hiện xuất file xml theo yêu cầu</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTNCN_XuatXML.png" /></p>
+<h4 id="to-khai-quyet-toan-thue-tncn">Tờ khai quyết toán thuế TNCN</h4>
+<p><strong>Các bước thực hiện</strong></p>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Thuế</strong>, Chọn <strong>Thuế thu nhập cá nhân</strong>, <strong>Chọn Tờ khai quyết toán thuế TNCN</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn <strong>Tạo</strong></p>
+<p><img alt="" src="../images/dbt_Thue_ThueTNCN_TaoMoi_QT.png" /></p>
+<p><strong>Bước 2:</strong> Tại tab <em>Chọn kỳ tính thuế</em> thực hiện khai báo các thông tin để tạo tờ khai thuế</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTNCN_ToKhaiQT_NhapTTKyTinhThue.png" /></p>
+<ul>
+<li>
+<p>Tại Đơn vị: Chọn Đơn vị cần quyết toán thuế</p>
+</li>
+<li>
+<p>Tại Năm: Chọn </p>
+</li>
+<li>
+<p>Tích chọn Lần kê khai:</p>
+</li>
+<li>Tờ khai lần đầu: Tích chọn để áp dụng  </li>
+<li>Nếu tờ khai bổ sung: Nhập lần khai bổ sung. Hệ thống mặc định số lần tính theo kỳ khai báo thuế</li>
+</ul>
+<p>Nhấn <strong>Đồng ý</strong> để thực hiện tạo tờ khai quyết toán thuế TNCN</p>
+<p>NOTE: Nếu đã tồn tại tờ khai quyết toán thuế thu nhập cá nhân có cùng đơn vị, cùng kỳ kê khai thì thực hiện chọn Loại tờ khai là Tờ khai bổ sung.</p>
+<p>Hệ thống không cho phép tạo tờ khai bổ sung khi đã tồn tại tờ khai liền kề trước đó có cùng đơn vị, kỳ quyết toán ở trạng thái Nháp.</p>
+<p><strong>Bước 3:</strong> Nhấn <strong>Sửa</strong> để thực hiện nhập thông tin tab <strong>05-QTT-TNCN</strong></p>
+<p><img alt="" src="../images/dbt_Thue_ThueTNCN_ToKhaiQT_05_2.png" /></p>
+<p><img alt="" src="../images/dbt_Thue_ThueTNCN_ToKhaiQT_05_3.png" /></p>
+<p>Tab <strong>05-1BK-QTT-TNCN</strong> nhấn <strong>Thêm một dòng</strong> để thực hiện khai báo dữ liệu Phụ lục bảng kê khai chi tiết cá nhân thuộc diện t ính thuế theo bảng lũy tiến từng phần</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTNCN_ToKhaiQT_05_1BK.png" /> </p>
+<p>Tab <strong>05-2BK-QTT-TNCN</strong> nhấn <strong>Thêm một dòng</strong> để thực hiện khai báo dữ liệu Phụ lục bảng kê khai chi tiết cá nhân thuộc diện tính thuế theo bảng lũy tiến toàn phần</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTNCN_ToKhaiQT_05_2BK.png" /></p>
+<p>Tab <strong>05-3BK-QTT-TNCN</strong> nhấn <strong>Thêm một dòng</strong> để thực hiện khai báo dữ liệu Phụ lục bảng kê thông tin người phụ thuộc giảm trừ gia cảnh</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTNCN_ToKhaiQT_05_3BK.png" /></p>
+<p>Note:  Tại các Tab bảng kê 05-1BK-QTT-TNCN, 05-2BK-QTT-TNCN, 05-3BK-QTT-TNCN, nhấn <strong>Mẫu tải bảng kê</strong> để thực hiện tải file excel mẫu về để điền thông tin. Và nhấn <strong>Tải bảng kê</strong> để thực hiện tải thông tin từ file excel đã nhập vào bảng kê tương ứng</p>
+<p><strong>Bước 4:</strong> Nhấn <strong>Lưu</strong> sau khi đã kê khai xong</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTNCN_ToKhaiQT_Luu.png" /></p>
+<p><strong>Bước 5:</strong> Người dùng nhấn <strong>Xác nhận</strong> để hoàn thành kê khai thuế</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTNCN_ToKhaiQT_XacNhan.png" /></p>
+<p><strong>Bước 6:</strong> Nhấn <strong>Xuất XML</strong> để thực hiện xuất file xml theo yêu cầu</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTNCN_ToKhaiQT_XuatXML.png" /></p>
+<h2 id="thue-tai-nguyen"><em>Thuế tài nguyên</em></h2>
+<h3 id="mo-ta-nghiep-vu_2">Mô tả nghiệp vụ</h3>
+<ul>
+<li>
+<p>Hàng tháng có phát sinh thuế tài nguyên, kế toán lập tờ khai thuế tài nguyên theo mẫu số 01-TAIN.</p>
+</li>
+<li>
+<p>Nhận được tờ khai có xác nhận của cơ quan thuế (nếu nộp trực tiếp), hoặc nhận được mail xác nhận đã nhận báo cáo của cơ quan thuế (nếu nộp qua mạng).</p>
+</li>
+<li>
+<p>Hạch toán thuế tài nguyên vào chi phí sản xuất.</p>
+</li>
+<li>Khi thực nộp thuế tài nguyên vào Kho bạc nhà nước, hạch toán giảm thuế đã nộp.</li>
+</ul>
+<h3 id="xem-video-huong-dan_2">Xem video hướng dẫn</h3>
+<p><iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Module thuế - Thuế tài nguyên" 
+    src="https://www.youtube.com/embed/ku2zKqpkPBM"
+></iframe>
+</p>
+<h3 id="huong-dan-tren-phan-mem_2">Hướng dẫn trên phần mềm</h3>
+<h4 id="to-khai-thue-tai-nguyen-01tani">Tờ khai thuế tài nguyên (01/TANI)</h4>
+<p><strong>Các bước thực hiện</strong></p>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Thuế</strong>, Chọn <strong>Thuế thu tài nguyên</strong>, <strong>Chọn Tờ khai thuế tài nguyên (01/TANI)</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn <strong>Tạo</strong></p>
+<p><img alt="" src="../images/dbt_Thue_ThueTN_TaoMoi.png" /></p>
+<p><strong>Bước 2:</strong> Tại tab <em>Tờ khai thuế tài nguyên (01/TAIN)</em> thực hiện khai báo các thông tin để tạo tờ khai thuế</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTN_NhapTtToKhai.png" /></p>
+<ul>
+<li>
+<p>Tại Đơn vị: Chọn Đơn vị kê khai thuế</p>
+</li>
+<li>
+<p>Tích chọn Tờ khai tháng hoặc Tờ khai lần phát sinh</p>
+</li>
+<li>
+<p>Nếu tờ khai tháng: Chọn Tháng kê khai thuế</p>
+</li>
+</ul>
+<p><img alt="" src="../images/dbt_Thue_ThueTN_NhapTtToKhaiThang.png" /></p>
+<ul>
+<li>Nếu Tờ khai lần phát sinh: Chọn ngày kê khai thuế </li>
+</ul>
+<p><img alt="" src="../images/dbt_Thue_ThueTN_NhapTtToKhaiNgay.png" /></p>
+<ul>
+<li>Tích chọn Loại tờ khai </li>
+<li>Nếu tờ khai bổ sung: Nhập lần khai bổ sung. Hệ thống mặc định số lần tính theo kỳ khai báo thuế</li>
+</ul>
+<p>Nhấn <strong>Đồng ý</strong> để thực hiện tạo tờ khai thuế tài nguyên</p>
+<p><strong>Chú ý</strong>: Nếu đã tồn tại tờ khai quyết toán thuế doanh nghiệp có cùng đơn vị, cùng kỳ kê khai thì thực hiện chọn Loại tờ khai là Tờ khai bổ sung.</p>
+<p>Hệ thống không cho phép tạo tờ khai bổ sung khi đã tồn tại tờ khai liền kề trước đó có cùng đơn vị, năm ở trạng thái Nháp.</p>
+<p><strong>Bước 3: </strong>Tại tab Tờ khai nhấn <strong>Sửa</strong> để thực hiện nhập thông tin tờ khai</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTN_ToKhai.png" /></p>
+<p>Nhấn <strong>Thêm một dòng</strong> để thực hiện khai báo thuế thông tin các tài nguyên tính thuế phát sinh trong kỳ bao gồm các thông tin: Tên loại tài nguyên, Sản lượng, Giá tính thuế đơn vị tài nguyên hoặc Mức thuế tài nguyên ấn định trên một đơn vị tài nguyên, Thuế tài nguyên dự kiến được miễn giảm trong kỳ (nếu có).</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTN_ThemDong.png" /></p>
+<p><strong>Lưu ý:</strong> <em>Với tài nguyên áp dụng</em> <strong>Giá tính thuế</strong> <em>theo quy định của UBND tỉnh, Kế toán thực hiện sửa</em> <strong>Biểu thuế tài nguyên</strong> <em>để khai báo</em> <strong>Giá tính thuế</strong> <em>theo quy định, khi lập tờ khai thuế tài nguyên chương trình sẽ ngầm định</em> <strong>Giá tính thuế đơn vị tài nguyên</strong> <em>theo giá đã khai báo.</em></p>
+<p><strong>Bước 4:</strong> Nhấn <strong>Lưu</strong> sau khi đã kê khai xong</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTN_Tokhai_Luu.png" /></p>
+<p><strong>Bước 5:</strong> Người dùng nhấn <strong>Xác nhận</strong> để hoàn thành kê khai thuế</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTN_Tokhai_XacNhan.png" /></p>
+<p><strong>Bước 6:</strong> Nhấn <strong>Xuất XML</strong> để thực hiện xuất file xml theo yêu cầu</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTN_Tokhai_XuatXML.png" /></p>
+<h4 id="to-khai-quyet-toan-thue-tai-nguyen-02tain">Tờ khai quyết toán thuế tài nguyên (02/TAIN)</h4>
+<p><strong>Các bước thực hiện</strong></p>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Thuế</strong>, Chọn <strong>Thuế thu nhập cá nhân</strong>, Chọn <strong>Tờ khai quyết toán thuế</strong> <strong>tài nguyên (02/TAIN)</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn <strong>Tạo</strong></p>
+<p><img alt="" src="../images/dbt_Thue_ThueTN_ToKhaiQT_TaoMoi.png" /></p>
+<p><strong>Bước 2:</strong> Tại tab <em>Tờ khai quyết toán thuế tài nguyên (02/TAIN)</em> thực hiện khai báo các thông tin để tạo tờ khai thuế</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTN_ToKhaiQT_NhapTtToKhaiQT.png" /></p>
+<ul>
+<li>
+<p>Tại Đơn vị: Chọn Đơn vị cần quyết toán thuế</p>
+</li>
+<li>
+<p>Tại Năm: Chọn năm quyết toán thuế</p>
+</li>
+<li>
+<p>Tích chọn Loại tờ khai:</p>
+</li>
+<li>Tờ khai lần đầu: Tích chọn để áp dụng </li>
+<li>Nếu tờ khai bổ sung: Nhập lần khai bổ sung. Hệ thống mặc định số lần tính theo kỳ khai báo thuế</li>
+</ul>
+<p>Nhấn <strong>Đồng ý</strong>  để thực hiện tạo tờ khai quyết toán thuế tài nguyên</p>
+<p><strong>Chú ý</strong>: Nếu đã tồn tại tờ khai quyết toán thuế tài nguyên có cùng đơn vị, cùng kỳ kê khai thì thực hiện chọn Loại tờ khai là Tờ khai bổ sung.</p>
+<p>Hệ thống không cho phép tạo tờ khai bổ sung khi đã tồn tại tờ khai liền kề trước đó có cùng đơn vị, kỳ quyết toán ở trạng thái Nháp.</p>
+<p><strong>Bước 3:</strong> Nhấn <strong>Sửa</strong> để thực hiện nhập thông tin tab Tờ khai</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTN_ToKhaiQT.png" /></p>
+<p>Nhấn <strong>Thêm một dòng</strong> để kê khai các tài nguyên tính thuế phát sinh trong kỳ.</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTN_ToKhaiQT_ThemDong.png" /></p>
+<p><strong>Bước 4:</strong> Nhấn <strong>Lưu</strong> sau khi đã kê khai xong</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTN_ToKhaiQT_Luu.png" /></p>
+<p><strong>Bước 5:</strong> Người dùng nhấn <strong>Xác nhận</strong> để hoàn thành kê khai thuế</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTN_ToKhaiQT_XacNhan.png" /></p>
+<p>Bước 6: Nhấn <strong>Xuất XML</strong> để thực hiện xuất file xml theo yêu cầu</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTN_ToKhaiQT_XuatXML.png" /></p>
+<h2 id="thue-tieu-thu-ac-biet"><em>Thuế tiêu thụ đặc biệt</em></h2>
+<h3 id="mo-ta-nghiep-vu_3">Mô tả nghiệp vụ</h3>
+<ul>
+<li>
+<p>Căn cứ doanh thu tiêu thụ hàng chịu thuế TTĐB, kế toán tính ra số thuế tiêu thụ đặc biệt phải nộp trong tháng.</p>
+</li>
+<li>
+<p>Kế toán thuế lập hồ sơ khai thuế TTĐB tháng.</p>
+</li>
+<li>
+<p>Kế toán nộp hồ sơ kê khai thuế cho cơ quan thuế, nếu như phải nộp thuế TTĐB thì nộp tiền thuế cho cơ quan thuế, có thể nộp trực tiếp hoặc nộp qua mạng.</p>
+</li>
+<li>Cơ quan thuế xác nhận vào hồ sơ khai thuế của đơn vị.</li>
+<li>Kế toán thuế nhận hồ sơ khai thuế đã được cơ quan thuế xác nhận, lưu trữ.</li>
+</ul>
+<h3 id="xem-video-huong-dan_3">Xem video hướng dẫn</h3>
+<p><iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Module thuế - Thuế tiêu thụ đặc biệt" 
+    src="https://www.youtube.com/embed/DkbFwLOvbpU"
+></iframe>
+</p>
+<h3 id="huong-dan-tren-phan-mem_3">Hướng dẫn trên phần mềm</h3>
+<p><strong>Các bước thực hiện</strong></p>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Thuế</strong>, Chọn <strong>Thuế tiêu thụ đặc biệt</strong>, <strong>Chọn Thuế tiêu thụ đặc biệt</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn <strong>Tạo</strong></p>
+<p><img alt="" src="../images/dbt_Thue_ThueTTDB_TaoMoi.png" /></p>
+<p><strong>Bước 2:</strong> Tại tab <em>Chọn kỳ tính thuế</em> Khai báo các thông tin để tạo tờ khai thuế</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTTDB_NhapTtKyTinhThue.png" /></p>
+<ul>
+<li>
+<p>Tại Đơn vị: Chọn Đơn vị kê khai thuế</p>
+</li>
+<li>
+<p>Tại Năm: Chọn năm kê khai thuế</p>
+</li>
+<li>
+<p>Tại Tháng: Chọn tháng kê khai thuế</p>
+</li>
+<li>
+<p>Tại Phụ lục: Chọn phụ lục kê khai thuế</p>
+</li>
+<li>Tích chọn Loại tờ khai</li>
+<li>Nếu tờ khai bổ sung: Nhập lần khai bổ sung. Hệ thống mặc định số lần tính theo kỳ khai báo thuế**</li>
+</ul>
+<p>Nhấn <strong>Đồng ý</strong> để thực hiện tạo tờ khai thuế tài nguyên</p>
+<p><strong>Chú ý</strong>: Nếu đã tồn tại tờ khai quyết toán thuế tài nguyên có cùng đơn vị, cùng kỳ kê khai thì thực hiện chọn Loại tờ khai là Tờ khai bổ sung.</p>
+<p>Hệ thống không cho phép tạo tờ khai bổ sung khi đã tồn tại tờ khai liền kề trước đó có cùng đơn vị, năm ở trạng thái Nháp.</p>
+<p><strong>Bước 3: </strong>Tại tab Tờ khai sẽ tự động tổng hợp thông tin tại tab Bảng kê hóa đơn hàng hóa để xác định số thuế TTĐB phải nộp trong kỳ.</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTTDB_ToKhai.png" /></p>
+<p>Lưu ý: Riêng số liệu tại tab <strong>PL01-1/TTĐB</strong> chương trình sẽ không tự động chuyển sang tab Tờ khai mà Kế toán phải tự xác định và nhập tay vào cột Thuế TTĐB được khấu trừ.</p>
+<p>Tại tab Bảng kê hóa đơn bán hàng, chương trình tự động lấy lên các hóa đơn hàng hóa, dịch vụ bán ra chịu thuế TTĐB và thuộc kỳ tính thuế.</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTTDB_BangKeHoaDoni.png" /></p>
+<p>Lưu ý: Nhấn vào hóa đơn ở cột <strong>Số</strong> để xem chi tiết hóa đơn hàng hóa dịch vụ bán ra chịu thuế.</p>
+<p>Nhấn <strong>Thêm phụ lục</strong> hoặc thực hiện chọn Phụ lục <strong>PL01-1/TTĐB/TT195</strong> lúc tạo tờ khai để thực hiện nhập tay các thông tin liên quan đến số thuế TTĐB được khấu trừ (nếu có) vào nội dung tương ứng.</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTTDB_PL01_1.png" /></p>
+<p><img alt="" src="../images/dbt_Thue_ThueTTDB_PL01_2.png" /></p>
+<p><strong>Bước 4:</strong> Nhấn <strong>Lưu</strong> sau khi đã kê khai xong</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTTDB_Luu.png" /></p>
+<p><strong>Bước 5:</strong> Người dùng nhấn <strong>Xác nhận</strong> để hoàn thành kê khai thuế</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTTDB_XacNhan.png" /></p>
+<p><strong>Bước 6:</strong> Nhấn <strong>Xuất XML</strong> để thực hiện xuất file xml theo yêu cầu</p>
+<p><img alt="" src="../images/dbt_Thue_ThueTN_Tokhai_XuatXML.png" /></p>
+<h2 id="thue-gia-tri-gia-tang"><em>Thuế giá trị gia tăng</em></h2>
+<h3 id="mo-ta-nghiep-vu_4">Mô tả nghiệp vụ</h3>
+<p>Khi phát sinh nghiệp vụ thuế GTGT, thông thường sẽ có các hoạt động sau:</p>
+<ul>
+<li>
+<p>Kế toán tập hợp các hóa đơn, chứng từ mua hàng, dịch vụ để ghi nhận thuế GTGT đầu vào</p>
+</li>
+<li>
+<p>Kế toán tập hợp các hóa đơn, chứng từ bán ra để ghi nhận thuế GTGT bán ra</p>
+</li>
+<li>
+<p>Kế toán thuế Lập Hồ sơ khai thuế GTGT tháng/quí</p>
+</li>
+<li>Kế toán nộp Hồ sơ kê khai thuế GTGT tháng/quí cho cơ quan thuế, nếu như phải nộp thuế GTGT thì nộp tiền thuế GTGT vào kho bạc, đồng thời kế toán thuế hạch toán khấu trừ thuế GTGT</li>
+<li>Cơ quan thuế xác nhận vào hồ sơ khai thuế của đơn vị</li>
+<li>Kế toán thuế nhận hồ sơ khai thuế đã được cơ quan thuế xác nhận, lưu trữ. </li>
+</ul>
+<h3 id="xem-video-huong-dan_4">Xem video hướng dẫn</h3>
+<p><iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Module thuế - Thuế giá trị gia tăng" 
+    src="https://www.youtube.com/embed/mo4S4af6Rxg"
+></iframe>
+</p>
+<h3 id="huong-dan-tren-phan-mem_4">Hướng dẫn trên phần mềm</h3>
+<p><strong>Các bước thực hiện</strong></p>
+<h4 id="thue-gtgt-khau-tru-01gtgt">Thuế GTGT khấu trừ (01/GTGT)</h4>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Thuế</strong>, Chọn <strong>Thuế giá trị gia tăng</strong>, <strong>Chọn</strong> Thuế GTGT khấu trừ (01/GTGT) (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn <strong>Tạo</strong></p>
+<p><img alt="" src="../images/dbt_Thue_ThueGTGT_01_TaoMoi.png" /></p>
+<p><strong>Bước 2:</strong> Tại tab <em>Chọn kỳ tính thuế</em> thực hiện khai báo các thông tin để tạo tờ khai thuế</p>
+<p><img alt="" src="../images/dbt_Thue_ThueGTGT_01_NhapTtKyTinhThue.png" /></p>
+<ul>
+<li>
+<p>Tại Đơn vị: Chọn đơn vị kê khai thuế</p>
+</li>
+<li>
+<p>Nếu kê khai theo tháng thì tích chọn Tờ khai tháng và khai báo:</p>
+</li>
+<li>Tháng: Chọn tháng kê khai</li>
+<li>
+<p>Năm: Chọn Năm kê khai</p>
+</li>
+<li>
+<p>Nếu kê khai lần đầu thì chọn Tò khai lần đầu / Kê khai lần n+1 cho cùng kỳ, cùng đơn vị thì chọn Tờ khai bổ sung</p>
+</li>
+<li>
+<p>Tại Phụ lục thực hiện chọn phụ lục kê khai</p>
+</li>
+</ul>
+<p>Nhấn <strong>Đồng ý</strong> để tạo tờ khai thuế GTGT</p>
+<p><strong>Chú ý</strong>: Nếu đã tồn tại tờ khai quyết toán thuế giá trị gia tăng có cùng đơn vị, cùng kỳ kê khai thì thực hiện chọn Loại tờ khai là Tờ khai bổ sung.</p>
+<p>Hệ thống không cho phép tạo tờ khai bổ sung khi đã tồn tại tờ khai liền kề trước đó có cùng đơn vị, năm ở trạng thái Nháp.</p>
+<p><strong>Bước 3:</strong> Tại tab Tờ khai tự động tổng hợp số liệu lên tờ khai, riêng các chỉ tiêu sau cần tự xác định và nhập tay vào tờ khai:</p>
+<ul>
+<li>Chỉ tiêu [32a]: Hàng hóa, dịch vụ bán ra không tính thuế.</li>
+<li>Chỉ tiêu 40b: Thuế GTGT mua vào của dự án đầu tư (cùng tỉnh, thành phố trực thuộc trung ương) được bù trừ với thuế GTGT còn phải nộp của hoạt động sản xuất kinh doanh cùng kỳ tính thuế.</li>
+<li>Chỉ tiêu 4.1.1: Thuế GTGT đề nghị hoàn (tài khoản 1331).</li>
+<li>Chỉ tiêu 4.1.2: Thuế GTGT đề nghị hoàn (tài khoản 1332).</li>
+</ul>
+<p><img alt="" src="../images/dbt_Thue_ThueGTGT_01_ToKhaii.png" /></p>
+<p>Tại tab <strong>PL01-1/GTGT</strong> tự động lấy lên các hóa đơn, chứng từ bán ra thuộc kỳ tính thuế.</p>
+<ul>
+<li>Hóa đơn, chứng từ bán ra được lấy lên tờ khai phải thỏa mãn điều kiện: Có chọn thuế suất thuế GTGT, có đủ số và ngày hóa đơn (riêng chứng từ chi tiền mặt, chi tiền gửi, chứng từ nghiệp vụ khác, hóa đơn trả lại hàng bán, hóa đơn trả lại hàng mua thì phải thỏa mãn thêm điều kiện: không chọn Nhóm HHDV mua vào)</li>
+</ul>
+<p><img alt="" src="../images/dbt_Thue_ThueGTGT_01_PL01.png" /></p>
+<p>Tại tab <strong>PL01-2/GTGT</strong> tự động lấy lên các hóa đơn, chứng từ mua vào chưa được kê lên bảng kê của các kỳ trước và có ngày &lt; hoặc = ngày cuối cùng của kỳ tính thuế.</p>
+<ul>
+<li>Hóa đơn, chứng từ mua vào được lấy lên bảng kê phải thỏa mãn điều kiện: Có chọn <strong>Nhóm HHDV</strong> là nhóm 1,2; có đủ số và ngày hóa đơn</li>
+<li>Có thể bỏ bớt các chứng từ không muốn lấy lên bảng kê bằng cách chọn chức năng<em> </em><em>Chọn chứng từ</em><em> </em>và bỏ tích chọn các chứng từ không muốn lấy lên bảng kê.*</li>
+</ul>
+<p><img alt="" src="../images/dbt_Thue_ThueGTGT_01_PL02.png" /></p>
+<p>Tại tab <strong>PL01-5/GTGT</strong> nhấn <strong>Thêm một dòng</strong> <em>để thực hiện kê khai số thuế giá trị gia tăng đã nộp của doanh thu kinh doanh xây dựng, lắp đặt bán hàng bất động sản ngoại tỉnh</em></p>
+<p><img alt="" src="../images/dbt_Thue_ThueGTGT_PL01_5.png" /></p>
+<p>Tại tab <strong>PL01-6/GTGT</strong> nhấn<strong> </strong>Thêm một dòng<em><em> </em>để khai báo phân bổ thuế giá trị gia tăng cho địa phương nơi đóng trụ sở chính và cho các địa phương nơi có sản xuất trực thuộc không thực hiện hạch toán kế toán</em></p>
+<p><img alt="" src="../images/dbt_Thue_ThueGTGT_PL01_6.png" /></p>
+<p>Tại tab <strong>PL01-7/GTGT</strong> nhấn <strong><em>Thêm một dòng</em></strong> <em>để kê khai bảng phân bổ giá trị gia tăng phải nộp cho các địa phương nơi có công trình xây dựng, lắp đặt liên tỉnh</em></p>
+<p><img alt="" src="../images/dbt_Thue_ThueGTGT_PL01_7.png" /></p>
+<p><strong>Bước 4:</strong> Nhấn <strong>Lưu</strong> sau khi đã kê khai xong</p>
+<p><img alt="" src="../images/dbt_Thue_ThueGTGT_01_Luu.png" /></p>
+<p><strong>Bước 5:</strong> Người dùng nhấn <strong>Xác nhận</strong> để hoàn thành kê khai thuế</p>
+<p><img alt="" src="../images/dbt_Thue_ThueGTGT_01_XacNhan.png" /></p>
+<p><strong>Bước 6:</strong> Nhấn <strong>Xuất XML</strong> để thực hiện xuất file xml theo yêu cầu</p>
+<p>​                                                <img alt="" src="../images/dbt_Thue_ThueGTGT_01_XuatXML.png" /></p>
+<h4 id="thue-gtgt-au-tu-02gtgt">Thuế GTGT đầu tư (02/GTGT)</h4>
+<p><strong>Mô tả nghiệp vụ</strong></p>
+<p>Các trường hợp phải lập tờ khai thuế GTGT cho dự án đầu tư:</p>
+<ul>
+<li>
+<p>Người nộp thuế thuộc đối tượng nộp thuế GTGT theo phương pháp khấu trừ có dự án đầu tư tại địa bàn tỉnh, thành phố trực thuộc trung ương cùng nơi đóng trụ sở chính, đang trong giai đoạn đầu tư  thì lập hồ sơ khai thuế riêng cho dự án đầu tư và phải bù trừ số thuế giá trị gia tăng của hàng hóa, dịch vụ mua vào sử dụng cho dự án đầu tư với thuế giá trị gia tăng của hoạt động sản xuất kinh doanh đang thực hiện.</p>
+</li>
+<li>
+<p>Trường hợp người nộp thuế có dự án đầu tư tại địa bàn     tỉnh, thành phố trực thuộc trung ương khác với tỉnh, thành phố nơi đóng     trụ sở chính, đang trong giai đoạn đầu tư chưa đi vào hoạt động, chưa đăng     ký kinh doanh, chưa đăng ký thuế thì người nộp thuế lập hồ sơ khai     thuế riêng cho dự án đầu tư.</p>
+</li>
+<li>Trường hợp người nộp thuế có quyết định thành lập các Ban     Quản lý dự án hoặc chi nhánh đóng tại các tỉnh, thành phố trực thuộc trung     ương khác với tỉnh, thành phố nơi đóng trụ sở chính để thay mặt người nộp     thuế trực tiếp quản lý một hoặc nhiều dự án đầu tư tại nhiều địa phương;     Ban Quản lý dự án, chi nhánh có con dấu theo quy định của pháp luật, lưu     giữ sổ sách chứng từ theo quy định của pháp luật về kế toán, có tài khoản     gửi tại ngân hàng, đã đăng ký thuế và được cấp mã số thuế thì Ban Quản lý     dự án, chi nhánh phải lập hồ sơ khai thuế riêng với cơ quan thuế địa     phương nơi đăng ký thuế.</li>
+</ul>
+<p><strong>Các bước thực hiện</strong></p>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Thuế</strong>, Chọn <strong>Thuế giá trị gia tăng đầu tư (02/gtgt)</strong>, <strong>Chọn</strong> Thuế GTGT khấu trừ (01/GTGT) (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn <strong>Tạo</strong></p>
+<p><img alt="" src="../images/dbt_Thue_ThueGTGT_02_TaoMoi.png" /></p>
+<p><strong>Bước 2:</strong> Khai báo các thông tin để tạo tờ khai thuế</p>
+<p><img alt="" src="../images/dbt_Thue_ThueGTGT_02_NhapTtKyTinhThue.png" /></p>
+<ul>
+<li>
+<p>Tại Đơn vị: Chọn đơn vị kê khai thuế</p>
+</li>
+<li>
+<p>Nếu kê khai theo tháng thì tích chọn Tờ khai tháng và khai báo: </p>
+</li>
+<li>Tháng: Chọn tháng kê khai</li>
+<li>
+<p>Năm: Chọn Năm kê khai</p>
+</li>
+<li>
+<p>Nêu kê khai theo quý thì tích chọn Tờ khai quý</p>
+</li>
+<li>Qúy: Chọn qúy kê khai </li>
+<li>
+<p>Năm: Chọn năm kê khai</p>
+</li>
+<li>
+<p>Lần kê khai: </p>
+</li>
+<li>
+<p>Nếu kê khai lần đầu thì chọn Tò khai lần đầu / Kê khai lần n+1 cho cùng kỳ, cùng đơn vị thì chọn Tờ khai bổ sung</p>
+</li>
+<li>
+<p>Mã hồ sơ khai DAĐT : Nhập mã hồ sơ dự án đầutư</p>
+</li>
+</ul>
+<p>Nhấn <strong>Đồng ý</strong> để tạo tờ khai thuế GTGT</p>
+<p><strong>Chú ý</strong>: Nếu đã tồn tại tờ khai quyết toán thuế GTGT có cùng đơn vị, cùng kỳ kê khai thì thực hiện chọn Loại tờ khai là Tờ khai bổ sung.</p>
+<p>Hệ thống không cho phép tạo tờ khai bổ sung khi đã tồn tại tờ khai liền kề trước đó có cùng đơn vị, năm ở trạng thái Nháp.</p>
+<p><strong>Bước 3:</strong> Tại tab <em>Tờ khai</em> tự động tổng hợp số liệu lên tờ khai, riêng các chỉ tiêu sau cần tự xác định và nhập tay vào tờ khai:</p>
+<ul>
+<li>Chỉ tiêu [21a]: Thuế GTGT đầu vào của dự án đầu tư nhận bàn giao từ chủ dự án đầu tư.</li>
+<li>Chỉ tiêu 24, 25: Điều chỉnh tăng.</li>
+<li>Chỉ tiêu 26, 27: Điều chỉnh giảm.</li>
+<li>Chỉ tiêu 28a: Thuế GTGT mua vào của dự án đầu tư (cùng tỉnh, thành phố trực thuộc trung ương) bù trừ với thuế GTGT phải nộp của hoạt động sản xuất kinh doanh cùng kỳ tính thuế.</li>
+<li>Chỉ tiêu 30a: Thuế GTGT đầu vào của hàng hóa nhập khẩu thuộc loại trong nước chưa sản xuất được để tạo tài sản cố định đã đề nghị hoàn.</li>
+<li>Chỉ tiêu 30: Thuế GTGT đầu vào còn lại của dự án đầu tư đề nghị hoàn.</li>
+<li>Chỉ tiêu 31: Thuế GTGT đầu vào của dự án đầu tư chưa được hoàn bàn giao cho doanh nghiệp mới thành lập trong kỳ.</li>
+</ul>
+<p><img alt="" src="../images/dbt_Thue_ThueGTGT_02_ToKhaii.png" /></p>
+<p>Nhấn <strong>Sửa</strong> để thực hiện khai báo thông tin cho tờ khai thuế:</p>
+<p><img alt="" src="../images/dbt_Thue_ThueGTGT_02_NhapTtToKhai.png" /></p>
+<ul>
+<li>Tại Cơ quan thuế nơi có dự án đầu tư: Nhập cơ quan thuế</li>
+<li>Tại Tên dự án đầu tư: Nhập tên dự án</li>
+<li>Tại Địa chỉ thực hiện dự án: Nhập địa chỉ của dự án</li>
+<li>Tại Tên chủ dự án đầu tư: Nhập tên đơn vị đầu tư dự án</li>
+<li>Tại MST chủ dự án đầu tư: Nhập Mã số thuế của đơn vị đầu tư dự án</li>
+<li>Tại Văn bản phê duyệt DAĐT: Thực hiện khai báo Số văn bản, Ngày ban hành văn bản và Cơ quan ban hành văn bản</li>
+</ul>
+<p><strong>Bước 4:</strong> Nhấn <strong>Lưu</strong> sau khi đã kê khai xong</p>
+<p><img alt="" src="../images/dbt_Thue_ThueGTGT_02_Luu.png" /></p>
+<p><strong>Bước 5:</strong> Người dùng nhấn <strong>Xác nhận</strong> để hoàn thành kê khai thuế</p>
+<p><img alt="" src="../images/dbt_Thue_ThueGTGT_02_XacNhan.png" /></p>
+<p><strong>Bước 6:</strong> Nhấn <strong>Xuất XML</strong> để thực hiện xuất file xml theo yêu cầu</p>
+<p><img alt="" src="../images/dbt_Thue_ThueGTGT_02_XuatXML.png" /></p>
+<h4 id="thue-gtgt-truc-tiep-tren-gtgt-03gtgt">Thuế GTGT trực tiếp trên GTGT (03/GTGT)</h4>
+<p><strong>Mô tả nghiệp vụ</strong></p>
+<p>Phương pháp tính thuế GTGT trực tiếp trên GTGT áp dụng cho đơn vị có hoạt động mua, bán, chế tác vàng, bạc, đá quý và được thực hiện như sau:</p>
+<ul>
+<li>Tập hợp hóa đơn, chứng từ xác định giá vốn của vàng, bạc, đá quý mua vào dùng cho mua bán, chế tác vàng, bạc, đá quý bán ra tương ứng như:</li>
+<li>Chứng từ mua vàng, bạc, đá quý không qua kho.</li>
+<li>Phiếu xuất kho bán vàng, bạc, đá quý.</li>
+<li>Tập hợp hóa đơn, chứng từ xác định doanh thu bán vàng, bạc, đá quý như:</li>
+<li>Hóa đơn bán vàng, bạc, đá quý, bao gồm cả tiền công chế tác, các khoản phụ thu, phí thu thêm (nếu có).</li>
+<li>Hóa đơn giảm giá hàng bán, trả lại hàng bán (của hóa đơn bán vàng, bạc, đá quý).</li>
+<li>Lập tờ khai thuế GTGT trực tiếp trên GTGT.Hướng dẫn trên phần mềm</li>
+</ul>
+<p><strong>Các bước thực hiện</strong></p>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Thuế</strong>, Chọn Thuế giá trị gia tăng <strong>Chọn *<em>Thuế GTGT trực tiếp trên GTGT (03/GTGT)*</em></strong>, (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống), Nhấn <strong>Tạo</strong></p>
+<p><img alt="" src="../images/dbt_Thue_ThueGTGT_03_TaoMoi.png" /></p>
+<p><strong>Bước 2:</strong>  Khai báo các thông tin để tạo tờ khai thuế</p>
+<p><img alt="" src="../images/dbt_Thue_ThueGTGT_03_NhapTtKyTinhThue.png" /></p>
+<ul>
+<li>
+<p>Tại Đơn vị: Chọn đơn vị kê khai thuế</p>
+</li>
+<li>
+<p>Nếu kê khai theo tháng thì tích chọn Tờ khai tháng và khai báo:</p>
+</li>
+<li>Tháng: Chọn tháng kê khai</li>
+<li>
+<p>Năm: Chọn Năm kê khai</p>
+</li>
+<li>
+<p>Nêu kê khai theo quý thì tích chọn Tờ khai quý</p>
+</li>
+<li>Qúy: Chọn qúy kê khai </li>
+<li>
+<p>Năm: Chọn năm kê khai</p>
+</li>
+<li>
+<p>Lần kê khai: </p>
+</li>
+<li>Nếu kê khai lần đầu thì chọn Tò khai lần đầu / Kê khai lần n+1 cho cùng kỳ, cùng đơn vị thì chọn Tờ khai bổ sung</li>
+</ul>
+<p>Nhấn <strong>Đồng ý</strong> để tạo tờ khai thuế GTGT</p>
+<p><strong>Chú ý</strong>: Nếu đã tồn tại tờ khai quyết toán thuế GTGT có cùng đơn vị, cùng kỳ kê khai thì thực hiện chọn Loại tờ khai là Tờ khai bổ sung.</p>
+<p>Hệ thống không cho phép tạo tờ khai bổ sung khi đã tồn tại tờ khai liền kề trước đó có cùng đơn vị, năm ở trạng thái Nháp.</p>
+<p><strong>Bước 3: </strong> Tại tab <em>Tờ khai</em> nhấn <strong>Sửa</strong> để kê khai thuế theo từng chỉ tiêu</p>
+<p><img alt="" src="../images/dbt_Thue_ThueGTGT_03_ToKhai.png" /></p>
+<p><strong>Bước 4:</strong> Nhấn <strong>Lưu</strong> sau khi đã kê khai xong</p>
+<p><img alt="" src="../images/dbt_Thue_ThueGTGT_03_Luu.png" /></p>
+<p><strong>Bước 5:</strong> Người dùng nhấn <strong>Xác nhận</strong> để hoàn thành kê khai thuế</p>
+<p><img alt="" src="../images/dbt_Thue_ThueGTGT_03_XacNhan.png" /></p>
+<p><strong>Bước 6:</strong> Nhấn <strong>Xuất XML</strong> để thực hiện xuất file xml theo yêu cầu</p>
+<p><img alt="" src="../images/dbt_Thue_ThueGTGT_03_XuatXML.png" /></p>
               
             </div>
           </div><footer>

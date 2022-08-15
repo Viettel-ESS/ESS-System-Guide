@@ -87,11 +87,11 @@
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../fin-danh-muc/">Khai báo danh mục</a>
+                  <li class="toctree-l1"><a class="" href="../fin-danh-muc.md">Khai báo danh mục</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../fin-tien-TM/">Quản lý tiền - Tiền mặt</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../fin-tien-NH/">Quản lý tiền - Tiền gửi</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../fin-tien-TG/">Quản lý tiền - Tiền gửi</a>
                   </li>
                   <li class="toctree-l1 current"><a class="reference internal current" href="./">Mua hàng</a>
     <ul class="current">
@@ -122,6 +122,12 @@
     <li class="toctree-l3"><a class="reference internal" href="#huong-dan-tren-phan-mem">Hướng dẫn trên phần mềm</a>
         <ul>
     <li class="toctree-l4"><a class="reference internal" href="#lap-on-mua-hang-gui-nha-cung-cap">Lập đơn mua hàng gửi Nhà cung cấp</a>
+        <ul>
+    <li class="toctree-l5"><a class="reference internal" href="#nhap-truc-tiep-tren-giao-dien">Nhập trực tiếp trên giao diện</a>
+    </li>
+    <li class="toctree-l5"><a class="reference internal" href="#lap-on-mua-hang-tu-viec-import-du-lieu">Lập đơn mua hàng từ việc Import dữ liệu</a>
+    </li>
+        </ul>
     </li>
     <li class="toctree-l4"><a class="reference internal" href="#thuc-hien-gui-on-hang-cho-nha-cung-cap">Thực hiện gửi đơn hàng cho nhà cung cấp</a>
     </li>
@@ -149,6 +155,8 @@
     </li>
     <li class="toctree-l4"><a class="reference internal" href="#lap-hoa-on-mua-hang-khong-tu-on-mua-hang">Lập hóa đơn mua hàng không từ đơn mua hàng</a>
     </li>
+    <li class="toctree-l4"><a class="reference internal" href="#lap-hoa-on-mua-hang-kiem-phieu-nhap-kho">Lập hóa đơn mua hàng Kiêm Phiếu nhập kho</a>
+    </li>
         </ul>
     </li>
         </ul>
@@ -161,7 +169,7 @@
     </li>
         </ul>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#hoa-on-giam-giatra-lai-hang-mua">Hóa đơn giảm giá/trả lại hàng mua</a>
+    <li class="toctree-l2"><a class="reference internal" href="#hoa-on-giam-giatra-lai-hang-mua-khong-thiet-lap-mua-hang-kiem-phieu-nhap-kho">Hóa đơn giảm giá/trả lại hàng mua - Không thiết lập Mua hàng kiêm phiếu nhập kho</a>
         <ul>
     <li class="toctree-l3"><a class="reference internal" href="#mo-ta-nghiep-vu_6">Mô tả nghiệp vụ</a>
     </li>
@@ -170,6 +178,38 @@
     <li class="toctree-l4"><a class="reference internal" href="#tao-hoa-on-giam-gia-hang">Tạo hóa đơn giảm giá hàng</a>
     </li>
     <li class="toctree-l4"><a class="reference internal" href="#chuyen-oi-thanh-khoan-hoan-tiencong-no-giam">Chuyển đổi thành khoản hoàn tiền/công nợ giảm</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#hoa-on-giam-giatra-lai-hang-mua-co-thiet-lap-mua-hang-kiem-phieu-nhap-kho">Hóa đơn giảm giá/trả lại hàng mua - Có thiết lập Mua hàng kiêm phiếu nhập kho</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#chung-tu-tra-hang">Chứng từ trả hàng</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#mo-ta-nghiep-vu_7">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#huong-dan-tren-phan-mem_5">Hướng dẫn trên phần mềm</a>
+        <ul>
+    <li class="toctree-l5"><a class="reference internal" href="#tao-chung-tu-tra-hang-tu-chung-tu-mua-hang">Tạo chứng từ Trả hàng từ Chứng từ mua hàng</a>
+    </li>
+    <li class="toctree-l5"><a class="reference internal" href="#them-moi-tu-chuc-nang-chung-tu-tra-hang">Thêm mới từ Chức năng Chứng từ Trả hàng</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#chung-tu-giam-gia">Chứng từ giảm giá</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#mo-ta-nghiep-vu_8">Mô tả nghiệp vụ</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#huong-dan-tren-phan-mem_6">Hướng dẫn trên phần mềm</a>
+        <ul>
+    <li class="toctree-l5"><a class="reference internal" href="#tao-chung-tu-giam-gia-tu-chung-tu-mua-hang">Tạo chứng từ Giảm giá từ Chứng từ mua hàng</a>
+    </li>
+    <li class="toctree-l5"><a class="reference internal" href="#them-moi-tu-chuc-nang-chung-tu-giam-gia">Thêm mới từ Chức năng Chứng từ Giảm giá</a>
+    </li>
+        </ul>
     </li>
         </ul>
     </li>
@@ -190,6 +230,8 @@
                   <li class="toctree-l1"><a class="reference internal" href="../fin-ccdc/">Công cụ dụng cụ</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../fin-giathanh/">Giá thành</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../fin-bao-cao/">Báo cáo</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../fin-log-histories/">Lịch sử phát triển sản phẩm</a>
                   </li>
@@ -339,15 +381,17 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="quy-trinh-nghiep-vu"><strong>Quy trình nghiệp vụ</strong></h1>
-<p>Quản lý toàn bộ quy trình Mua hàng: Từ yêu cầu gửi báo giá đến Đơn hàng, Hóa đơn mua hàng và Hóa đơn trả hàng. Đồng thời theo dõi thanh toán hóa đơn và cấn trừ công nợ với nhà cung cấp, lên báo cáo mua hàng và báo cáo kế toán liên quan.</p>
+<p>Quản lý toàn bộ quy trình Mua hàng từ bước Lập đơn hàng, nhận hóa đơn và trả tiền cho nhà cung cấp. Phân hệ mua hàng liên kết với phân hệ Kho để tự động sinh phiếu nhập kho ứng với Đơn mua hàng.</p>
 <p><strong>Quy trình</strong></p>
-<p><img alt="" src="../images/fin_MuaHang_QuyTrinh_1.png" /></p>
+<p><img alt="" src="images/fin_muahang_quytrinh.png" /></p>
 <p><strong>Các luồng quy trình</strong></p>
-<p>·     Lập yêu cầu báo giá gửi Nhà cung cấp. Chi tiết nghiệp vụ <strong><a href="#Lập yêu cầu báo giá gửi Nhà cung cấp">tại đây</a></strong></p>
-<p>·     Lập Hợp đồng mua hàng. Chi tiết nghiệp vụ <strong><a href="#Lập Hợp đồng mua hàng">tại đây</a></strong></p>
-<p>·     Lập Đơn mua hàng gửi Nhà cung cấp. Chi tiết nghiệp vụ <a href="#_Xác_nhận_Đơn"><strong>tại đây</strong></a></p>
-<p>·     Mua hàng trong nước về nhập kho. Chi tiết nghiệp vụ <a href="#_Mua_hàng_trong"><strong>tại đây</strong></a></p>
-<p>·     Mua hàng hóa nhập khẩu về nhập kho. Chi tiết nghiệp vụ <a href="#_Mua_hàng_hóa"><strong>tại đây</strong></a></p>
+<p>·     Lập yêu cầu báo giá gửi Nhà cung cấp. Chi tiết nghiệp vụ <strong><a href="#yeu-cau-bao-gia">tại đây</a></strong></p>
+<p>·     Lập hợp đồng mua hàng. Chi tiết nghiệp vụ <strong><a href="#hop-ong-mua-hang">tại đây</a></strong></p>
+<p>·     Lập đơn mua hàng từ yêu cầu báo giá. Chi tiết nghiệp vụ <strong><a href="#on-mua-hang">tại đây</a></strong></p>
+<p>·     Nhập kho đơn mua hàng. Chi tiết nghiệp vụ <strong><a href="#nhap-kho-on-mua-hang">tại đây</a></strong></p>
+<p>·     Tạo hóa đơn mua hàng. Chi tiết nghiệp vụ <a href="#hoa-on-mua-hang"><strong>tại đây</strong></a></p>
+<p>·     Ghi nhận thanh toán từ nhà cung cấp. Chi tiết nghiệp vụ <a href="#thanh-toan-cho-nha-cung-cap"><strong>tại đây</strong></a></p>
+<p>·     Tạo hóa đơn giảm giá/trả hàng. Chi tiết nghiệp vụ <a href="#hoa-on-giam-giatra-lai-hang-mua"><strong>tại đây</strong></a></p>
 <h2 id="yeu-cau-bao-gia"><strong>Yêu cầu báo giá</strong></h2>
 <h3 id="mo-ta-nghiep-vu"><strong>Mô tả nghiệp vụ</strong></h3>
 <p>Khi đơn vị có nhu cầu mua hàng, lập yêu cầu mua hàng thì quy trình thực hiện như sau:</p>
@@ -360,15 +404,19 @@
 <li>Bộ phận Mua hàng thực hiện Lập yêu cầu báo giá và gửi thông tin đến Nhà cung cấp</li>
 </ul>
 <p><strong>Luồng chức năng chính</strong></p>
-<p>·     Lập yêu cầu báo giá gửi Nhà cung cấp. Chi tiết nghiệp vụ <strong><a href="#Lập yêu cầu báo giá gửi Nhà cung cấp">tại đây</a></strong></p>
-<p>·     Xác nhận Đơn hàng từ Nhà cung cấp. Chi tiết nghiệp vụ <a href="#Xác nhận Đơn hàng từ Nhà cung cấp"><strong>tại đây</strong></a></p>
+<p>·     Lập yêu cầu báo giá gửi Nhà cung cấp. Chi tiết nghiệp vụ <strong><a href="#lap-yeu-cau-bao-gia-gui-nha-cung-cap">tại đây</a></strong></p>
+<p>·     Xác nhận Đơn hàng từ Nhà cung cấp. Chi tiết nghiệp vụ <a href="#xac-nhan-on-hang-tu-nha-cung-cap"><strong>tại đây</strong></a></p>
 <p><strong>Xem video hướng dẫn</strong></p>
 <p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
 <h3 id="lap-yeu-cau-bao-gia-gui-nha-cung-cap"><strong>Lập yêu cầu báo giá gửi Nhà cung cấp</strong></h3>
 <p><strong>Lập yêu cầu báo giá</strong></p>
-<p>·     Khi Ban GĐ/Quản lý phê duyệt kế hoạch mua hàng; bộ phận mua hàng thực hiện lập Yêu cầu báo giá gửi cho Nhà cung cấp. Theo dõi phản hồi của nhà cung cấp về yêu cầu báo giá.</p>
+<p>Khi Ban GĐ/Quản lý phê duyệt kế hoạch mua hàng; bộ phận mua hàng thực hiện lập Yêu cầu báo giá gửi cho Nhà cung cấp. Theo dõi phản hồi của nhà cung cấp về yêu cầu báo giá.</p>
 <p><strong>Đối tượng thực hiện :</strong> Nhân viên bộ phận mua hàng </p>
-<p><strong>Bước 1:</strong> Vào phân hệ <strong>Mua hàng</strong>, Chọn <strong>Yêu cầu báo giá</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)</p>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Mua hàng</strong>, Chọn <strong>Yêu cầu báo giá</strong> hoặc chọn <strong>Báo giá</strong> trên quy trình </p>
+<p><img alt="" src="../images/fin_muahang_baogia_menu.png" /></p>
+<p>Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống</p>
+<p><img alt="" src="../images/fin_muahang_baogia_timkiem.png" /></p>
+<p>Danh sách báo giá được hiển thị</p>
 <p><img alt="" src="../images/fin_MuaHang_YCBG_1.png" /></p>
 <p><strong>Bước 2:</strong> Khai báo các thông tin chi tiết của <strong>Yêu cầu báo giá:</strong></p>
 <ul>
@@ -419,8 +467,8 @@
 <li>Sau khi hai bên đã hoàn tất nghĩa vụ hợp đồng, bộ phận mua hàng lập thanh lý hợp đồng để bên mua và bên bán ký</li>
 </ul>
 <p><strong>Luồng chức năng chính</strong></p>
-<p>·     Lập Hợp đồng mua hàng. Chi tiết nghiệp vụ <strong><a href="#Đơn mua hàng từ yêu cầu báo giá">tại đây</a></strong></p>
-<p>·     Quản lý Hợp đồng mua. Chi tiết nghiệp vụ <a href="#Đơn mua hàng từ Lệnh sản xuất"><strong>tại đây</strong></a></p>
+<p>·     Lập Hợp đồng mua hàng. Chi tiết nghiệp vụ <strong><a href="#lap-hop-ong-mua-hang">tại đây</a></strong></p>
+<p>·     Quản lý Hợp đồng mua. Chi tiết nghiệp vụ <a href="#quan-ly-hop-ong-mua"><strong>tại đây</strong></a></p>
 <p><strong>Xem video hướng dẫn</strong></p>
 <p><em>[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]</em></p>
 <h3 id="lap-hop-ong-mua-hang"><strong>Lập Hợp đồng mua hàng</strong></h3>
@@ -483,12 +531,16 @@
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Lập đơn mua hàng" 
-    src="https://www.youtube.com/embed/PQZuqDdgwxo"
+    src="https://www.youtube.com/embed/Wm-AUbA7n-w?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
 </p>
 <h3 id="huong-dan-tren-phan-mem">Hướng dẫn trên phần mềm</h3>
 <h4 id="lap-on-mua-hang-gui-nha-cung-cap"><strong>Lập đơn mua hàng gửi Nhà cung cấp</strong></h4>
 <p><strong>Đối tượng thực hiện :</strong> Nhân viên bộ phận mua hàng </p>
+<p>Có hai cách để thực hiện lập đơn mua hàng</p>
+<p><em><u>Cách 1:</u></em> Nhập thêm mới trực tiếp trên giao diện. Hướng dẫn cụ thể <strong><a href="#nhap-truc-tiep-tren-giao-dien">tại đây</a></strong></p>
+<p><em><u>Cách 2:</u></em> Lập đơn mua hàng từ việc import dữ liệu. Hướng dẫn cụ thể <strong><a href="#lap-on-mua-hang-tu-viec-import-du-lieu">tại đây</a></strong></p>
+<h5 id="nhap-truc-tiep-tren-giao-dien"><strong>Nhập trực tiếp trên giao diện</strong></h5>
 <p><strong>Bước 1:</strong> Vào phân hệ <strong>Mua hàng</strong>, Chọn <strong>Đơn mua hàng</strong> </p>
 <p><img alt="" src="../images/fin_muahang_donmh.png" /></p>
 <p>Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống</p>
@@ -524,8 +576,42 @@
 <li>Khi thực hiện Thêm ghi chú --&gt; Thông tin nội dung sẽ được in trên file gửi nhà cung cấp</li>
 </ul>
 <p><strong>Bước 3</strong>: Nhấn <strong>Lưu</strong></p>
+<h5 id="lap-on-mua-hang-tu-viec-import-du-lieu"><strong>Lập đơn mua hàng từ việc Import dữ liệu</strong></h5>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Mua hàng</strong>, Chọn <strong>Đơn mua hàng</strong> </p>
+<p><img alt="" src="../images/fin_muahang_donmh.png" /></p>
+<p>Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống</p>
+<p><img alt="" src="../images/fin_muahang_donmh_timkiem.png" /></p>
+<p><strong>Bước 2:</strong> Trên danh sách đơn hàng, nhấn biểu tượng hình ngôi sao, chọn <strong>Thêm bản ghi</strong></p>
+<p><img alt="" src="../images/fin_muahang_import.png" /></p>
+<p>Sau khi mở màn hình import thông tin, thực hiện xuất file mẫu bằng cách chọn <strong>Mẫu nhập khẩu đơn mua hàng</strong> để thực hiện xuất file mẫu excel</p>
+<p><img alt="" src="../images/fin_muahang_import_tem.png" /></p>
+<p>Trên file excel vừa xuất, người dùng thực hiện nhập thông tin đơn hàng tương ứng tại các cột, hướng dẫn cụ thể có trong phần commnent tại hàng đầu tiên của mỗi cột</p>
+<p><img alt="" src="../images/fin_muahang_import_tem2.png" /></p>
+<p>Đơn vị: Bắt buộc nhập, nhập tên đơn vị
+Ngày đơn hàng: Nhập ngày theo định dạng ngày-tháng-năm<br />
+Ngày giao hàng: Nhập ngày theo định dạng ngày-tháng-năm   <br />
+Hạn đặt hàng: Nhập ngày theo định dạng ngày-tháng-năm <br />
+Nhà cung cấp: Bắt buộc nhập, Nhập tên khách hàng  <br />
+Nội dung: Nhập nội dung đơn hàng
+Tiền tệ: Nhập tên tiền tệ
+Tỷ giá: Nhập tỷ giá
+Nhân viên mua hàng: Nhập tên nhân viên mua hàng 
+Chi tiết đơn hàng/Sản phẩm: Bắt buộc nhập, nhập tên hàng hóa cần bán  <br />
+Chi tiết đơn hàng/Đơn vị tính: Nhập tên đơn vị tính 
+Chi tiết đơn hàng/Số lượng: Bắt buộc nhập, Nhập số lượng  <br />
+Chi tiết đơn hàng/Đơn giá: Bắt buộc nhập,   nhập đơn giá
+Chi tiết đơn hàng/Thuế: Nhập tên loại thuế</p>
+<p>Sau khi nhập thông tin vào file, thực hiện nhập dữ liệu bằng cách nhấn chọn <strong>Nạp tập tin</strong></p>
+<p><img alt="" src="../images/fin_muahang_naptaptin.png" /></p>
+<p>Chọn file vừa nhập thông tin, đợi hệ thống tải file, sau đó nhấn nút <strong>Kiểm thử</strong> để kiểm tra thông tin trong file có chính xác không.</p>
+<p>Nếu như có lỗi thì sẽ hiển thị thông báo lỗi cụ thể tại cột nào, dòng nào. </p>
+<p>Lưu ý: Những thông báo màu hồng là thông tin cần sửa lại, thông báo màu cam có thể bỏ qua</p>
+<p>Nếu như cần sửa chữa thông tin trong file nhập liệu thì người dùng chọn lại <strong>Nạp tập tin</strong> và chọn file vừa sửa</p>
+<p>Nếu đã chính xác thì sẽ hiển thị thông báo màu xanh : "Mọi thứ dường như hợp lệ". Người dùng nhấn <strong>Nhập</strong> để bắt đầu import dữ liệu vào hệ thống</p>
+<p><img alt="" src="../images/fin_muahang_kiemthu.png" /></p>
+<p>Khi import thành công, hệ thống  sẽ tự động quay về màn hình danh sách và hiển thị thông báo số lượng bản ghi đã được import, các bản ghi được import thành công ở trạng thái báo giá</p>
 <h4 id="thuc-hien-gui-on-hang-cho-nha-cung-cap">Thực hiện gửi đơn hàng cho nhà cung cấp</h4>
-<p><strong>Bước 1</strong>: Sau khi đã có đơn hàng để gửi khách hàng, Thực hiện <strong>In</strong> đơn hàng bằng cách chọn chức năng In</p>
+<p><strong>Bước 1</strong>: Sau khi đã có đơn hàng báo giá để gửi khách hàng, Thực hiện <strong>In</strong> đơn hàng bằng cách chọn chức năng In</p>
 <p><img alt="" src="../images/fin_muahang_donmh_in.png" /></p>
 <p><strong>Bước 2:</strong> Thực hiện <strong>Gửi qua Email</strong> đến nhà cung cấp sau khi hoàn thành  đơn hàng, có thể tùy chỉnh thông tin mẫu gửi báo giá theo yêu cầu</p>
 <p><img alt="" src="../images/fin_BanHang_donhang_GuiEmail.png" /></p>
@@ -537,7 +623,7 @@
 <h2 id="nhap-kho-on-mua-hang"><em>Nhập kho đơn mua hàng</em></h2>
 <h3 id="mo-ta-nghiep-vu_3">Mô tả nghiệp vụ</h3>
 <p>Sau khi thực hiện Xác nhận đơn hàng, chương trình tự động sinh ra một phiếu nhập kho. Người dùng có thể theo dõi tình trạng nhận hàng của sản phẩm trên phiếu nhập kho đã sinh ra và xác nhận số lượng sản phẩm bàn giao theo đơn hàng </p>
-<p><img alt="" src="../images/fin_muahang_donmh_nhap-16448114338021.png" /></p>
+<p><img alt="" src="../images/fin_muahang_donmh_nhap.png" /></p>
 <p><strong>Xem video hướng dẫn</strong></p>
 <p><iframe
     width="920"
@@ -546,12 +632,13 @@
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Nhập kho đơn mua hàng" 
-    src="https://www.youtube.com/embed/3fjLKbsF_-M"
+    src="https://www.youtube.com/embed/GWLQKRX8Ils?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
 </p>
 <h3 id="huong-dan-tren-phan-mem_1"><strong>Hướng dẫn trên phần mềm</strong></h3>
 <p><strong>Bước 1</strong>: Chọn <strong>Nhân hàng</strong> hoặc nhấn nút <strong>Nhận sản phẩm</strong>, hệ thống chuyển sang chức năng phiếu nhập kho. </p>
 <p><img alt="" src="../images/fin_muahng_donmh_nhapkho.png" /></p>
+<p>Nếu người dùng muốn sửa ngày chứng từ và ngày hạch toán, nhấn nút <strong>Sửa</strong>, thay đổi lại thông tin và nhấn <strong>Lưu</strong></p>
 <p><strong>Bước 2</strong>: Thực hiện nhập số lượng hàng đã hoàn thành nhận từ nhà cung cấp</p>
 <ul>
 <li>Nếu Số lượng nhận về kho đủ theo Số lượng của Đơn mua hàng: Thực hiện nhấn <strong>Xác nhận</strong> để xác nhận toàn bộ Đơn hàng</li>
@@ -590,9 +677,8 @@
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Lập hóa đơn mua hàng từ đơn mua hàng" 
-    src="https://www.youtube.com/embed/USlVH_htOJM"
-></iframe>
-</p>
+    src="https://www.youtube.com/embed/IfSiV4kECUQ?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
+></iframe></p>
 <p><strong>Đối tượng thực hiện :</strong> Nhân viên kế toán</p>
 <p><strong>Bước 1:</strong>Vào phân hệ <strong>Mua hàng</strong>, Chọn <strong>Đơn mua hàng</strong> đã hoàn thành Nhận hàng từ Nhà cung cấp và Nhấn <strong>Tạo hóa đơn</strong> </p>
 <p><img alt="" src="../images/fin_muahang_donmh_taohoadon.png" /></p>
@@ -620,24 +706,23 @@
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Hóa đơn mua hàng" 
-    src="https://www.youtube.com/embed/J849TChjEqk"
-></iframe>
-</p>
+    src="https://www.youtube.com/embed/7Q0RmFLX3Mg?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
+></iframe></p>
 <p>Đối tượng thực hiện: Người bán hàng</p>
 <p><strong>Bước 1</strong>: Vào phân hệ <strong>Mua hàng</strong>, Chọn <strong>Hóa đơn</strong> , chọn <strong>Hóa đơn mua hàng</strong> </p>
 <p><img alt="" src="../images/fin_muahang_hdmh.png" /></p>
 <p>Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống</p>
 <p><img alt="" src="../images/fin_muahang_hdmh_timkiem.png" /></p>
 <p><img alt="" src="../images/fin_muahang_hdmh_ds.png" /></p>
-<p><strong>Bước 2</strong>: Nhấn nút <strong>tạo</strong> <img alt="" src="../images/fin_banhang_taomoi-16448115639912.png" /> để thêm hóa đơn. Có hai lựa chọn để tạo hóa đơn: Hóa đơn hàng hóa và Hóa đơn dịch vụ. </p>
+<p><strong>Bước 2</strong>: Nhấn nút <strong>tạo</strong> <img alt="" src="../images/fin_banhang_taomoi.png" /> để thêm hóa đơn. Có hai lựa chọn để tạo hóa đơn: Hóa đơn hàng hóa và Hóa đơn dịch vụ. </p>
 <p>Hóa đơn hàng hóa sẽ thực hiện thanh toán cho các sản phẩm là hàng hóa, thành phẩm, nguyên vật liệu</p>
 <p>Hóa đơn dịch vụ sẽ thực hiện thanh toán cho các sản phẩm là chi phí, dịch vụ</p>
 <p>Trên thông tin Hóa đơn mua hàng, Nhân viên kế toán thực hiện nhập các dữ liệu về:</p>
 <ul>
-<li>Chọn thông tin <strong><em>nhà cung cấp</em></strong>. Nếu chưa có nhà cung cấp thì có thể nhập bổ sung thêm bằng cách nhập tên khách hàng và chọn tạo mới <img alt="" src="../images/fin_muahang_donmh_ncc-16448115639913.png" /></li>
+<li>Chọn thông tin <strong><em>nhà cung cấp</em></strong>. Nếu chưa có nhà cung cấp thì có thể nhập bổ sung thêm bằng cách nhập tên khách hàng và chọn tạo mới <img alt="" src="../images/fin_muahang_donmh_ncc.png" /></li>
 </ul>
 <p>hoặc vào đường dẫn <strong>Danh mục/Nhà cung cấp</strong> và thực hiện thêm mới</p>
-<p><img alt="" src="../images/fin_muahang_dm_ncc-16448115639924.png" /></p>
+<p><img alt="" src="../images/fin_muahang_dm_ncc.png" /></p>
 <ul>
 <li>Nhập bổ sung thông tin gồm: Ngày hóa đơn, Mẫu số, Ký hiệu hóa đơn ,Số hóa đơn, hạn thanh toán</li>
 </ul>
@@ -655,10 +740,86 @@
 <p><strong>Bước 4</strong>: Nhân viên Kế toán thực hiện nhấn <strong>Xác nhận</strong> để hoàn thành xuất hóa đơn mua hàng</p>
 <p>Sau khi xác nhận hóa đơn, hệ thống sẽ sinh dữ liệu vào chức năng "Thanh toán cho nhà cung cấp", người dùng kiểm tra thông tin sẽ thanh toán bằng cách vào <strong>Ngân quỹ/Tiền mặt/Thanh toán cho nhà cung cấp</strong> hoặc <strong>Ngân quỹ/Tiền gửi/Thanh toán cho nhà cung cấp</strong> để kiểm tra lại số tiền sẽ được thanh toán</p>
 <p><img alt="" src="../images/fin_muahang_xacnhan.png" /></p>
+<h4 id="lap-hoa-on-mua-hang-kiem-phieu-nhap-kho">Lập hóa đơn mua hàng Kiêm Phiếu nhập kho</h4>
+<p>Chức năng được áp dụng đối với trường hợp thông tin Thiết lập được cấu hình tại phần Kho có tích chọn <strong>'Mua hàng kiêm phiếu nhập kho'</strong> </p>
+<p><img alt="" src="../images/fin_ThietLap_Kho.png" /></p>
+<p><strong>Với thiết lập Mua hàng kiêm phiếu nhập kho:</strong></p>
+<ul>
+<li>Khi Xác nhận Chứng từ mua hàng: Hệ thống tự động tạo ra Phiếu nhập kho và tự động Hoàn thành thông tin Phiếu nhập kho</li>
+<li>
+<p>Người dùng không phải tác động đến Thông tin Phiếu nhập kho: Hệ thống tự động xác nhận thông tin Vật tư hàng hóa được mua vào Tồn kho</p>
+</li>
+<li>
+<p>Trường hợp: Chứng từ mua hàng được lập từ Đơn mua hàng: Tại bước <strong>Xác nhận</strong> của Đơn mua hàng <strong>KHÔNG</strong> tạo ra Phiếu nhập kho để Nhận hàng, mà Chỉ tạo ra Chứng từ Mua hàng</p>
+</li>
+</ul>
+<p>Đối tượng thực hiện: Người bán hàng</p>
+<p><strong>Bước 1</strong>: Vào phân hệ <strong>Mua hàng</strong>, Chọn <strong>Mua hàng</strong> , chọn <strong>Chứng từ mua hàng</strong> </p>
+<p><img alt="" src="../images/fin_Muahang_Danhsach.png" /></p>
+<p><strong>Bước 2</strong>: Nhấn nút <strong>tạo</strong> <img alt="" src="../images/fin_banhang_taomoi.png" /> để thêm chứng từ. Có hai lựa chọn để tạo chứng từ: Chứng từ mua hàng hóa và Chứng từ mua dịch vụ </p>
+<p>Chứng từ mua hàng hóa sẽ thực hiện thanh toán cho các sản phẩm là hàng hóa, thành phẩm, nguyên vật liệu</p>
+<p>Chứng từ mua dịch vụ sẽ thực hiện thanh toán cho các sản phẩm là chi phí, dịch vụ</p>
+<p>Liên quan đến luồng Mua hàng kiêm phiếu nhập kho: Thực hiện chọn Tạo Chứng từ mua hàng hóa</p>
+<p><img alt="" src="../images/fin_Muahang_Tao.png" /></p>
+<p>==&gt; Màn hình Khai báo thông tin Chứng từ mua hàng hóa</p>
+<p><img alt="" src="../images/fin_Muahang_Tao_02.png" /></p>
+<p><strong>Bước 3</strong>: Khai báo thông tin trên chứng từ</p>
+<p>Người dùng nhập các thông tin trên Chứng từ</p>
+<ul>
+<li>Nhà cung cấp: Chọn thông tin Nhà cung cấp đã được khai báo tại <strong>Danh mục Nhà cung cấp</strong></li>
+<li>Loại nhập/Kho nhập: Hệ thống lấy mặc định theo thông tin Kiểu giao nhận đã được khai báo.</li>
+<li>Loại nhập: Mặc định là Nhập mua hàng hóa</li>
+<li>Kho nhập: Mặc định thông tin Kho của Loại nhập</li>
+</ul>
+<p><img alt="" src="../images/fin_Muahang_Tao_Thongtinchung.png" /></p>
+<ul>
+<li>Khai báo thông tin Vật tư hàng hóa được mua: </li>
+<li>Gồm thông tin về Mặt hàng; Số lượng; Đơn vị tính; Đơn giá và Chiết khấu/Thuế GTGT (Nếu có)</li>
+<li>Với Mua hàng kiêm phiếu nhập kho: Có thêm 2 thông tin về Ngày hết hạn và Số lô|Se-ri để nhập. <ul>
+<li>Nếu người dùng không nhập thông tin Số lô: Khi tạo Phiếu nhập kho Hệ thống sẽ tự động tạo ra theo dữ liệu mặc định</li>
+<li>Nếu người dùng nhập thông tin: Thông tin Phiếu nhập kho sẽ lấy theo thông tin Người dùng đã nhập.</li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="../images/fin_Muahang_Tao_Thongtinchitiet.png" /></p>
+<p><strong>Bước 4</strong>: Nhấn nút <strong>Lưu</strong> để hoàn thành việc khai báo</p>
+<p><strong>Bước 5</strong>: Nhấn nút <strong>Xác nhận</strong> sau khi kiểm tra thông tin đã đúng và đủ</p>
+<p><img alt="" src="../images/fin_Muahang_Tao_XacNhan.png" /></p>
+<p><strong>Khi đó:</strong></p>
+<ul>
+<li>Trạng thái của Chứng từ mua hàng là Đã vào Sổ</li>
+<li>Hệ thống tự động tạo ra 1 Phiếu nhập kho để Nhận hàng vào kho. Người dùng nhấn nút 'Nhận hàng' trên Chứng từ mua hàng để kiểm tra thông tin Phiếu nhập kho</li>
+</ul>
+<p><img alt="" src="../images/fin_Muahang_Tao_XacNhan_NhanHang.png" /></p>
+<ul>
+<li>Trạng thái của Phiếu nhập kho là Hoàn thành, và vật tư hàng hóa của Chứng từ đã được ghi nhận Vào kho</li>
+</ul>
+<p><img alt="" src="../images/fin_Muahang_Tao_XacNhan_Kho.png" /></p>
+<p><strong><u><em>Lưu ý:</em></u></strong></p>
+<ul>
+<li>Với Phiếu nhập kho được tạo ra từ Chứng từ mua hàng: Không lên bút toán tại Phiếu nhập kho</li>
+</ul>
+<p><strong>Bước 6</strong>: Trường hợp Người dùng muốn đưa thông tin chứng từ về trạng thái dự thảo: Nhấn nút <strong>Đưa về dự thảo</strong></p>
+<p><img alt="" src="../images/fin_Muahang_DuThao.png" /></p>
+<p>Khi đó xảy ra các trường hợp sau:</p>
+<ul>
+<li><strong>Nếu mặt hàng trong Phiếu nhập kho đã tham gia vào quá trình xuất hàng/trả hàng:</strong> hệ thống sẽ báo lỗi khi đưa Chứng từ mua hàng về Dự thảo.</li>
+</ul>
+<p>Người dùng phải thực hiện xử lý dữ liệu thông tin Phiếu được hệ thống báo lỗi.</p>
+<p><img alt="" src="../images/fin_Muahang_DuThao_baoLoi.png" /></p>
+<ul>
+<li><strong>Nếu mặt hàng trong Phiếu nhập kho Chưa tham gia vào quá trình xuất hàng/trả hàng:</strong> hệ thống đưa Chứng từ mua hàng về Dự thảo thành công. Đồng thời thông tin Phiếu nhập kho được tạo ra từ Chứng từ sẽ bị xóa khỏi hệ thống, và số lượng tồn kho sẽ giảm tương ứng.</li>
+</ul>
 <h2 id="thanh-toan-cho-nha-cung-cap"><strong><em>Thanh toán cho Nhà cung cấp</em></strong></h2>
 <h3 id="mo-ta-nghiep-vu_5"><strong>Mô tả nghiệp vụ</strong></h3>
-<p>·     Sau khi thực hiện Nhận hàng từ Nhà cung cấp, đơn vị thực hiện kiểm tra thông tin đơn hàng và tiến hành Thanh toán cho Nhà cung cấp.</p>
-<p>·     Việc thanh toán có thể ghi nhận thực hiện nhiều lần.</p>
+<ul>
+<li>
+<p>Sau khi thực hiện Nhận hàng từ Nhà cung cấp, đơn vị thực hiện kiểm tra thông tin đơn hàng và tiến hành Thanh toán cho Nhà cung cấp.</p>
+</li>
+<li>
+<p>Việc thanh toán có thể ghi nhận thực hiện nhiều lần.</p>
+</li>
+</ul>
 <p><strong>Đối tượng thực hiện :</strong> Nhân viên kế toán</p>
 <p><strong>Xem video hướng dẫn</strong></p>
 <p><iframe
@@ -668,7 +829,7 @@
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Ghi nhận thanh toán từ hóa đơn mua hàng" 
-    src="https://www.youtube.com/embed/IwOX-1i2rPQ"
+    src="https://www.youtube.com/embed/u_LaWfSuX_A?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
 </p>
 <h3 id="huong-dan-tren-phan-mem_3">Hướng dẫn trên phần mềm</h3>
@@ -696,7 +857,7 @@
 <p><img alt="" src="../images/fin_muahang_baono.png" /></p>
 <p>Người dùng có thể tìm thấy phiếu chi tiền dựa trên ngày thanh toán, đối tác thanh toán, tổng tiền, nội dung giao dịch</p>
 <p><img alt="" src="../images/fin_muahang_pc.png" /></p>
-<h2 id="hoa-on-giam-giatra-lai-hang-mua"><strong><em>Hóa đơn giảm giá/trả lại hàng mua</em></strong></h2>
+<h2 id="hoa-on-giam-giatra-lai-hang-mua-khong-thiet-lap-mua-hang-kiem-phieu-nhap-kho"><strong><em>Hóa đơn giảm giá/trả lại hàng mua</em></strong> - <em>Không thiết lập Mua hàng kiêm phiếu nhập kho</em></h2>
 <h3 id="mo-ta-nghiep-vu_6"><strong>Mô tả nghiệp vụ</strong></h3>
 <p>Khi phát hiện hàng mua về không đúng quy cách, chất lượng như đã thỏa thuận ban đầu.... thì đơn vị thực hiện trả lại hàng:</p>
 <ul>
@@ -704,8 +865,11 @@
 <li>Sau khi thống nhất với Nhà cung cấp, Nhân viên kế toán thực hiện Luồng trả hàng Ngay tại Đơn mua hàng tương ứng</li>
 <li>Thông tin Kho hàng và Hóa đơn trả hàng sẽ được tạo tại thời điểm thực hiện Trả hàng</li>
 </ul>
-<p>Cách 1: Người mua hàng lập hóa đơn giảm giá hàng đã mua để giao cho nhà cung cấp và ghi sổ kế toán.Chi tiết nghiệp vụ <strong><a href="#tao-hoa-on-giam-gia-hang">tại đây</a></strong></p>
-<p>Cách 2: Người mua hàng chuyển đổi hóa đơn bán hàng thành khoản hoàn tiền/công nợ giảm. Chi tiết nghiệp vụ <strong><a href="#chuyen-oi-thanh-khoan-hoan-tiencong-no-giam">tại đây</a></strong></p>
+<p>Luồng mô tả Chức năng được áp dụng đối với trường hợp thông tin Thiết lập được cấu hình tại phần Kho Không được tích chọn <strong>'Mua hàng kiêm phiếu nhập kho'</strong> </p>
+<p><img alt="" src="../images/fin_ThietLap_Kho_Khongchon.png" /></p>
+<p>Có 2 cách thức thực hiện:</p>
+<p><strong><u><em>Cách 1</em></u></strong>: Người mua hàng lập hóa đơn giảm giá hàng đã mua để giao cho nhà cung cấp và ghi sổ kế toán.Chi tiết nghiệp vụ <strong><a href="#tao-hoa-on-giam-gia-hang">tại đây</a></strong></p>
+<p><strong><u><em>Cách 2</em></u></strong>: Người mua hàng chuyển đổi hóa đơn bán hàng thành khoản hoàn tiền/công nợ giảm. Chi tiết nghiệp vụ <strong><a href="#chuyen-oi-thanh-khoan-hoan-tiencong-no-giam">tại đây</a></strong></p>
 <p><strong>Xem video hướng dẫn</strong></p>
 <p><iframe
     width="920"
@@ -714,12 +878,12 @@
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Hóa đơn giảm giá" 
-    src="https://www.youtube.com/embed/oAUNf6wCvxI"
+    src="https://www.youtube.com/embed/uZBBGd-lGkg?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
 </p>
 <h3 id="huong-dan-tren-phan-mem_4">Hướng dẫn trên phần mềm</h3>
 <h4 id="tao-hoa-on-giam-gia-hang"><strong>Tạo hóa đơn giảm giá hàng</strong></h4>
-<p>·     Sau khi hoàn thành việc thỏa thuận với Nhà cung cấp về các mặt hàng không đảm bảo, kế toán thực hiện Lập Hóa đơn giảm giá/trả lại hàng cho Nhà cung cấp</p>
+<p>Sau khi hoàn thành việc thỏa thuận với Nhà cung cấp về các mặt hàng không đảm bảo, kế toán thực hiện Lập Hóa đơn giảm giá/trả lại hàng cho Nhà cung cấp</p>
 <p><strong>Đối tượng thực hiện :</strong> Nhân viên kế toán</p>
 <p><strong>Bước 1:</strong> Vào phân hệ <strong>Mua hàng</strong>, Chọn <strong>Hóa đơn mua hàng</strong> đã hoàn thành Nhận hàng từ Nhà cung cấp. Trên danh sách hóa đơn mua hàng, kế toán tìm tới các hóa đơn đã được ghi sổ, nhấn chọn <strong>Tạo HĐ giảm giá</strong></p>
 <p><img alt="" src="../images/fin_muahang_hdgg.png" /></p>
@@ -735,11 +899,222 @@
 <p>Bước 1: Vào phân hệ <strong>Mua hàng</strong>, chọn <strong>Hóa đơn</strong>, chọn <strong>Hóa đơn mua hàng</strong>. Trên danh sách hóa đơn mua hàng, kế toán tìm tới hóa đơn có nhu cầu hoàn hàng, nhấn chọn tiện ích/chuyển đổi thành khoản hoàn tiền/công nợ giảm</p>
 <p><img alt="" src="../images/fin_muahang_hdmh_chuyendoi.png" /></p>
 <p>Hệ thống chuyển đổi từ hóa đơn mua hàng thành hóa đơn giảm giá/trả hàng, các thông tin được giữ nguyên</p>
+<h2 id="hoa-on-giam-giatra-lai-hang-mua-co-thiet-lap-mua-hang-kiem-phieu-nhap-kho"><strong><em>Hóa đơn giảm giá/trả lại hàng mua</em></strong> - <em>Có thiết lập Mua hàng kiêm phiếu nhập kho</em></h2>
+<h3 id="chung-tu-tra-hang"><strong>Chứng từ trả hàng</strong></h3>
+<h4 id="mo-ta-nghiep-vu_7">Mô tả nghiệp vụ</h4>
+<p>Chức năng Trả hàng áp dụng trong trường hợp phát hiện thông tin Vật tư hàng hóa không đảm bảo theo yêu cầu, lỗi hoặc nhập thừa..., người dùng thực hiện tính năng trả hàng tại chức năng 'Chứng từ trả hàng'</p>
+<p>Luồng mô tả Chức năng được áp dụng đối với trường hợp thông tin Thiết lập được cấu hình tại phần Kho có tích chọn <strong>'Mua hàng kiêm phiếu nhập kho'</strong> </p>
+<p><img alt="" src="../images/fin_ThietLap_Kho.png" /></p>
+<p><strong>Với thiết lập Mua hàng kiêm phiếu nhập kho:</strong> Có 2 trường hợp xảy ra</p>
+<p><strong><u>Trường hợp 1</u></strong>: Nếu <strong>tích</strong> chọn <strong>'Trả hàng trong kho'</strong> trên giao diện:</p>
+<ul>
+<li>Khi Xác nhận Chứng từ trả hàng: Hệ thống tự động tạo ra Phiếu Xuất kho và tự động Hoàn thành thông tin Phiếu xuất kho</li>
+<li>Người dùng không phải tác động đến Thông tin Phiếu xuất kho: Hệ thống tự động xác giảm trừ tồn kho của Vật tư hàng hóa</li>
+<li>Trên thông tin Phiếu xuất kho: Không có thông tin bút toán hạch toán</li>
+</ul>
+<p><strong><u>Trường hợp 2</u></strong>: Nếu <strong>Không</strong> tích chọn <strong>'Trả hàng trong kho'</strong> trên giao diện:</p>
+<ul>
+<li>Khi Xác nhận Chứng từ trả hàng: Hệ thống không tạo ra Phiếu xuất kho, không giảm trừ hàng trong kho. Chỉ ghi nhận giảm giá trị tại Chứng từ trả hàng</li>
+</ul>
+<p>Đối tượng thực hiện: Người bán hàng</p>
+<h4 id="huong-dan-tren-phan-mem_5">Hướng dẫn trên phần mềm</h4>
+<p>Có 2 cách thực hiện chức năng Chứng từ trả hàng</p>
+<p><strong><em><u>Cách 1</u></em>:</strong> Tạo chứng từ trả hàng từ Chứng từ mua hàng. Hướng dẫn cụ thể <strong><a href="#tao-chung-tu-tra-hang-tu-chung-tu-mua-hang">tại đây</a></strong></p>
+<p><strong><em><u>Cách 2</u>:</em></strong> Thêm mới từ Chức năng Chứng từ Trả hàng. Hướng dẫn cụ thể <strong><a href="#them-moi-tu-chuc-nang-chung-tu-tra-hang">tại đây</a></strong></p>
+<h5 id="tao-chung-tu-tra-hang-tu-chung-tu-mua-hang"><strong>Tạo chứng từ Trả hàng từ Chứng từ mua hàng</strong></h5>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Mua hàng</strong>, Chọn <strong>Chứng từ mua hàng</strong> , Chọn Chứng từ cần thực hiện Trả hàng, trạng thái của Chứng từ mua phải là 'Đã vào sổ'</p>
+<p><img alt="" src="../images/fin_Muahang_Trahang.png" /></p>
+<p><strong>Bước 2</strong>: Nhấn nút <strong>'Tạo CT trả hàng/giảm giá'</strong> và chọn <strong>'Chứng từ trả hàng'</strong></p>
+<p><img alt="" src="../images/fin_Muahang_Trahang_Chon.png" /></p>
+<p>==&gt; Hệ thống tạo thông tin Chứng từ trả hàng với dữ liệu lấy mặc định theo thông tin trên Chứng từ mua hàng đang chọn</p>
+<p><img alt="" src="../images/fin_Muahang_Trahang_Sua.png" /></p>
+<p><strong><u>Lưu ý:</u></strong></p>
+<ul>
+<li>Nếu <strong>bỏ</strong> tích chọn <strong>'Trả hàng trong kho'</strong>: Khi Xác nhận Chứng từ trả hàng hệ thống sẽ không tạo ra Phiếu xuất tương ứng</li>
+</ul>
+<p><strong>Bước 3</strong>: Thực hiện thay đổi Số lượng thông tin hàng hóa cần trả hàng</p>
+<p><img alt="" src="../images/fin_Muahang_Trahang_Sua_Vthh.png" /></p>
+<p><strong>Bước 4</strong>: Nhấn nút <strong>'Xác nhận'</strong> sau khi đã hoàn thành nhập dữ liệu</p>
+<p><img alt="" src="../images/fin_Muahang_Trahang_xacNhan.png" /></p>
+<p><strong>Khi đó:</strong></p>
+<ul>
+<li>Trạng thái của Chứng từ trả hàng là Đã vào Sổ</li>
+<li>Hệ thống tự động tạo ra 1 Phiếu xuất kho để Trả hàng cho Nhà cung cấp. Người dùng nhấn nút 'Giao hàng' trên Chứng từ trả hàng để kiểm tra thông tin Phiếu xuất kho</li>
+</ul>
+<p><img alt="" src="../images/fin_Muahang_Trahang_GiaoHang.png" /></p>
+<ul>
+<li>Trạng thái của Phiếu xuất kho là Hoàn thành, Số lượng tồn của vật tư hàng hóa được tự động giảm trừ trong kho.</li>
+</ul>
+<p><img alt="" src="../images/fin_Muahang_Trahang_Kho.png" /></p>
+<p><strong>Bước 5</strong>: Trường hợp Người dùng muốn đưa thông tin chứng từ về trạng thái dự thảo: Nhấn nút <strong>Đưa về dự thảo</strong></p>
+<p><img alt="" src="../images/fin_Muahang_Trahang_DuThao.png" /></p>
+<p>Khi đó xảy ra các trường hợp sau:</p>
+<ul>
+<li><strong>Nếu mặt hàng trong Phiếu xuất kho đã tham gia vào quá trình nhập hàng về (Tính năng thực hiện tại Phiếu xuất kho)</strong> hệ thống sẽ báo lỗi khi đưa Chứng từ trả hàng về Dự thảo.</li>
+</ul>
+<p>Người dùng phải thực hiện xử lý dữ liệu thông tin Phiếu được hệ thống báo lỗi trước khi tiếp tục thực hiện chuyển Phiếu trả về Dự thảo</p>
+<p><img alt="" src="../images/fin_Muahang_Trahang_DuThao_baoLoi.png" /></p>
+<ul>
+<li><strong>Nếu mặt hàng trong Phiếu xuất kho Chưa tham gia vào quá trình nhập hàng về:</strong> hệ thống đưa Chứng từ trả hàng về Dự thảo thành công. Đồng thời thông tin Phiếu xuất kho được tạo ra từ Chứng từ sẽ bị xóa khỏi hệ thống, và số lượng tồn kho sẽ được hoàn lại tương ứng.</li>
+</ul>
+<p><img alt="" src="../images/fin_Muahang_Trahang_DuThao_ThanhCong.png" /></p>
+<h5 id="them-moi-tu-chuc-nang-chung-tu-tra-hang"><strong>Thêm mới từ Chức năng Chứng từ Trả hàng</strong></h5>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Mua hàng</strong>, Chọn <strong>Chứng từ trả hàng</strong> </p>
+<p><img alt="" src="../images/fin_Muahang_Trahang_trucTiep.png" /></p>
+<p><strong>Bước 2</strong>: Nhấn nút <strong>tạo</strong> <img alt="" src="../images/fin_banhang_taomoi.png" /> để thêm chứng từ.</p>
+<p><img alt="" src="../images/fin_Muahang_Trahang_tao.png" /></p>
+<p>==&gt; Màn hình khai báo thông tin Chứng từ trả hàng</p>
+<p><img alt="" src="../images/fin_Muahang_Trahang_tao_02.png" /></p>
+<p><strong>Bước 3</strong>: Khai báo thông tin trên chứng từ</p>
+<p>Người dùng nhập các thông tin trên Chứng từ</p>
+<ul>
+<li>Nhà cung cấp: Chọn thông tin Nhà cung cấp đã được khai báo tại <strong>Danh mục Nhà cung cấp</strong></li>
+<li>Loại xuất/Kho xuất: Hệ thống lấy mặc định theo thông tin Kiểu giao nhận đã được khai báo.</li>
+<li>Loại xuất: Mặc định là Xuất trả lại hàng hóa NCC</li>
+<li>Kho xuất: Mặc định thông tin Kho của Loại xuất</li>
+<li>Lập từ: Người dùng cũng có thể chọn thông tin chứng từ Trả hàng được tạo ra bởi chứng từ Phiếu xuất hoặc Chứng từ mua hàng. Khi chọn giá trị trên Lập từ hệ thống tự động đẩy dữ liệu của chứng từ đã chọn tương ứng xuống phần Chi tiết</li>
+</ul>
+<p><img alt="" src="../images/fin_Muahang_Trahang_tao_ThongtinChung.png" /></p>
+<ul>
+<li>Khai báo thông tin Vật tư hàng hóa trả hàng cho NCC: </li>
+<li>Gồm thông tin về Mặt hàng; Số lượng; Đơn vị tính; Đơn giá và Chiết khấu/Thuế GTGT (Nếu có)</li>
+<li>Với Mua hàng kiêm phiếu nhập kho: Số lô|Se-ri của mặt hàng cần trả. Hệ thống sẽ tự động view các Lô serial đang còn của Mặt hàng thực hiện trả. <ul>
+<li>Nếu người dùng nhập thông tin: Thông tin Phiếu xuất kho sẽ xuất trả hàng của Lô đã chọn</li>
+<li>Nếu người dùng không chọn thông tin: Hệ thống tự động lấy 1 Lô của mặt hàng để xuất trả</li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="../images/fin_Muahang_Trahang_tao_Chitiet.png" /></p>
+<p><strong><u>Lưu ý:</u></strong></p>
+<ul>
+<li>Nếu <strong>bỏ</strong> tích chọn <strong>'Trả hàng trong kho'</strong>: Khi Xác nhận Chứng từ trả hàng hệ thống sẽ không tạo ra Phiếu xuất tương ứng</li>
+</ul>
+<p><strong>Bước 4</strong>: Nhấn nút <strong>'Xác nhận'</strong> sau khi đã hoàn thành nhập dữ liệu</p>
+<p><img alt="" src="../images/fin_Muahang_Trahang_xacNhan.png" /></p>
+<p><strong>Khi đó:</strong></p>
+<ul>
+<li>Trạng thái của Chứng từ trả hàng là Đã vào Sổ</li>
+<li>Hệ thống tự động tạo ra 1 Phiếu xuất kho để Trả hàng cho Nhà cung cấp. Người dùng nhấn nút 'Giao hàng' trên Chứng từ trả hàng để kiểm tra thông tin Phiếu xuất kho</li>
+</ul>
+<p><img alt="" src="../images/fin_Muahang_Trahang_GiaoHang.png" /></p>
+<ul>
+<li>Trạng thái của Phiếu xuất kho là Hoàn thành, Số lượng tồn của vật tư hàng hóa được tự động giảm trừ trong kho.</li>
+</ul>
+<p><img alt="" src="../images/fin_Muahang_Trahang_Kho.png" /></p>
+<p><strong>Bước 5</strong>: Trường hợp Người dùng muốn đưa thông tin chứng từ về trạng thái dự thảo: Nhấn nút <strong>Đưa về dự thảo</strong></p>
+<p><img alt="" src="../images/fin_Muahang_Trahang_DuThao.png" /></p>
+<p>Khi đó xảy ra các trường hợp sau:</p>
+<ul>
+<li><strong>Nếu mặt hàng trong Phiếu xuất kho đã tham gia vào quá trình nhập hàng về (Tính năng thực hiện tại Phiếu xuất kho)</strong> hệ thống sẽ báo lỗi khi đưa Chứng từ trả hàng về Dự thảo.</li>
+</ul>
+<p>Người dùng phải thực hiện xử lý dữ liệu thông tin Phiếu được hệ thống báo lỗi trước khi tiếp tục thực hiện chuyển Phiếu trả về Dự thảo</p>
+<p><img alt="" src="../images/fin_Muahang_Trahang_DuThao_baoLoi.png" /></p>
+<ul>
+<li><strong>Nếu mặt hàng trong Phiếu xuất kho Chưa tham gia vào quá trình nhập hàng về:</strong> hệ thống đưa Chứng từ trả hàng về Dự thảo thành công. Đồng thời thông tin Phiếu xuất kho được tạo ra từ Chứng từ sẽ bị xóa khỏi hệ thống, và số lượng tồn kho sẽ được hoàn lại tương ứng.</li>
+</ul>
+<p><img alt="" src="../images/fin_Muahang_Trahang_DuThao_ThanhCong.png" /></p>
+<h3 id="chung-tu-giam-gia"><strong>Chứng từ giảm giá</strong></h3>
+<h4 id="mo-ta-nghiep-vu_8">Mô tả nghiệp vụ</h4>
+<p>Chức năng Giảm giá trị áp dụng trong trường hợp cần giảm giá trị tiền của Vật tư hàng hóa đã thực hiện xác nhận.</p>
+<p>Luồng mô tả Chức năng được áp dụng đối với trường hợp thông tin Thiết lập được cấu hình tại phần Kho có tích chọn <strong>'Mua hàng kiêm phiếu nhập kho'</strong> </p>
+<p><img alt="" src="../images/fin_ThietLap_Kho.png" /></p>
+<p><strong>Với thiết lập Mua hàng kiêm phiếu nhập kho:</strong> Có 2 trường hợp xảy ra</p>
+<p><strong><u>Trường hợp 1</u></strong>: Nếu <strong>tích</strong> chọn <strong>'Giảm giá trị hàng nhập kho'</strong> trên giao diện:</p>
+<ul>
+<li>Khi Xác nhận Chứng từ giảm giá: Hệ thống tự động tạo ra Phiếu Xuất kho và tự động Hoàn thành thông tin Phiếu xuất kho</li>
+<li>Phiếu xuất kho tự động ở trạng thái Hoàn thành: Sinh Phiếu xuất kho không có số lượng xuất, chỉ có giá trị âm tương ứng với giá trị giảm giá trên chứng từ giảm giá. Tức Thông tin Số lượng xuất = 0; Ghi nhận Âm giá trị tiền</li>
+<li>Trên thông tin Phiếu xuất kho: Không có thông tin bút toán hạch toán</li>
+</ul>
+<p><strong><u>Trường hợp 2</u></strong>: Nếu <strong>Không</strong> tích chọn <strong>'Giảm giá trị hàng nhập kho'</strong> trên giao diện:</p>
+<ul>
+<li>Khi Xác nhận Chứng từ giảm giá: Hệ thống không tạo ra Phiếu xuất kho. Chỉ ghi nhận giảm giá trị tại Chứng từ giảm giá.</li>
+</ul>
+<p>Đối tượng thực hiện: Người bán hàng</p>
+<h4 id="huong-dan-tren-phan-mem_6">Hướng dẫn trên phần mềm</h4>
+<p>Có 2 cách thực hiện chức năng Chứng từ trả hàng</p>
+<p><strong><u><em>Cách 1</em></u>:</strong> Tạo chứng từ Giảm giá từ Chứng từ mua hàng. Hướng dẫn cụ thể <strong><a href="#tao-chung-tu-giam-gia-tu-chung-tu-mua-hang">tại đây</a></strong></p>
+<p><strong><em><u>Cách 2</u>:</em></strong> Thêm mới từ Chức năng Chứng từ Giảm giá. Hướng dẫn cụ thể <strong><a href="#them-moi-tu-chuc-nang-chung-tu-giam-gia">tại đây</a></strong></p>
+<h5 id="tao-chung-tu-giam-gia-tu-chung-tu-mua-hang"><strong>Tạo chứng từ Giảm giá từ Chứng từ mua hàng</strong></h5>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Mua hàng</strong>, Chọn <strong>Chứng từ mua hàng</strong> , Chọn Chứng từ cần thực hiện Giảm giá, trạng thái của Chứng từ mua phải là 'Đã vào sổ'</p>
+<p><img alt="" src="../images/fin_Muahang_Trahang.png" /></p>
+<p><strong>Bước 2</strong>: Nhấn nút <strong>'Tạo CT trả hàng/giảm giá'</strong> và chọn <strong>'Chứng từ giảm giá'</strong></p>
+<p><img alt="" src="../images/fin_Muahang_GiamGia_Chon.png" /></p>
+<p>==&gt; Hệ thống tạo thông tin Chứng từ giảm giá với dữ liệu lấy mặc định theo thông tin trên Chứng từ mua hàng đang chọn</p>
+<p><img alt="" src="../images/fin_Muahang_GiamGia_Sua.png" /></p>
+<p><strong><u>Lưu ý:</u></strong></p>
+<ul>
+<li>Nếu <strong>bỏ</strong> tích chọn <strong>'Giảm giá trị hàng nhập kho'</strong>: Khi Xác nhận Chứng từ Giảm giá hệ thống sẽ <strong>không</strong> tạo ra Phiếu xuất tương ứng</li>
+</ul>
+<p><strong>Bước 3</strong>: Thực hiện thay đổi Đơn giá của hàng hóa cần Giảm giá</p>
+<p><img alt="" src="../images/fin_Muahang_Giamgia_Sua_Vthh.png" /></p>
+<p><strong>Bước 4</strong>: Nhấn nút <strong>'Xác nhận'</strong> sau khi đã hoàn thành nhập dữ liệu</p>
+<p><img alt="" src="../images/fin_Muahang_GiamGia_xacNhan.png" /></p>
+<p><strong>Khi đó:</strong></p>
+<ul>
+<li>Trạng thái của Chứng từ trả hàng là Đã vào Sổ</li>
+<li>Hệ thống tự động tạo ra 1 Phiếu xuất kho để Giảm giá hàng đã nhập. Người dùng nhấn nút 'Giao hàng' trên Chứng từ giảm giá để kiểm tra thông tin Phiếu xuất kho</li>
+</ul>
+<p><img alt="" src="../images/fin_Muahang_GiamGia_GiaoHang.png" /></p>
+<ul>
+<li>Trạng thái của Phiếu xuất kho là Hoàn thành, Số lượng tồn của vật tư hàng hóa được giữ nguyên, hệ thống ghi nhận Số tiền Âm</li>
+</ul>
+<p><img alt="" src="../images/fin_Muahang_GiamGia_Kho.png" /></p>
+<p><strong>Bước 5</strong>: Trường hợp Người dùng muốn đưa thông tin chứng từ về trạng thái dự thảo: Nhấn nút <strong>Đưa về dự thảo</strong></p>
+<p><img alt="" src="../images/fin_Muahang_GiamGia_DuThao.png" /></p>
+<p>Hệ thống đưa Chứng từ trả hàng về Dự thảo thành công. Đồng thời thông tin Phiếu xuất kho được tạo ra từ Chứng từ sẽ bị xóa khỏi hệ thống</p>
+<p><img alt="" src="../images/fin_Muahang_GiamGia_DuThao_ThanhCong.png" /></p>
+<h5 id="them-moi-tu-chuc-nang-chung-tu-giam-gia"><strong>Thêm mới từ Chức năng Chứng từ Giảm giá</strong></h5>
+<p><strong>Bước 1:</strong> Vào phân hệ <strong>Mua hàng</strong>, Chọn <strong>Chứng từ Giảm giá</strong> </p>
+<p><img alt="" src="../images/fin_Muahang_GiamGia_trucTiep.png" /></p>
+<p><strong>Bước 2</strong>: Nhấn nút <strong>tạo</strong> <img alt="" src="../images/fin_banhang_taomoi.png" /> để thêm chứng từ.</p>
+<p><img alt="" src="../images/fin_Muahang_GiamGia_trucTiep_Tao.png" /></p>
+<p>==&gt; Màn hình khai báo thông tin Chứng từ trả hàng</p>
+<p><img alt="" src="../images/fin_Muahang_GiamGia_trucTiep_Tao_02.png" /></p>
+<p><strong>Bước 3</strong>: Khai báo thông tin trên chứng từ</p>
+<p>Người dùng nhập các thông tin trên Chứng từ</p>
+<ul>
+<li>Nhà cung cấp: Chọn thông tin Nhà cung cấp đã được khai báo tại <strong>Danh mục Nhà cung cấp</strong></li>
+<li>Loại xuất/Kho xuất: Hệ thống lấy mặc định theo thông tin Kiểu giao nhận đã được khai báo.</li>
+<li>Loại xuất: Mặc định là Giảm giá trị hàng nhập kho</li>
+<li>Kho xuất: Mặc định thông tin Kho của Loại xuất</li>
+<li>Lập từ: Người dùng cũng có thể chọn thông tin chứng từ Trả hàng được tạo ra bởi chứng từ Phiếu xuất hoặc Chứng từ mua hàng. Khi chọn giá trị trên Lập từ hệ thống tự động đẩy dữ liệu của chứng từ đã chọn tương ứng xuống phần Chi tiết</li>
+</ul>
+<p><img alt="" src="../images/fin_Muahang_GiamGia_trucTiep_TTchung.png" /></p>
+<ul>
+<li>Khai báo thông tin Vật tư hàng hóa trả hàng cho NCC: </li>
+<li>Gồm thông tin về Mặt hàng; Số lượng; Đơn vị tính; Đơn giá và Chiết khấu/Thuế GTGT (Nếu có)</li>
+<li>Với Mua hàng kiêm phiếu nhập kho: Số lô|Se-ri của mặt hàng cần trả. Hệ thống sẽ tự động view các Lô serial đang còn của Mặt hàng thực hiện trả. <ul>
+<li>Nếu người dùng nhập thông tin: Thông tin Phiếu xuất kho sẽ xuất trả hàng của Lô đã chọn</li>
+<li>Nếu người dùng không chọn thông tin: Hệ thống tự động lấy 1 Lô của mặt hàng để xuất trả</li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="../images/fin_Muahang_Trahang_tao_Chitiet.png" /></p>
+<p><strong><u>Lưu ý:</u></strong></p>
+<ul>
+<li>Nếu <strong>bỏ</strong> tích chọn <strong>'Giảm giá trị hàng nhập kho'</strong>: Khi Xác nhận Chứng từ trả hàng hệ thống sẽ không tạo ra Phiếu xuất tương ứng</li>
+</ul>
+<p><strong>Bước 4</strong>: Nhấn nút <strong>'Xác nhận'</strong> sau khi đã hoàn thành nhập dữ liệu</p>
+<p><img alt="" src="../images/fin_Muahang_GiamGia_xacNhan.png" /></p>
+<p><strong>Khi đó:</strong></p>
+<ul>
+<li>Trạng thái của Chứng từ trả hàng là Đã vào Sổ</li>
+<li>Hệ thống tự động tạo ra 1 Phiếu xuất kho để Giảm giá hàng đã nhập. Người dùng nhấn nút 'Giao hàng' trên Chứng từ giảm giá để kiểm tra thông tin Phiếu xuất kho</li>
+</ul>
+<p><img alt="" src="../images/fin_Muahang_GiamGia_GiaoHang.png" /></p>
+<ul>
+<li>Trạng thái của Phiếu xuất kho là Hoàn thành, Số lượng tồn của vật tư hàng hóa được giữ nguyên, hệ thống ghi nhận Số tiền Âm</li>
+</ul>
+<p><img alt="" src="../images/fin_Muahang_GiamGia_Kho.png" /></p>
+<p><strong>Bước 5</strong>: Trường hợp Người dùng muốn đưa thông tin chứng từ về trạng thái dự thảo: Nhấn nút <strong>Đưa về dự thảo</strong></p>
+<p><img alt="" src="../images/fin_Muahang_GiamGia_DuThao.png" /></p>
+<p>Hệ thống đưa Chứng từ trả hàng về Dự thảo thành công. Đồng thời thông tin Phiếu xuất kho được tạo ra từ Chứng từ sẽ bị xóa khỏi hệ thống</p>
+<p><img alt="" src="../images/fin_Muahang_GiamGia_DuThao_ThanhCong.png" /></p>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../fin-tien-NH/" class="btn btn-neutral float-left" title="Quản lý tiền - Tiền gửi"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../fin-tien-TG/" class="btn btn-neutral float-left" title="Quản lý tiền - Tiền gửi"><span class="icon icon-circle-arrow-left"></span> Previous</a>
         <a href="../fin-ban-hang/" class="btn btn-neutral float-right" title="Bán hàng">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
@@ -764,7 +1139,7 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../fin-tien-NH/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../fin-tien-TG/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
       <span><a href="../fin-ban-hang/" style="color: #fcfcfc">Next &raquo;</a></span>
