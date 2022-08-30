@@ -41,6 +41,9 @@ p {
 .wy-nav-side {
   background: #474343;
 }
+.wy-nav-top {
+  background: #ED2F4A;
+}
 /* .wy-menu-vertical header, .wy-menu-vertical p.caption{
   color: #EC2635;
   -webkit-text-fill-color: white; 
