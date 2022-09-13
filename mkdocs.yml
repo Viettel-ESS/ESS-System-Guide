@@ -89,8 +89,6 @@ nav:
         - 'Dự án': 'vESS_mobile/Addon_DuAn.md'
         - 'Lịch': 'vESS_mobile/Addon_Lich.md'
         - 'Lịch sử phát triển sản phẩm': 'vESS_mobile/Mobile-Lich-su-phat-trien.md'
-    - 'vContract - Hợp đồng điện tử': 
-        - 'Thiết lập luồng ký hợp đồng': 'vContract/thiet-lap-luong-ky.md'                                                
     - 'Release Notes': 'release-notes.md'
 theme:
     name: readthedocs
