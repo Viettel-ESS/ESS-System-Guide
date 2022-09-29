@@ -2,20 +2,15 @@
 
 Việc thiết lập và khai báo ban đầu được thực hiện khi lần đầu cài đặt hệ thống, giúp khởi tạo dữ liệu và bắt đầu cho việc thực hiện các nghiệp vụ kế toán
 
-## **Thiết lập ban đầu**
-
 Việc thiết lập ban đầu được thực hiện ngay tại thời điểm cài đặt xong Phân hệ kế toán: Đây là điều kiện cần có và bắt buộc để bắt đầu thực hiện các nghiệp vụ trên phân hệ Kế toán
 
+Vào biểu tượng bắt đầu sử dụng tại góc phải để mở thiết lập ban đầu 
+
+![](images/fin_thietlap_batdau.png)
+
+Hệ thống mở ra thông tin thiết lập cơ bản ban đầu bao gồm Công ty, khai báo danh mục, thiết lập, hệ thống tài khoản, khai báo số dư
+
 ![](images/fin_ThietLapBanDau.png)
-
-- Dựa theo quy mô, đặc điểm kinh doanh và yêu cầu quản lý, Doanh nghiệp thực hiện lựa chọn Thông tư kế toán phù hợp.
-- Lựa chọn Đồng tiền hạch toán áp dụng cho Doanh nghiệp; Kỳ kế toán; Phương pháp tính giá xuất kho và phương pháp thuế GTGT
-
-Sau khi khai báo thiết lập ban đầu được Hoàn thành: hệ thống tài khoản và các chế độ kế toán cũng như biểu mẫu kế toán liên quan sẽ được áp dụng theo Thông tư và các thiết lập đã được lựa chọn 
-
-## **Khai báo ban đầu**
-
-Việc khai báo ban đầu được thực hiện tại thời điểm khai báo xong Thiết lập ban đầu hoặc trong quá trình thực hiện các nghiệp vụ kế toán, người dùng có thể bổ sung khai báo.
 
 Các thông tin khai báo gồm 5 mục:
 
@@ -35,11 +30,11 @@ Việc khai báo này có thể thực hiện tại bất kỳ thời điểm n�
 
 ![](images/fin_ThietLap_DanhMuc.png)
 
-### **Cấu hình kế toán**
+### **Thiết lập**
 
-Hiển thị lại Chế độ kế toán đã chọn và khai báo bổ sung thêm thông tin mặc định áp dụng cho phần hành kế toán liên quan đến thuế
+Hiển thị Chế độ kế toán đã chọn và khai báo bổ sung thêm thông tin mặc định áp dụng cho phần hành kế toán liên quan đến thuế
 
-*[Bổ sung hình ảnh]*
+![](images/fin_thietlap_thietlapketoan.png)
 
 ### **Hệ thống tài khoản**
 
@@ -49,9 +44,10 @@ Hiển thị thông tin Hệ thống tài khoản theo Thông tư đã lựa ch�
 
 ### **Nhập số dư ban đầu**
 
-Người dùng nhập các thông tin số dư ban đầu cho các tài khoản 
-
-Số dư ban đầu được lưu trữ độc lập giữa hai hệ thống **Sổ quản trị** và **Sổ tài chính**.
+Người dùng nhập các thông tin số dư ban đầu cho các chức năng cụ thể
 
 ![](images/fin_ThietLap_SoDuBanDau.png)
 
+Sau khi khai báo thành công, người dùng bắt đầu vào sử dụng chức năng của hệ thống
+
+![](images/fin_thietlap_hoanthanh.png)

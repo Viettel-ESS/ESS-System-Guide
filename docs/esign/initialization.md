@@ -6,6 +6,26 @@ Việc thiết lập và khai báo ban đầu được thực hiện khi lần �
 
 Để USB token để ký số, người dùng cần phải tải plugin [tại đây](https://drive.google.com/file/d/1AhSJmYcurxkwipzxEM4T4HcHi5yKH80Q/view) về máy để chạy mỗi khi thực hiện ký. Trước khi thực hiện ký số với usb token, cần phải chạy tệp plugin này. 
 
+### **Cấu hình cho công ty sử dụng cloudCA** 
+
+Để sử dụng được dịch vụ CloudCA để ký số, công ty cần thiết lập các thông số kết nối được cung cấp khi đăng ký dịch vụ CloudCA. 
+
+ **Đối tượng thực hiện: Quản trị hệ thống (Admin)**
+
+**Các bước thực hiện:** 
+
+1. Vào **Thiết lập** >  **Người dùng và công ty** > **Công ty**: Hệ thống sẽ hiển thị danh sách công ty, người dùng kích chọn công ty cần cấu hình
+
+2. Tại màn hình Thông tin chi tiết của công ty, chọn tab **Esign cloudCA**
+
+3. Khai báo các thông tin cấu hình như đã được cung cấp khi đăng ký dịch vụ CloudCA 
+
+   * Khai báo thông tin **API Key** là **API Key**
+
+   * Khai báo thông tin **API Secret** là **API Secret** 	![img](images/cloudCAConfig.png)
+
+     
+
 ### Loại văn bản trình ký
 
 Cho phép khai báo và quản lý thông tin về các loại văn bản  trên hệ thống, các quy tắc tự sinh số văn bản khi được ban hành. 
@@ -110,7 +130,11 @@ Cho phép khai báo và quản lý thông tin về các tài khoản được th
 
 - Tab **Ảnh chân ký**: Người dùng tải lên hệ thống ảnh chữ ký mộc dùng cho cá nhân để thêm vào văn bản sau khi ký duyệt (nếu yêu cầu). Mỗi tài khoản ký có thể cấu hình tối đa 3 loại chữ ký.  Kích thước ảnh chân ký phải thỏa mãn tỷ lệ 3:2, chiều rộng ảnh thuộc khoảng 200 px - 279px . Ngày hiệu lực mặc định là ngày tải ảnh chân ký tương ứng lên hệ thống. 
 
-- Tab **Chứng thư số**: Cấu hình chứng thư số để xác thực khi người dùng ký duyệt các văn bản. Chứng thư số cần phải được cấu hình trước khi thực hiện ký số để xác thực người ký. 
+- Tab **Ký số CloudCA**: cấu hình mã định danh người dùng được cung cấp bởi bên dịch vụ CloudCA. 
+
+  ![img](images\image_configTKCloudCA.PNG)
+
+- Tab **Chữ ký điện tử**: Cấu hình chứng thư số để xác thực khi người dùng ký duyệt các văn bản. Chứng thư số cần phải được cấu hình trước khi thực hiện ký số để xác thực người ký. 
 
   ![image-20211013123042271](images/image-20211013123042271.png)
 
@@ -119,8 +143,10 @@ Cho phép khai báo và quản lý thông tin về các tài khoản được th
   - Bước 1: Tải plugin ký số [tại đây](https://drive.google.com/file/d/1AhSJmYcurxkwipzxEM4T4HcHi5yKH80Q/view?usp=sharing) về máy tính cá nhân và kích chạy tệp vừa tải về
   - Bước 2: Cắm usb token chứa chứng thư số vào máy tính 
   - Bước 3: kích nút **Tải chứng thư số**  -> lựa chọn chứng thư số còn hiệu lực. 
-
-3. Click **Lưu**
+  
+  Để sử dụng simCA ký văn bản, cần cấu hình số điện thoại ký CA và phiên bản SimCA đã đăng ký dịch vụ. 
+  
+  3. Click **Lưu**
 
 
 ### Lưu mẫu trình ký văn bản

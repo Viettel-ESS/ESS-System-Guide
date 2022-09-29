@@ -30,7 +30,7 @@ Khi người dùng cần thực hiện trình ký văn bản tới danh sách ng
 - Chọn danh sách người kí:  Có thể tạo mới danh sách hoặc chọn từ mẫu danh sách người ký đã lưu trước đó. 
   - Thứ tự hiển thị trên danh sách là thứ tự sẽ trình ký. 
   - Mỗi tài khoản chỉ tồn tại duy nhất trên danh sách. 
-  - Ký CA: khi tích chọn thì khi người ký tương ứng vào ký sẽ cần sử dụng usb token ký và có xác thực chứng thư số tồn tại. 
+  - Ký CA: khi tích chọn thì khi người ký tương ứng vào ký sẽ cần sử dụng usb token ký có xác thực chứng thư số tồn tại hoặc ký qua CloudCA (nếu có đăng ký sử dụng dịch vụ và đã thiết lập các cấu hình cần thiết). 
   -  Hiển thị ảnh ký: cho phép lựa chọn ảnh chân ký sẽ hiển thị trong văn bản trình ký. 
 - Danh sách tệp trình ký: 
   - Có thể trình đồng thời một hoặc nhiều bộ văn bản trình ký, mỗi bộ gồm một tệp ký chính và tệp phụ lục (nếu có). 
@@ -99,7 +99,7 @@ Khi văn bản trình ký tới người ký được cấu hình người xét 
 
 ![img](images/clip_image083.jpg)
 
-### Ký duyệt văn bản
+### Ký duyệt văn bản trên web
 
 Khi nhận được thông báo yêu cầu ký duyệt văn bản, người dùng thực hiện xem xét và ký duyệt hoặc từ chối ký duyệt văn bản. 
 
@@ -121,6 +121,28 @@ Khi nhận được thông báo yêu cầu ký duyệt văn bản, người dùn
   - Bước 3: kích nút "**Ký điện tử**" -> Lựa chọn chứng thư số còn hiệu lực và đã đăng ký với tài khoản để thực hiện ký. 
 
 ![img](images/clip_image081.jpg)
+
+### Ký duyệt văn bản sử dụng CloudCA
+
+**Tiền điều kiện :** Người ký đã cài đặt ứng dụng My sign để xác thực ký CloudCA trên điện thoại và đăng nhập tài khoản ký cloudCA được cung cấp thành công
+
+![img](images\Mysign.PNG)
+
+Khi nhận được thông báo yêu cầu ký duyệt văn bản, người dùng thực hiện xem xét và ký duyệt hoặc từ chối ký duyệt văn bản. 
+
+**Các bước thực hiện:** 
+
+1. Vào **Quản lý văn bản trình ký** > tìm kiếm văn bản -> vào xem chi tiết văn bản 
+
+2. Kích nút **Ký duyệt**: hiển thị màn hình ký duyệt văn bản
+
+3.  Kích nút **Ký CloudCA**
+
+   ![image-20220929114325144](images\image-20220929114325144.png)
+
+4. Trên ứng dụng **My sign**: kích nút xác nhận ký 
+
+   
 
 ### Chuyển ký nháy
 

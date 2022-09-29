@@ -20,33 +20,43 @@ Sau khi khai báo thiết lập ban đầu được Hoàn thành: hệ thống t
 
 ### **Khai báo ban đầu**
 
-Việc khai báo ban đầu được thực hiện tại thời điểm khai báo xong Thiết lập ban đầu hoặc trong quá trình thực hiện các nghiệp vụ kế toán, người dùng có thể bổ sung khai báo.
+Vào biểu tượng bắt đầu sử dụng tại góc phải để mở khai báo ban đầu 
+
+![](images/fin_thietlap_batdau.png)
+
+Hệ thống mở ra thông tin thiết lập cơ bản ban đầu bao gồm Công ty, khai báo danh mục, thiết lập, khai báo số dư
+
+![](images/fin_ThietLapBanDau-16637467492601.png)
 
 Các thông tin khai báo gồm 5 mục:
 
-#### **Thông tin công ty**
+### **Thông tin công ty**
 
 Khai báo dữ liệu về Công ty với đầy đủ thông tin về Tên, Địa chỉ, MST, email liên hệ, Trang web. 
 
-![](images/fin_ThietLap_CongTy.png)
+![](images/fin_ThietLap_CongTy-16637467492612.png)
 
-#### **Khai báo danh mục**
+### **Khai báo danh mục**
 
 Hiển thị các danh mục cơ bản để người dùng có thể khai báo thông tin trước khi bắt đầu thực hiện nghiệp vụ kế toán
 
 Việc khai báo này có thể thực hiện tại bất kỳ thời điểm nào: trước khi tiến hành Nhập hay ngay tại Thời điểm đang nhập Chứng từ
 
-Để phục vụ cho việc cập nhập số dư ban đầu của dữ liệu kế toán, Người dùng nên khai báo trước một số một số Danh mục về Đối tượng, Nhân viên, Hàng hóa, Nhà cung cấp... tại **Danh mục**
+Để phục vụ cho việc cập nhập số dư ban đầu của dữ liệu kế toán, Người dùng nên khai báo trước một số một số Danh mục về Đối tượng, Nhân viên, Hàng hóa, Nhà cung cấp...
 
-![](images/fin_ThietLap_DanhMuc.png)
+![](images/fin_ThietLap_DanhMuc-16637467492613.png)
 
-#### **Cấu hình kế toán**
+### **Thiết lập**
+
+Hiển thị Chế độ kế toán đã chọn và khai báo bổ sung thêm thông tin mặc định áp dụng cho phần hành kế toán liên quan đến thuế
+
+![](images/fin_thietlap_thietlapketoan.png)
 
 Lựa chọn Đồng tiền hạch toán áp dụng cho Doanh nghiệp; Kỳ kế toán;  phương pháp thuế GTGT
 
-Hiển thị lại Chế độ kế toán đã chọn và khai báo bổ sung thêm thông tin mặc định áp dụng cho phần hành kế toán liên quan đến thuế
+![](images/thiet_lap.png)
 
-![*[Bổ sung hình ảnh]*](images/thiet_lap.png)
+
 
 ![](images/thietlap_banhang.png)
 
@@ -54,31 +64,17 @@ Hiển thị lại Chế độ kế toán đã chọn và khai báo bổ sung th
 
 ![](images/Thietlap_khovan.png)
 
-#### **Hệ thống tài khoản**
+### **Nhập số dư ban đầu**
 
-Hiển thị thông tin Hệ thống tài khoản theo Thông tư đã lựa chọn, có thể Chỉnh sửa, thay đổi để phù hợp với chế độ kế toán tại Doanh nghiệp
+Người dùng nhập các thông tin số dư ban đầu cho các chức năng cụ thể
 
-![](images/fin_ThietLap_TaiKhoan.png)
+![](images/fin_ThietLap_SoDuBanDau-16637467492625.png)
 
-#### Khai báo tồn hàng đầu kỳ
+Sau khi khai báo thành công, người dùng bắt đầu vào sử dụng chức năng của hệ thống
 
-Sau khi tạo mới được hàng hóa vật tư, người dùng có thể khai báo số lượng mặt hàng tồn đầu kỳ hiện có ngoài thực tế
+![](images/fin_thietlap_hoanthanh.png)
 
-**Bước 1:** Vào danh mục hàng hóa vật tư, thực hiện tìm kiếm hàng hóa cần khai báo đầu kỳ
 
-![](images/fin_danhmuc_hh_timkiem.png)
-
-**Bước 2:** Xem chi tiết hàng hóa
-
-![](images/fin_danhmuc_hh_capnhat.png)
-
-Nhấn nút **cập nhật số lượng**, cửa sổ "Cập nhật số lượng" được hiển thị. Nhấn nút **tạo** mới
-
-![](images/fin_danhmuc_hh_cn_tao.png)
-
-Người dùng thực hiện chọn **kho**, nhập **số lượng thực tế** cho khớp với số liệu còn tồn ngoài thực tế, nhấn Lưu
-
-![](images/fin_danhmuc_hh_cn_luu.png)
 
 ## Liên kết nhanh
 

@@ -46,6 +46,7 @@ Khi đơn vị có nhu cầu mua hàng, lập yêu cầu mua hàng thì quy trì
     src="https://www.youtube.com/embed/Wm-AUbA7n-w?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
 
+
 ### Hướng dẫn trên phần mềm
 
 #### **Lập đơn mua hàng gửi Nhà cung cấp**
@@ -194,6 +195,7 @@ Sau khi thực hiện Xác nhận đơn hàng, chương trình tự động sinh
     src="https://www.youtube.com/embed/GWLQKRX8Ils?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
 
+
 ### **Hướng dẫn trên phần mềm**
 
 **Bước 1**: Chọn **Nhân hàng** hoặc nhấn nút **Nhận sản phẩm**, hệ thống chuyển sang chức năng phiếu nhập kho. 
@@ -254,7 +256,6 @@ Cách 2: Lập hóa đơn mua hàng không từ đơn mua hàng. Chi tiết nghi
     title="Lập hóa đơn mua hàng từ đơn mua hàng" 
     src="https://www.youtube.com/embed/IfSiV4kECUQ?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
-
 **Đối tượng thực hiện :** Nhân viên kế toán
 
 **Bước 1:**Vào phân hệ **Mua hàng**, Chọn **Đơn mua hàng** đã hoàn thành Nhận hàng từ Nhà cung cấp và Nhấn **Tạo hóa đơn** 
@@ -298,7 +299,6 @@ Cách 2: Lập hóa đơn mua hàng không từ đơn mua hàng. Chi tiết nghi
     title="Hóa đơn mua hàng" 
     src="https://www.youtube.com/embed/7Q0RmFLX3Mg?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
-
 Đối tượng thực hiện: Người bán hàng
 
 **Bước 1**: Vào phân hệ **Mua hàng**, Chọn **Hóa đơn** , chọn **Hóa đơn mua hàng** 
@@ -456,6 +456,7 @@ Khi đó xảy ra các trường hợp sau:
     src="https://www.youtube.com/embed/u_LaWfSuX_A?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
 
+
 ### Hướng dẫn trên phần mềm
 
 **Bước 1:** Vào phân hệ **Mua hàng**, Chọn **Hóa đơn mua hàng** đã hoàn thành **Vào sổ** 
@@ -515,18 +516,6 @@ Có 2 cách thức thực hiện:
 **<u>*Cách 1*</u>**: Người mua hàng lập hóa đơn giảm giá hàng đã mua để giao cho nhà cung cấp và ghi sổ kế toán.Chi tiết nghiệp vụ **[tại đây](#tao-hoa-on-giam-gia-hang)**
 
 **<u>*Cách 2*</u>**: Người mua hàng chuyển đổi hóa đơn bán hàng thành khoản hoàn tiền/công nợ giảm. Chi tiết nghiệp vụ **[tại đây](#chuyen-oi-thanh-khoan-hoan-tiencong-no-giam)**
-
-**Xem video hướng dẫn**
-
-<iframe
-    width="920"
-    height="450"
-    frameborder="0"
-    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
-    allowfullscreen
-    title="Hóa đơn giảm giá" 
-    src="https://www.youtube.com/embed/uZBBGd-lGkg?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
-></iframe>
 
 ### Hướng dẫn trên phần mềm
 
@@ -652,6 +641,20 @@ Khi đó xảy ra các trường hợp sau:
 ![](images/fin_Muahang_Trahang_DuThao_ThanhCong.png)
 
 ##### **Thêm mới từ Chức năng Chứng từ Trả hàng**
+
+**Xem video hướng dẫn**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Hóa đơn giảm giá" 
+    src="https://www.youtube.com/embed/uZBBGd-lGkg?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
+></iframe>
+
+
 
 **Bước 1:** Vào phân hệ **Mua hàng**, Chọn **Chứng từ trả hàng** 
 
@@ -798,6 +801,20 @@ Hệ thống đưa Chứng từ trả hàng về Dự thảo thành công. Đồ
 ![](images/fin_Muahang_GiamGia_DuThao_ThanhCong.png)
 
 ##### **Thêm mới từ Chức năng Chứng từ Giảm giá**
+
+**Xem video hướng dẫn**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Hóa đơn giảm giá" 
+    src="https://www.youtube.com/embed/uZBBGd-lGkg?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
+></iframe>
+
+
 
 **Bước 1:** Vào phân hệ **Mua hàng**, Chọn **Chứng từ Giảm giá** 
 

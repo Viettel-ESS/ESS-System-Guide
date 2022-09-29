@@ -43,7 +43,15 @@ Khi đơn vị có nhu cầu mua hàng, lập yêu cầu mua hàng thì quy trì
 
 **Xem video hướng dẫn**
 
-*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Báo giá" 
+    src="https://www.youtube.com/embed/y5kwkafXO5I?list=PLcdARb5pnnj9pfGcrvZ16mj-aXdfnNQJe"
+></iframe>
 
 ### **Lập yêu cầu báo giá gửi Nhà cung cấp**
 
@@ -683,19 +691,6 @@ Có 2 cách thức thực hiện:
 
 **<u>*Cách 2*</u>**: Người mua hàng chuyển đổi hóa đơn bán hàng thành khoản hoàn tiền/công nợ giảm. Chi tiết nghiệp vụ **[tại đây](#chuyen-oi-thanh-khoan-hoan-tiencong-no-giam)**
 
-**Xem video hướng dẫn**
-
-<iframe
-    width="920"
-    height="450"
-    frameborder="0"
-    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
-    allowfullscreen
-    title="Hóa đơn giảm giá" 
-    src="https://www.youtube.com/embed/uZBBGd-lGkg?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
-></iframe>
-
-
 ### Hướng dẫn trên phần mềm
 
 #### **Tạo hóa đơn giảm giá hàng**
@@ -820,6 +815,18 @@ Khi đó xảy ra các trường hợp sau:
 ![](images/fin_Muahang_Trahang_DuThao_ThanhCong.png)
 
 ##### **Thêm mới từ Chức năng Chứng từ Trả hàng**
+
+**Xem video hướng dẫn**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Thêm mới chứng từ trả hàng" 
+    src="https://www.youtube.com/embed/uZBBGd-lGkg?list=PLcdARb5pnnj9pfGcrvZ16mj-aXdfnNQJe"
+></iframe>
 
 **Bước 1:** Vào phân hệ **Mua hàng**, Chọn **Chứng từ trả hàng** 
 
@@ -966,6 +973,18 @@ Hệ thống đưa Chứng từ trả hàng về Dự thảo thành công. Đồ
 ![](images/fin_Muahang_GiamGia_DuThao_ThanhCong.png)
 
 ##### **Thêm mới từ Chức năng Chứng từ Giảm giá**
+
+**Xem video hướng dẫn**
+
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Thêm mới chứng từ giảm giá" 
+    src="https://www.youtube.com/embed/uZBBGd-lGkg?list=PLcdARb5pnnj9pfGcrvZ16mj-aXdfnNQJe"
+></iframe>
 
 **Bước 1:** Vào phân hệ **Mua hàng**, Chọn **Chứng từ Giảm giá** 
 

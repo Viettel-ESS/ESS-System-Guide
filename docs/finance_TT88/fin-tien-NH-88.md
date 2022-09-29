@@ -79,7 +79,7 @@ Sau khi Lưu lại thông tin: Hệ thống tự động hiển thị thông tin
 Với những giao dịch khách hàng thanh toán bằng tiền gửi cho các đơn hàng, người dùng thực hiện nghiệp vụ thu tiền từ khách hàng và nhập vào hệ thống để ghi nhận thông tin.
 
 #### *Xem video hướng dẫn*
-r
+
 <iframe
     width="920"
     height="450"
@@ -146,9 +146,10 @@ r
     frameborder="0"
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
-    title="Module Ngân quỹ - Chi tiền mặt" 
-    src="https://www.youtube.com/embed/MV97BC-bLUE?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
+    title="Module Ngân quỹ - Chi tiền gửi" 
+    src="https://www.youtube.com/embed/yed4zz0ooNM?list=PLcdARb5pnnj9pfGcrvZ16mj-aXdfnNQJe"
 ></iframe>
+
 
 
 ### Thanh toán tiền điện nước, tiền internet, tiền thuê mặt bằng..

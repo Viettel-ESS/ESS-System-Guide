@@ -57,7 +57,15 @@ Bước 3: Xác nhận đơn bán hàng. Chi tiết nghiệp vụ [tại đây](
 
 **Xem video hướng dẫn**
 
-*[Xây dựng video hướng dẫn trên phần mềm, gồm đủ các luồng chức năng được mô tả bên dưới]*
+<iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Lập báo giá" 
+    src="https://www.youtube.com/embed/HG7dM6czpjw?list=PLcdARb5pnnj9pfGcrvZ16mj-aXdfnNQJe"
+></iframe>
 
 ### Hướng dẫn trên phần mềm
 
@@ -764,3 +772,72 @@ Bước 1: Vào phân hệ **Bán hàng**, chọn **Hóa đơn**, chọn **Hóa 
 ![](images/fin_BanHang_HoaDon_ButtonChuyenDoi.png)
 
 Hệ thống chuyển đổi từ hóa đơn bán hàng thành hóa đơn giảm giá/trả hàng, các thông tin được giữ nguyên
+
+## Chứng từ điều chỉnh
+
+### Mô tả nghiệp vụ
+
+Khi thông tin hóa đơn bán hàng có sự sai lệch, người dùng vào chức năng Chứng từ điều chỉnh để chỉnh lại thông tin hóa đơn đã xuất ra
+
+### Hướng dẫn trên phần mềm
+
+Đối tượng thực hiện: Người bán hàng
+
+**Bước 1**: Vào phân hệ **Bán hàng**, Chọn **Bán hàng**, chọn **Chứng từ điều chỉnh**  
+
+![](images/fin_banhang_CTDC_menu.png)
+
+Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống
+
+![](images/fin_banhang_CTDC_timkiem.png)
+
+![](images/fin_banhang_CTDC_danhsach.png)
+
+**Bước 2**: Khai báo các thông tin chi tiết trên chứng từ điều chỉnh
+
+Nhấn nút **tạo** ![](images/fin_banhang_taomoi.png) để thêm hóa đơn, chọn loại chứng từ điều chỉnh tăng hoặc chứng từ điều chỉnh giảm
+
+![](images/fin_banhang_CTDC_chon.png)
+
+
+
+![](images/fin_banhang_CTDC_tabchung.png)
+
+
+
+Trên thông tin chứng từ, Nhân viên kế toán thực hiện nhập các dữ liệu về:
+
+Chọn **Đơn vị** cần điều chỉnh chứng từ
+
+Chọn hóa đơn cần điều chỉnh tại trường **Điều chỉnh cho**. Hệ thống sẽ hiển thị toàn bộ các chứng từ bán hàng đã được phát hành hóa đơn điện tử
+
+![](images/fin_banhang_CTDC_dieuchinhcho.png)
+
+Sau khi chọn chứng từ cần điều chỉnh, hệ thống tự động hiển thị các thông tin khách hàng, ngày hạch toán, hạn thanh toán, .. và các thông tin chi tiết hóa đơn được lấy từ chi tiết hóa đơn của chứng từ bán hàng
+
+![](images/fin_banhang_CTDC_fillDL.png)
+
+Nhập thông tin gồm:  Mẫu số, Ký hiệu hóa đơn ,Số hóa đơn, hạn thanh toán.Thay đổi lại các thông tin cần xuất hóa đơn thay thế như sản phẩm, số lượng, giá thành bán,Thuế và Chiết khấu của sản phẩm cần lập hóa đơn
+
+![](images/fin_banhang_donhang_hoadon_tabchitiet.png)
+
+**Bước 3**: Nhân viên Kế toán thực hiện nhấn **Lưu** . Hệ thống lưu thông tin chi tiết hóa đơn đã nhập và tự động sinh ra các chi tiết bút toán phát sinh
+
+Thông tin dữ liệu bút toán phát sinh:
+
+- Căn cứ thông tin Thuế  đã lựa chọn cùng với thông tin Chiết khấu, Đơn giá, Số lượng đã nhập bên chi tiết hóa đơn, hệ thống thực hiện mặc định thông tin các bút toán tương ứng
+
+![](images/fin_banhang_CTDC_Hachtoan.png)
+
+
+
+**Bước 4**: Nhân viên Kế toán thực hiện nhấn **Xác nhận** để hoàn thành  hóa đơn điều chỉnh
+
+![](images/fin_banhang_CTDC_ButtonXacnhan.png)
+
+![](images/fin_banhang_CTDC_Button.png)
+
+Các chức năng ghi nhận thanh toán, tạo chứng từ giảm/trả hàng, đưa về dự thảo tương tự với chứng từ bán hàng
+
+Sau khi xác nhận thành công, người dùng có thể xuất hóa đơn điện tử điều chỉnh  bằng cách nhấn nút **Xuất hóa đơn điều chỉnh**, hệ thống mở một cửa sổ để nhập thông tin xuất hóa đơn thay thế hóa đơn gốc, thông tin  tương tự với chức năng xuất hóa đơn điện tử
+

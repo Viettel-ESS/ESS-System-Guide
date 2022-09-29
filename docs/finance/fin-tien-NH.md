@@ -146,9 +146,10 @@ Với những giao dịch khách hàng thanh toán bằng tiền gửi cho các 
     frameborder="0"
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
-    title="Module Ngân quỹ - Chi tiền mặt" 
-    src="https://www.youtube.com/embed/MV97BC-bLUE?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
+    title="Module Ngân quỹ - Chi tiền gửi" 
+    src="https://www.youtube.com/embed/yed4zz0ooNM?list=PLcdARb5pnnj9pfGcrvZ16mj-aXdfnNQJe"
 ></iframe>
+
 
 
 ### Thanh toán tiền điện nước, tiền internet, tiền thuê mặt bằng..

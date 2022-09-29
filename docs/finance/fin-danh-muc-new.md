@@ -741,8 +741,9 @@ Sau khi thực hiện Xác nhận đơn hàng, chương trình tự động sinh
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
     title="Nhập kho đơn mua hàng" 
-    src="https://www.youtube.com/embed/3fjLKbsF_-M"
+    src="https://www.youtube.com/embed/GWLQKRX8Ils?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
 ></iframe>
+
 
 Chọn **Nhận hàng** hoặc nhấn nút **Nhận sản phẩm**, hệ thống chuyển sang chức năng phiếu nhập kho. 
 
