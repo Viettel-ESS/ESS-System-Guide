@@ -168,6 +168,8 @@
     <ul class="current">
     <li class="toctree-l2"><a class="reference internal" href="#tai-plugin-chung-thu-so-e-su-dung-usb-token">Tải plugin chứng thư số để sử dụng usb-token</a>
     </li>
+    <li class="toctree-l2"><a class="reference internal" href="#cau-hinh-cho-cong-ty-su-dung-cloudca">Cấu hình cho công ty sử dụng cloudCA</a>
+    </li>
     <li class="toctree-l2"><a class="reference internal" href="#loai-van-ban-trinh-ky">Loại văn bản trình ký</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#vai-tro-ky">Vai trò ký</a>
@@ -257,13 +259,13 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
-          <li>Ký số &raquo;</li><li>Thiết lập và khai báo ban đầu</li>
+          <li>Ký số &raquo;</li>
+      <li>Thiết lập và khai báo ban đầu</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
   <hr/>
 </div>
-
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
@@ -271,6 +273,27 @@
 <p>Việc thiết lập và khai báo ban đầu được thực hiện khi lần đầu cài đặt ứng dụng, giúp khởi tạo dữ liệu và bắt đầu cho việc thực hiện các nghiệp vụ ký số. </p>
 <h3 id="tai-plugin-chung-thu-so-e-su-dung-usb-token"><strong>Tải plugin chứng thư số để sử dụng usb-token</strong></h3>
 <p>Để USB token để ký số, người dùng cần phải tải plugin <a href="https://drive.google.com/file/d/1AhSJmYcurxkwipzxEM4T4HcHi5yKH80Q/view">tại đây</a> về máy để chạy mỗi khi thực hiện ký. Trước khi thực hiện ký số với usb token, cần phải chạy tệp plugin này. </p>
+<h3 id="cau-hinh-cho-cong-ty-su-dung-cloudca"><strong>Cấu hình cho công ty sử dụng cloudCA</strong></h3>
+<p>Để sử dụng được dịch vụ CloudCA để ký số, công ty cần thiết lập các thông số kết nối được cung cấp khi đăng ký dịch vụ CloudCA. </p>
+<p><strong>Đối tượng thực hiện: Quản trị hệ thống (Admin)</strong></p>
+<p><strong>Các bước thực hiện:</strong> </p>
+<ol>
+<li>
+<p>Vào <strong>Thiết lập</strong> &gt;  <strong>Người dùng và công ty</strong> &gt; <strong>Công ty</strong>: Hệ thống sẽ hiển thị danh sách công ty, người dùng kích chọn công ty cần cấu hình</p>
+</li>
+<li>
+<p>Tại màn hình Thông tin chi tiết của công ty, chọn tab <strong>Esign cloudCA</strong></p>
+</li>
+<li>
+<p>Khai báo các thông tin cấu hình như đã được cung cấp khi đăng ký dịch vụ CloudCA </p>
+</li>
+<li>
+<p>Khai báo thông tin <strong>API Key</strong> là <strong>API Key</strong></p>
+</li>
+<li>
+<p>Khai báo thông tin <strong>API Secret</strong> là <strong>API Secret</strong>    <img alt="img" src="../images/cloudCAConfig.png" /></p>
+</li>
+</ol>
 <h3 id="loai-van-ban-trinh-ky">Loại văn bản trình ký</h3>
 <p>Cho phép khai báo và quản lý thông tin về các loại văn bản  trên hệ thống, các quy tắc tự sinh số văn bản khi được ban hành. </p>
 <p><strong>Đối tượng thực hiện: Quản trị hệ thống (Admin)</strong></p>
@@ -378,21 +401,24 @@
 <p>Tab <strong>Ảnh chân ký</strong>: Người dùng tải lên hệ thống ảnh chữ ký mộc dùng cho cá nhân để thêm vào văn bản sau khi ký duyệt (nếu yêu cầu). Mỗi tài khoản ký có thể cấu hình tối đa 3 loại chữ ký.  Kích thước ảnh chân ký phải thỏa mãn tỷ lệ 3:2, chiều rộng ảnh thuộc khoảng 200 px - 279px . Ngày hiệu lực mặc định là ngày tải ảnh chân ký tương ứng lên hệ thống. </p>
 </li>
 <li>
-<p>Tab <strong>Chứng thư số</strong>: Cấu hình chứng thư số để xác thực khi người dùng ký duyệt các văn bản. Chứng thư số cần phải được cấu hình trước khi thực hiện ký số để xác thực người ký. </p>
+<p>Tab <strong>Ký số CloudCA</strong>: cấu hình mã định danh người dùng được cung cấp bởi bên dịch vụ CloudCA. </p>
 </li>
+</ul>
+<p><img alt="img" src="../images/image_configTKCloudCA.PNG" /></p>
+<ul>
+<li>Tab <strong>Chữ ký điện tử</strong>: Cấu hình chứng thư số để xác thực khi người dùng ký duyệt các văn bản. Chứng thư số cần phải được cấu hình trước khi thực hiện ký số để xác thực người ký. </li>
 </ul>
 <p><img alt="image-20211013123042271" src="../images/image-20211013123042271.png" /></p>
 <p>Để lấy serial chứng thư số cần thực hiện các bước sau: </p>
 <ul>
 <li>Bước 1: Tải plugin ký số <a href="https://drive.google.com/file/d/1AhSJmYcurxkwipzxEM4T4HcHi5yKH80Q/view?usp=sharing">tại đây</a> về máy tính cá nhân và kích chạy tệp vừa tải về</li>
 <li>Bước 2: Cắm usb token chứa chứng thư số vào máy tính </li>
-<li>
-<p>Bước 3: kích nút <strong>Tải chứng thư số</strong>  -&gt; lựa chọn chứng thư số còn hiệu lực. </p>
-</li>
-<li>
-<p>Click <strong>Lưu</strong></p>
-</li>
+<li>Bước 3: kích nút <strong>Tải chứng thư số</strong>  -&gt; lựa chọn chứng thư số còn hiệu lực. </li>
 </ul>
+<p>Để sử dụng simCA ký văn bản, cần cấu hình số điện thoại ký CA và phiên bản SimCA đã đăng ký dịch vụ. </p>
+<ol>
+<li>Click <strong>Lưu</strong></li>
+</ol>
 <h3 id="luu-mau-trinh-ky-van-ban">Lưu mẫu trình ký văn bản</h3>
 <p>Chức năng cho phép mỗi người dùng tạo và quản lý những mẫu trình ký thường xuyên sử dụng. </p>
 <p><strong>Các bước để tạo mẫu trình ký</strong></p>

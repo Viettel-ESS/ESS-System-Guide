@@ -176,7 +176,9 @@
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#xet-duyet-van-ban">Xét duyệt văn bản</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#ky-duyet-van-ban">Ký duyệt văn bản</a>
+    <li class="toctree-l2"><a class="reference internal" href="#ky-duyet-van-ban-tren-web">Ký duyệt văn bản trên web</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#ky-duyet-van-ban-su-dung-cloudca">Ký duyệt văn bản sử dụng CloudCA</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#chuyen-ky-nhay">Chuyển ký nháy</a>
     </li>
@@ -267,13 +269,13 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
-          <li>Ký số &raquo;</li><li>Ký số</li>
+          <li>Ký số &raquo;</li>
+      <li>Ký số</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
   <hr/>
 </div>
-
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
@@ -299,7 +301,7 @@
 <li>Chọn danh sách người kí:  Có thể tạo mới danh sách hoặc chọn từ mẫu danh sách người ký đã lưu trước đó. </li>
 <li>Thứ tự hiển thị trên danh sách là thứ tự sẽ trình ký. </li>
 <li>Mỗi tài khoản chỉ tồn tại duy nhất trên danh sách. </li>
-<li>Ký CA: khi tích chọn thì khi người ký tương ứng vào ký sẽ cần sử dụng usb token ký và có xác thực chứng thư số tồn tại. </li>
+<li>Ký CA: khi tích chọn thì khi người ký tương ứng vào ký sẽ cần sử dụng usb token ký có xác thực chứng thư số tồn tại hoặc ký qua CloudCA (nếu có đăng ký sử dụng dịch vụ và đã thiết lập các cấu hình cần thiết). </li>
 <li>Hiển thị ảnh ký: cho phép lựa chọn ảnh chân ký sẽ hiển thị trong văn bản trình ký. </li>
 <li>Danh sách tệp trình ký: </li>
 <li>Có thể trình đồng thời một hoặc nhiều bộ văn bản trình ký, mỗi bộ gồm một tệp ký chính và tệp phụ lục (nếu có). </li>
@@ -364,7 +366,7 @@
 <li>Nút Từ chối: khi văn bản không đạt vì lý do nào đó, người xét duyệt nhập lý do từ chối và từ chối xét duyệt văn bản. Khi đó, văn bản chuyển trạng thái sang "Từ chối duyệt" và gửi thông báo lại cho người trình ký. </li>
 </ul>
 <p><img alt="img" src="../images/clip_image083.jpg" /></p>
-<h3 id="ky-duyet-van-ban">Ký duyệt văn bản</h3>
+<h3 id="ky-duyet-van-ban-tren-web">Ký duyệt văn bản trên web</h3>
 <p>Khi nhận được thông báo yêu cầu ký duyệt văn bản, người dùng thực hiện xem xét và ký duyệt hoặc từ chối ký duyệt văn bản. </p>
 <p><strong>Đối tượng thực hiện :</strong> Người ký</p>
 <p><strong>Các bước thực hiện:</strong> </p>
@@ -387,6 +389,26 @@
 <li>Bước 3: kích nút "<strong>Ký điện tử</strong>" -&gt; Lựa chọn chứng thư số còn hiệu lực và đã đăng ký với tài khoản để thực hiện ký. </li>
 </ul>
 <p><img alt="img" src="../images/clip_image081.jpg" /></p>
+<h3 id="ky-duyet-van-ban-su-dung-cloudca">Ký duyệt văn bản sử dụng CloudCA</h3>
+<p><strong>Tiền điều kiện :</strong> Người ký đã cài đặt ứng dụng My sign để xác thực ký CloudCA trên điện thoại và đăng nhập tài khoản ký cloudCA được cung cấp thành công</p>
+<p><img alt="img" src="../images/Mysign.PNG" /></p>
+<p>Khi nhận được thông báo yêu cầu ký duyệt văn bản, người dùng thực hiện xem xét và ký duyệt hoặc từ chối ký duyệt văn bản. </p>
+<p><strong>Các bước thực hiện:</strong> </p>
+<ol>
+<li>
+<p>Vào <strong>Quản lý văn bản trình ký</strong> &gt; tìm kiếm văn bản -&gt; vào xem chi tiết văn bản </p>
+</li>
+<li>
+<p>Kích nút <strong>Ký duyệt</strong>: hiển thị màn hình ký duyệt văn bản</p>
+</li>
+<li>
+<p>Kích nút <strong>Ký CloudCA</strong></p>
+</li>
+</ol>
+<p><img alt="image-20220929114325144" src="../images/image-20220929114325144.png" /></p>
+<ol>
+<li>Trên ứng dụng <strong>My sign</strong>: kích nút xác nhận ký </li>
+</ol>
 <h3 id="chuyen-ky-nhay">Chuyển ký nháy</h3>
 <p>Người ký duyệt văn bản có thể chuyển ký nháy tới một hoặc nhiều người khác khi có nhu cầu cần ký nháy trước khi ký duyệt. </p>
 <p><strong>Đối tượng thực hiện :</strong> Người ký duyệt văn bản trình ký</p>
