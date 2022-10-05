@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>CRM - Hướng dẫn sử dụng hệ thống vESS</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="../../css/extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "CRM";
+        var mkdocs_page_input_path = "finance\\fin_CRM.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> Hướng dẫn sử dụng hệ thống vESS
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Trang chủ</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Đăng ký, đăng nhập</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../saas/saas/">Đăng ký & cài đặt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-login/">Đăng nhập, đăng xuất</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-QRcode/">Đăng nhập bằng QR code</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-DangNhapG/">Đăng nhập bằng G+</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-xac-thuc-hai-buoc/">Xác thực 2 bước</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Nhân sự</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/introduction/">Giới thiệu về phân hệ Quản lý nhân sự</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/initialization/">Thiết lập và khai báo ban đầu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/master-datas/">Khai báo danh mục</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/recruitment/">Tuyển dụng</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/employee/">Nhân viên</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/attendance/">Chấm công</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/payroll/">Tính lương</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/log-histories/">Lịch sử phát triển sản phẩm</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Kế toán - Dành cho doanh nghiệp</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../fin-introduction/">Giới thiệu về phân hệ Kế toán</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../fin-initialization/">Thiết lập và khai báo ban đầu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../fin-danh-muc-new/">Khai báo danh mục</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../fin-tien-TM/">Quản lý tiền - Tiền mặt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../fin-tien-NH/">Quản lý tiền - Tiền gửi</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../fin-mua-hang/">Mua hàng</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../fin-ban-hang/">Bán hàng</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../fin-hoa-don-dien-tu/">Hóa đơn</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../fin-ke-toan-tong-hop/">Tổng hợp</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../fin-kho/">Kho vận</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../fin-thue/">Thuế</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../fin-tscd/">Tài sản cố định</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../fin-ccdc/">Công cụ dụng cụ</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../fin-giathanh/">Giá thành</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">CRM</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#cau-hinh">Cấu Hình</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#loai-khach-hang">Loại Khách Hàng</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#nguon-hinh-thanh">Nguồn hình thành</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#loai-tiem-nang">Loại tiềm năng</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#nganh-nghe">Ngành nghề</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#so-nhan-vien">Số nhân viên</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#anh-gia">Đánh giá</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#cau-hinh-giai-oan">Cấu hình giai đoạn</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#ly-do-that-bai">Lý do thất bại</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#oi-ban-hang">Đội bán hàng</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#khach-hang">Khách hàng</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#khach-hang-tiem-nang">Khách hàng tiềm năng</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#them-moi-khach-hang">Thêm mới Khách hàng</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#tim-trung-khach-hang">Tìm trùng khách hàng</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#chia-se-khach-hang">Chia sẻ khách hàng</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#ban-giao-khach-hang">Bàn giao khách hàng</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#chuyen-oi-khach-hang-tiem-nang">Chuyển đổi khách hàng tiềm năng</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#khach-hang_1">Khách hàng</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#them-moi-khach-hang_1">Thêm mới Khách hàng</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#tim-trung-khach-hang_1">Tìm trùng khách hàng</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#chia-se-khach-hang_1">Chia sẻ khách hàng</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#ban-giao-khach-hang_1">Bàn giao khách hàng</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#lien-he">Liên hệ</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#maketing">Maketing</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#chien-dich">Chiến dịch</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#danh-sach-maketing">Danh sách Maketing</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#ban-hang">Bán hàng</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#co-hoi">Cơ hội</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#bao-gia">Báo giá</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#on-hang">Đơn hàng</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#cham-soc-khach-hang">Chăm sóc khách hàng</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#phan-hoi">Phản hồi</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#faqs">FAQS</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../fin-bao-cao/">Báo cáo</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../fin-log-histories/">Lịch sử phát triển sản phẩm</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Kế toán - Dành cho hộ, cá thể</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-introduction-88/">Giới thiệu về phân hệ Kế toán</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-initialization-88/">Thiết lập và khai báo ban đầu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-abbreviations-88/">Các thuật ngữ và từ viết tắt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-danh-muc-new-88/">Khai báo danh mục</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-tien-TM-88/">Quản lý tiền - Tiền mặt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-tien-NH-88/">Quản lý tiền - Tiền gửi</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-mua-hang-88/">Mua hàng</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-ban-hang-88/">Bán hàng</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-hoa-don-dien-tu-88/">Hóa đơn điện tử</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-ke-toan-tong-hop-88/">Kế toán</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-kho-88/">Kho vận</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-thue-88/">Thuế</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-bao-cao-88/">Báo cáo</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-log-histories-88/">Lịch sử phát triển sản phẩm</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Tài liệu</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../document/introduction/">Giới thiệu về ứng dụng Tài liệu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../document/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../document/initialization/">Thiết lập và khai báo ban đầu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../document/document/">Tài liệu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../document/Addon-Tailieu-mobile/">Quản lý tài liệu trên điện thoại</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Ký số</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../esign/introduction/">Giới thiệu về ứng dụng Ký số</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../esign/initialization/">Thiết lập và khai báo ban đầu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../esign/esign/">Ký số</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Digital workplace</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Gioi-thieu-digital-workplace/">Giới thiệu về phân hệ Digital workplace</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/dw-initialization/">Thiết lập và khai báo ban đầu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-Website/">Trang web</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-Social/">Mạng xã hội</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-project/">Dự án</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-khao-sat/">Khảo sát</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-ghi-chu/">Ghi chú</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-timesheet/">Timesheet</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-su-kien/">Sự kiện</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-bua-an/">Bữa ăn</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-PheDuyet-Web/">Phê duyệt trên web</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-meeting/">Cuộc họp trực tuyến</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-KPI/">Chỉ số đo lường KPI</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-OKR/">Chỉ số đo lường OKR</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">vESS Mobile</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Gioi-thieu-vess-mobile/">Giới thiệu về vESS mobile</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-initialization/">Thiết lập và khai báo ban đầu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-dang-nhap/">Đăng nhập</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon-phe-duyet/">Phê duyệt trên mobile</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon-ky-so/">Ký số</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon_BuaAn/">Bữa ăn</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon_DuAn/">Dự án</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon_Lich/">Lịch</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                  </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../release-notes/">Release Notes</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Hướng dẫn sử dụng hệ thống vESS</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>Kế toán - Dành cho doanh nghiệp &raquo;</li>
+      <li>CRM</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="crm">CRM</h1>
+<p>CRM giúp doanh nghiệp tương tác với khách hàng và xây dựng mối quan hệ lâu dài. Cho phép doanh nghiệp thu thập, phân tích, chỉnh sửa và lưu trữ thông tin về khách hàng tiềm năng và khách hàng hiện tại.</p>
+<p>Đồng thời, giúp doanh nghiệp tạo ra các chiến dịch tiếp thị phù hợp, nâng cao hiệu quả hoạt động và thúc đẩy doanh số.</p>
+<h2 id="cau-hinh"><strong>Cấu Hình</strong></h2>
+<p>Thực hiện hướng dẫn cách thức thực hiện về các Danh mục cần khai báo trên CRM. Việc khai báo các Danh mục có thể được thực hiện tại bất kỳ thời điểm nào tùy thuộc người sử dụng: có thể trước thời điểm nhập chứng từ hay thực hiện được ngay tại thời điểm nhập chứng từ.</p>
+<h3 id="loai-khach-hang"><strong><em>Loại Khách Hàng</em></strong></h3>
+<p><strong>Mục đích</strong></p>
+<p>Danh mục <strong>Loại khách hàng</strong> dùng để phân loại khách hàng theo từng nhóm chính.Các khách hàng được phân vào một nhóm nếu có chung tính chất hay đặc điểm nào đó.</p>
+<p>Chức năng Danh mục <strong>Loại khách hàng</strong> được quản lý tập trung tại phần <strong>Cấu hình</strong></p>
+<p><strong>Các bước thực hiện</strong></p>
+<p><strong>Bước 1:</strong> Vào <strong>Cấu hình</strong>: chọn <strong>Loại khách hàng</strong> và nhấn nút <strong>Tạo</strong></p>
+<p><img alt="" src="../images/CRM_Lo%E1%BA%A1i%20kh%C3%A1ch%20h%C3%A0ng_T%E1%BA%A1o.png" /></p>
+<p>Nhập thông tin <strong>Loại khách hàng</strong> được hiển thị để người dùng khai báo</p>
+<p><img alt="CRM_Loại khách hàng_Nhaplieu" src="../images/CRM_Lo%E1%BA%A1i%20kh%C3%A1ch%20h%C3%A0ng_Nhaplieu.png" /></p>
+<p><strong>Bước 3:</strong> Nhấn nút <strong>Lưu</strong></p>
+<h3 id="nguon-hinh-thanh"><strong><em>Nguồn hình thành</em></strong></h3>
+<p><strong>Mục đích</strong></p>
+<p>Danh mục <strong>Nguồn hình thành</strong> dùng để phân loại khách hàng được hình thành từ nguồn nào để thống kê, đánh giá và quản lý việc Maketing hiệu quả.</p>
+<p>Chức năng Danh mục <strong>Nguồn hình thành</strong> được quản lý tập trung tại phần <strong>Cấu hình</strong></p>
+<p><strong>Các bước thực hiện</strong></p>
+<p><strong>Bước 1:</strong> Vào <strong>Cấu hình</strong>: chọn <strong>Nguồn hình thành</strong> và nhấn nút <strong>Tạo</strong></p>
+<p><img alt="CRM_Nguồn hình thành_Tạo" src="../images/CRM_Ngu%E1%BB%93n%20h%C3%ACnh%20th%C3%A0nh_T%E1%BA%A1o.png" /></p>
+<p>Thông tin <strong>Nguồn hình thành</strong> được hiển thị để người dùng khai báo</p>
+<p><img alt="CRM_Nguồn hình thành_Nhaplieu" src="../images/CRM_Ngu%E1%BB%93n%20h%C3%ACnh%20th%C3%A0nh_Nhaplieu.png" /></p>
+<ul>
+<li><strong>Nguồn</strong>: Nhập các Nguồn hình thành</li>
+<li><strong>Có hiệu lực</strong>: Mặc định bằng True</li>
+</ul>
+<p><strong>Bước 3:</strong> Nhấn nút <strong>Lưu</strong></p>
+<h3 id="loai-tiem-nang"><strong><em>Loại tiềm năng</em></strong></h3>
+<p><strong>Mục đích</strong></p>
+<p>Danh mục <strong>Loại tiềm năng</strong> dùng để phân loại, đánh giá các khách hàng tiềm năng để đạt hiệu quả trong Maketing.</p>
+<p>Chức năng Danh mục <strong>Loại tiềm năng</strong> được quản lý tập trung tại phần <strong>Cấu hình</strong></p>
+<p><strong>Các bước thực hiện</strong></p>
+<p><strong>Bước 1:</strong> Vào <strong>Cấu hình</strong>: chọn <strong>Loại tiềm năng</strong> và nhấn nút <strong>Tạo</strong></p>
+<p><img alt="CRM_Loại tiềm năng_Tạo" src="../images/CRM_Lo%E1%BA%A1i%20ti%E1%BB%81m%20n%C4%83ng_T%E1%BA%A1o.png" /></p>
+<p>Thông tin <strong>Loại tiềm năng</strong> được hiển thị để người dùng khai báo</p>
+<p><img alt="" src="../images/CRM_Lo%E1%BA%A1i%20ti%E1%BB%81m%20n%C4%83ng_nhaplieu.png" /></p>
+<ul>
+<li><strong>Loại tiềm năng</strong>: Nhập thông tin Loại tiềm năng </li>
+<li><strong>Có hiệu lực</strong>: Mặc định bằng True</li>
+</ul>
+<p><strong>Bước 3:</strong> Nhấn nút <strong>Lưu</strong></p>
+<h3 id="nganh-nghe"><strong><em>Ngành nghề</em></strong></h3>
+<p><strong>Mục đích</strong></p>
+<p>Danh mục <strong>Ngành nghề</strong> dùng nhóm và phân loại ngành nghề của khách hàng tiềm năng để đạt hiệu quả trong Maketing.</p>
+<p>Chức năng Danh mục <strong>Ngành nghề</strong> được quản lý tập trung tại phần <strong>Cấu hình</strong></p>
+<p><strong>Các bước thực hiện</strong></p>
+<p><strong>Bước 1:</strong> Vào <strong>Cấu hình</strong>: chọn <strong>Ngành nghề</strong> và nhấn nút <strong>Tạo</strong></p>
+<p><img alt="CRM_Ngành nghề_Tạo" src="../images/CRM_Ng%C3%A0nh%20ngh%E1%BB%81_T%E1%BA%A1o.png" /></p>
+<p>Thông tin <strong>Ngành nghề</strong> được hiển thị để người dùng khai báo</p>
+<p><img alt="" src="../images/CRM_Ng%C3%A0nh%20ngh%E1%BB%81_Nhaplieu.png" /></p>
+<p>Người dùng khai báo <strong>Tên ngành nghề</strong></p>
+<p><strong>Bước 3:</strong> Nhấn nút <strong>Lưu</strong></p>
+<h3 id="so-nhan-vien"><strong><em>Số nhân viên</em></strong></h3>
+<p><strong>Mục đích</strong></p>
+<p>Danh mục <strong>Số nhân viên</strong> dùng nhóm và phân loại mô hình công ty của khách hàng doanh nghiệp để đạt hiệu quả trong Maketing.</p>
+<p>Chức năng Danh mục <strong>Số nhân viên</strong> được quản lý tập trung tại phần <strong>Cấu hình</strong></p>
+<p><strong>Các bước thực hiện</strong></p>
+<p><strong>Bước 1:</strong> Vào <strong>Cấu hình</strong>: chọn <strong>Số nhân viên</strong> và nhấn nút <strong>Tạo</strong></p>
+<p><img alt="CRM_Số nhân viên_Tạo" src="../images/CRM_S%E1%BB%91%20nh%C3%A2n%20vi%C3%AAn_T%E1%BA%A1o.png" /></p>
+<p>Thông tin <strong>Số nhân viên</strong> được hiển thị để người dùng khai báo</p>
+<p><img alt="CRM_Số nhân viên_Nhaplieu" src="../images/CRM_S%E1%BB%91%20nh%C3%A2n%20vi%C3%AAn_Nhaplieu.png" /></p>
+<p>Người dùng khai báo <strong>Số nhân viên</strong></p>
+<p><strong>Bước 3:</strong> Nhấn nút <strong>Lưu</strong></p>
+<h3 id="anh-gia"><strong><em>Đánh giá</em></strong></h3>
+<p><strong>Mục đích</strong></p>
+<p>Danh mục <strong>Đánh giá</strong> dùng nhóm và phân loại tiềm năng khách hàng.</p>
+<p>Chức năng Danh mục <strong>Đánh giá</strong> được quản lý tập trung tại phần <strong>Cấu hình</strong></p>
+<p><strong>Các bước thực hiện</strong></p>
+<p><strong>Bước 1:</strong> Vào <strong>Cấu hình</strong>: chọn <strong>Đánh giá</strong> và nhấn nút <strong>Tạo</strong></p>
+<p><img alt="CRM_Đánh giá_Tạo" src="../images/CRM_%C4%90%C3%A1nh%20gi%C3%A1_T%E1%BA%A1o.png" /></p>
+<p>Thông tin <strong>Số nhân viên</strong> được hiển thị để người dùng khai báo</p>
+<p><img alt="CRM_Đánh giá_Nhaplieu" src="../images/CRM_%C4%90%C3%A1nh%20gi%C3%A1_Nhaplieu.png" /></p>
+<p>Người dùng khai báo thông tin <strong>Đánh giá</strong></p>
+<p><strong>Bước 3:</strong> Nhấn nút <strong>Lưu</strong></p>
+<h3 id="cau-hinh-giai-oan"><strong><em>Cấu hình giai đoạn</em></strong></h3>
+<p><strong>Mục đích</strong></p>
+<p>Danh mục <strong>Cấu hình giai đoạn</strong> giúp người dùng xây dựng quy trình quản lý bán hàng. </p>
+<p>Chức năng Danh mục <strong>Cấu hình giai đoạn</strong> được quản lý tập trung tại phần <strong>Cấu hình</strong></p>
+<p><strong>Các bước thực hiện</strong></p>
+<p><strong>Bước 1:</strong> Vào <strong>Cấu hình</strong>: chọn <strong>Cấu hình giai đoạn</strong> và nhấn nút <strong>Tạo</strong></p>
+<p><img alt="CRM_Cấu hình giai đoạn_Tạo" src="../images/CRM_C%E1%BA%A5u%20h%C3%ACnh%20giai%20%C4%91o%E1%BA%A1n_T%E1%BA%A1o.png" /></p>
+<p>Thông tin <strong>Cấu hình giai đoạn</strong> được hiển thị để người dùng khai báo</p>
+<p><img alt="CRM_Cấu hình giai đoạn_NHAPLIEU" src="../images/CRM_C%E1%BA%A5u%20h%C3%ACnh%20giai%20%C4%91o%E1%BA%A1n_NHAPLIEU.png" /></p>
+<p>Người dùng khai báo thông tin <strong>Cấu hình giai đoạn</strong> và <strong>Trình tự</strong></p>
+<p><strong>Bước 3:</strong> Nhấn nút <strong>Lưu</strong></p>
+<h3 id="ly-do-that-bai"><strong><em>Lý do thất bại</em></strong></h3>
+<p><strong>Mục đích</strong></p>
+<p>Danh mục <strong>Lý do thất bại</strong> giúp người dùng có thể gom nhóm và phân tích lý do thất bại để có thể phục vụ cho công tác Maketing và bán hàng hiệu quả.</p>
+<p>Chức năng Danh mục <strong>Lý do thất bại</strong> được quản lý tập trung tại phần <strong>Cấu hình</strong></p>
+<p><strong>Các bước thực hiện</strong></p>
+<p><strong>Bước 1:</strong> Vào <strong>Cấu hình</strong>: chọn <strong>Lý do thất bại</strong> và nhấn nút <strong>Tạo</strong></p>
+<p><img alt="CRM_Lý do thất bại_Tạo" src="../images/CRM_L%C3%BD%20do%20th%E1%BA%A5t%20b%E1%BA%A1i_T%E1%BA%A1o.png" /></p>
+<p>Thông tin <strong>Cấu hình giai đoạn</strong> được hiển thị để người dùng khai báo</p>
+<p><img alt="CRM_Lý do thất bại_Khai báo" src="../images/CRM_L%C3%BD%20do%20th%E1%BA%A5t%20b%E1%BA%A1i_Khai%20b%C3%A1o.png" /></p>
+<p>Người dùng khai báo thông tin <strong>Lý do thất bại</strong></p>
+<p><strong>Bước 3:</strong> Nhấn nút <strong>Lưu</strong></p>
+<h3 id="oi-ban-hang"><strong><em>Đội bán hàng</em></strong></h3>
+<p><strong>Mục đích</strong></p>
+<p>Danh mục <strong>Đội bán hàng</strong> quản lý, xây dựng đội ngũ bán hàng để đạt hiệu quả trong Makting và Bán hàng</p>
+<p>Chức năng Danh mục <strong>Đội bán hàng</strong> được quản lý tập trung tại phần <strong>Cấu hình</strong></p>
+<p><strong>Các bước thực hiện</strong></p>
+<p><strong>Bước 1:</strong> Vào <strong>Cấu hình</strong>: chọn <strong>Đội bán hàng</strong> và nhấn nút <strong>Tạo</strong></p>
+<p><img alt="CRM_Đội bán hàng_Tạo" src="../images/CRM_%C4%90%E1%BB%99i%20b%C3%A1n%20h%C3%A0ng_T%E1%BA%A1o.png" /></p>
+<p>Thông tin <strong>Đội bán hàng</strong> được hiển thị để người dùng khai báo</p>
+<p><img alt="CRM_Đội bán hàng_Nhaplieu" src="../images/CRM_%C4%90%E1%BB%99i%20b%C3%A1n%20h%C3%A0ng_Nhaplieu.png" /></p>
+<ul>
+<li><strong>Tên nhóm bán hàng</strong>: Nhập tên nhóm</li>
+<li><strong>Trưởng nhóm</strong>: Nhập Trưởng nhóm bán hàng</li>
+<li><strong>Mục tiêu hóa đơn</strong>: Doanh số mục tiêu của nhóm bán hàng</li>
+<li><strong>Các thành viên trong đội</strong>: Nhấn Thêm để thực hiện bổ sung các thành viên trong Đội ngũ bán hàng</li>
+</ul>
+<p><strong>Bước 3:</strong> Nhấn nút <strong>Lưu</strong>    </p>
+<h2 id="khach-hang">Khách hàng</h2>
+<h3 id="khach-hang-tiem-nang"><strong>Khách hàng tiềm năng</strong></h3>
+<p><strong>Mục đích</strong></p>
+<p>Khách hàng tiềm năng là nơi lưu trữ những thông tin chi tiết về một cá nhân hoặc đại diện của một tổ chức được thu thập từ nhiều nguồn khác nhau như quảng cáo, chiến dịch tiếp thị, nhân viên kinh doanh tự tìm kiếm,.. để tiến hành chăm sóc, đẩy nhanh quy trình bán hàng.</p>
+<p>Chức năng <strong>Khách hàng tiềm năng</strong> được quản lý tập trung tại phần <strong>Khách hàng</strong> của Phân hệ <strong>CRM</strong></p>
+<p><strong>Xem video hướng dẫn</strong></p>
+<p><iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Khách hàng" 
+    src="https://www.youtube.com/embed/cSwz5yt6eGc"
+></iframe>
+</p>
+<p><strong>Hướng dẫn trên phần mềm</strong></p>
+<h4 id="them-moi-khach-hang">Thêm mới Khách hàng</h4>
+<p><strong>Bước 1</strong>: Vào <strong>Khách hàng</strong> &gt;&gt; <strong>Khách hàng tiềm năng</strong> &gt;&gt; Nhấn <strong>Tạo</strong> để thêm mới khách hàng tiềm năng</p>
+<p><img alt="CRM_Khách hàng tiềm năng_Tạo" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng%20ti%E1%BB%81m%20n%C4%83ng_T%E1%BA%A1o.png" /></p>
+<p><strong>Bước 2</strong>: Thực hiện khai báo Thông tin chung Khách hàng tiềm năng</p>
+<p><img alt="CRM_Khách hàng tiềm năng_Nhaplieu" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng%20ti%E1%BB%81m%20n%C4%83ng_Nhaplieu.png" /></p>
+<ul>
+<li>
+<p>Nếu khách hàng là một cá nhân thực hiện chọn <strong>Cá nhân</strong> nếu khách hàng là một công ty, thực hiện chọn <strong>Công ty</strong></p>
+</li>
+<li>
+<p>Nhập tên khách hàng hoặc tên công ty</p>
+</li>
+<li>
+<p>Chọn công ty nếu khách hàng  thuộc một công ty bên ngoài</p>
+</li>
+<li>
+<p>Chọn kiểu đối tượng bổ sung nếu khách hàng đó vừa là khách hàng hoặc vừa là nhà cung cấp</p>
+</li>
+<li>
+<p>Nhập địa chỉ, mã số thuế. Nếu chọn <strong>Công ty</strong> thì địa chỉ và mã số thuế  mặc định bằng  địa chỉ, mã số thuế của công ty đã chọn</p>
+</li>
+<li>
+<p>Nhập thông tin chức vụ, số điện thoại, số di động , email, website, xưng hô</p>
+</li>
+<li>
+<p>Thay đổi ảnh đại diện của khách hàng bằng cách nhấn nút <img src="images/fin_danhmuc_nv_anh.png" style="zoom:50%;" /> và lựa chọn ảnh đại diện mong muốn</p>
+</li>
+<li>
+<p>Có thể bổ sung thêm địa chỉ liên lạc của khách hàng bằng cách vào nhóm <strong>Các liên lạc &amp; địa chỉ</strong>, thêm mới địa chỉ</p>
+</li>
+</ul>
+<p><img alt="CRM_Khách hàng tiềm năng_Themlienhe" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng%20ti%E1%BB%81m%20n%C4%83ng_Themlienhe.png" /></p>
+<p><strong>Bước 3:</strong> Nhập đủ thông tin cần thiết:</p>
+<p><img alt="" src="../images/fin_danhmuc_kh_them.png" /></p>
+<ul>
+<li>
+<p>Nếu khách hàng là một cá nhân thực hiện chọn <strong>Cá nhân</strong> nếu khách hàng là một công ty, thực hiện chọn <strong>Công ty</strong></p>
+</li>
+<li>
+<p>Nhập tên khách hàng hoặc tên công ty</p>
+</li>
+<li>
+<p>Chọn công ty nếu khách hàng  thuộc một công ty bên ngoài</p>
+</li>
+<li>
+<p>Chọn kiểu đối tượng bổ sung nếu khách hàng đó vừa là khách hàng hoặc vừa là nhà cung cấp</p>
+</li>
+<li>
+<p>Nhập địa chỉ, mã số thuế. Nếu chọn <strong>Công ty</strong> thì địa chỉ và mã số thuế  mặc định bằng  địa chỉ, mã số thuế của công ty đã chọn</p>
+</li>
+<li>
+<p>Nhập thông tin chức vụ, số điện thoại, số di động , email, website, xưng hô</p>
+</li>
+<li>
+<p>Thay đổi ảnh đại diện của khách hàng bằng cách nhấn nút <img src="images/fin_danhmuc_nv_anh.png" style="zoom:50%;" /> và lựa chọn ảnh đại diện mong muốn</p>
+</li>
+<li>
+<p>Có thể bổ sung thêm địa chỉ liên lạc của khách hàng bằng cách vào nhóm <strong>Các liên lạc &amp; địa chỉ</strong>, thêm mới địa chỉ</p>
+</li>
+</ul>
+<p><img alt="CRM_Khách hàng tiềm năng_Themlienhe" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng%20ti%E1%BB%81m%20n%C4%83ng_Themlienhe.png" /></p>
+<p>Một cửa sổ mới hiện ra, nhập đủ thông tin địa chỉ và chọn <strong>Lưu</strong></p>
+<p><img alt="CRM_Khách hàng tiềm năng_Themlienhe_1" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng%20ti%E1%BB%81m%20n%C4%83ng_Themlienhe_1.png" /></p>
+<p><strong>Tab sản phẩm</strong>: Nội dung khai báo tại <strong>Sản phẩm</strong>:  Tại <strong>Sản phẩm</strong> nhấn <strong>Thêm một dòng</strong></p>
+<p><img alt="CRM_Khách hàng tiềm năng_Sản phẩm_Them" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng%20ti%E1%BB%81m%20n%C4%83ng_S%E1%BA%A3n%20ph%E1%BA%A9m_Them.png" /></p>
+<p>Thực hiện nhập các thông tin:</p>
+<ul>
+<li>Sản phẩm: Chọn Sản phẩm dự định sẽ giới thiệu và bán cho khách hàng</li>
+<li>Tài khoản: Mặc định bằng tài khoản chi phí được cấu hình theo sản phẩm</li>
+<li>Số lượng: Nhập số lượng dự kiến bán cho khách hàng theo sản phẩm</li>
+<li>Chiết khấu: Nhập % chiết khấu cho khách hàng theo sản phẩm</li>
+</ul>
+<p><img alt="CRM_Khách hàng tiềm năng_Sản phẩm_Nhaplieu" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng%20ti%E1%BB%81m%20n%C4%83ng_S%E1%BA%A3n%20ph%E1%BA%A9m_Nhaplieu.png" /></p>
+<p><strong>Danh sách Maketing</strong>: Tại tab <strong>Danh sách maketing</strong> nhấn <strong>Thêm một dòng</strong></p>
+<p><img alt="CRM_Khách hàng tiềm năng_Danhsachmaketing_Them" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng%20ti%E1%BB%81m%20n%C4%83ng_Danhsachmaketing_Them.png" /></p>
+<ul>
+<li>Hệ thống hiển thị Popup có chứa Danh sách Maketing &gt;&gt; Tích chọn Maketing áp dụng cho khách hàng &gt;&gt; Nhấn <strong>Chọn</strong> để lưu Danh sách Maketing </li>
+</ul>
+<p><img alt="CRM_Khách hàng tiềm năng_Danhsachmaketing_Nhaplieu" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng%20ti%E1%BB%81m%20n%C4%83ng_Danhsachmaketing_Nhaplieu.png" /></p>
+<p>Bước 4: Nhấn <strong>Lưu</strong> để Lưu lại thông tin nhân viên đã nhập</p>
+<h4 id="tim-trung-khach-hang">Tìm trùng khách hàng</h4>
+<p>Bước 1: Vào <strong>Hành động</strong> &gt;&gt; Nhấn <strong>Tìm trùng</strong></p>
+<p><img alt="CRM_Khách hàng tiềm năng_Tìm trùng" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng%20ti%E1%BB%81m%20n%C4%83ng_T%C3%ACm%20tr%C3%B9ng.png" /></p>
+<p>Bước 2: Chọn <strong>Điều kiện tìm trùng</strong> &gt;&gt; Nhấn <strong>Tìm kiếm</strong></p>
+<p><img alt="CRM_Khách hàng tiềm năng_Tìm trùng_1" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng%20ti%E1%BB%81m%20n%C4%83ng_T%C3%ACm%20tr%C3%B9ng_1.png" /></p>
+<p>Bước 3: Nếu có bản ghi trùng nhau và muốn Gộp thành 1 thì tích chọn chứng từ và nhấn <strong>Gộp</strong></p>
+<p><img alt="CRM_Khách hàng tiềm năng_Tìm trùng_2" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng%20ti%E1%BB%81m%20n%C4%83ng_T%C3%ACm%20tr%C3%B9ng_2.png" /></p>
+<p>Bước 4: Tích chọn giá trị các trường thông tin muốn giữ &gt;&gt; Nhấn <strong>Gộp</strong></p>
+<p><img alt="CRM_Khách hàng tiềm năng_Tìm trùng_3" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng%20ti%E1%BB%81m%20n%C4%83ng_T%C3%ACm%20tr%C3%B9ng_3.png" /></p>
+<h4 id="chia-se-khach-hang">Chia sẻ khách hàng</h4>
+<p>Bước 1: Vào <strong>Hành động</strong> &gt;&gt; Nhấn <strong>Chia sẻ</strong></p>
+<p><img alt="CRM_Khách hàng tiềm năng_Chia sẻ" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng%20ti%E1%BB%81m%20n%C4%83ng_Chia%20s%E1%BA%BB.png" /></p>
+<p>Bước 2: Thực hiện khai báo <strong>Đội ngũ bán hàng</strong>, <strong>Nhân viên</strong>, <strong>Quyền sửa</strong>, <strong>Quyền Xóa</strong> &gt;&gt; Nhấn <strong>Lưu</strong> </p>
+<p><img alt="CRM_Khách hàng tiềm năng_Chia sẻ_1" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng%20ti%E1%BB%81m%20n%C4%83ng_Chia%20s%E1%BA%BB_1.png" /></p>
+<p>Sau khi <strong>Lưu</strong> hệ thống sẽ hiển thị phân quyền tại tab <strong>Thông tin quản lý</strong></p>
+<p><img alt="CRM_Khách hàng tiềm năng_Chia sẻ_2" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng%20ti%E1%BB%81m%20n%C4%83ng_Chia%20s%E1%BA%BB_2.png" /></p>
+<h4 id="ban-giao-khach-hang">Bàn giao khách hàng</h4>
+<p>Bước 1: Vào <strong>Hành động</strong>, Nhấn <strong>Bàn giao</strong></p>
+<p><img alt="CRM_Khách hàng tiềm năng_Bàn giao" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng%20ti%E1%BB%81m%20n%C4%83ng_B%C3%A0n%20giao.png" /></p>
+<p>Bước 2: Chọn <strong>Đội ngũ bán hàng</strong>, <strong>Nhân viên</strong> nhận bàn giao &gt;&gt; Nhấn <strong>Bàn giao</strong></p>
+<p><img alt="CRM_Khách hàng tiềm năng_Bàn giao_1" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng%20ti%E1%BB%81m%20n%C4%83ng_B%C3%A0n%20giao_1.png" /></p>
+<h4 id="chuyen-oi-khach-hang-tiem-nang">Chuyển đổi khách hàng tiềm năng</h4>
+<p>Bước 1: Vào <strong>Hành động</strong>, Nhấn <strong>Chuyển đổi khách hàng tiềm năng</strong></p>
+<p><img alt="CRM_Khách hàng tiềm năng_Chuyển đổi" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng%20ti%E1%BB%81m%20n%C4%83ng_Chuy%E1%BB%83n%20%C4%91%E1%BB%95i.png" /></p>
+<p>Bước 2: Chọn chuyển đổi sang <strong>Khách hàng</strong> hoặc <strong>Cơ hội</strong> &gt;&gt; Nhấn <strong>Chuyển đổi</strong></p>
+<p><img alt="CRM_Khách hàng tiềm năng_Chuyển đổi_1" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng%20ti%E1%BB%81m%20n%C4%83ng_Chuy%E1%BB%83n%20%C4%91%E1%BB%95i_1.png" /></p>
+<h3 id="khach-hang_1">Khách hàng</h3>
+<p><strong>Mục đích</strong></p>
+<p>Quản lý Khách hàng là các tổ chức cá nhân, doanh nghiệp để thực hiện chăm sóc và maketing bán hàng.</p>
+<p><strong>Xem video hướng dẫn</strong></p>
+<p><strong>Hướng dẫn trên phần mềm</strong></p>
+<p><iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Khách hàng" 
+    src="https://www.youtube.com/embed/TXbTLHqwAC4"
+></iframe>
+</p>
+<h4 id="them-moi-khach-hang_1">Thêm mới Khách hàng</h4>
+<p>Bước 1: Vào <strong>Khách hàng</strong> &gt;&gt; Nhấn <strong>Khách hàng</strong> &gt;&gt; Nhấn <strong>Tạo</strong> để tạo mới khách hàng</p>
+<p><img alt="CRM_Khách hàng_Tao" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng_Tao.png" /></p>
+<p>Bước 2: Khai báo thông tin khách hàng</p>
+<p><img alt="CRM_Khách hàng_Nhaplieu" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng_Nhaplieu.png" /></p>
+<ul>
+<li>
+<p>Nếu khách hàng là một cá nhân thực hiện chọn <strong>Cá nhân</strong> nếu khách hàng là một công ty, thực hiện chọn <strong>Công ty</strong></p>
+</li>
+<li>
+<p>Nhập tên khách hàng hoặc tên công ty</p>
+</li>
+<li>
+<p>Chọn công ty nếu khách hàng  thuộc một công ty bên ngoài</p>
+</li>
+<li>
+<p>Chọn kiểu đối tượng bổ sung nếu khách hàng đó vừa là khách hàng hoặc vừa là nhà cung cấp</p>
+</li>
+<li>
+<p>Nhập địa chỉ, mã số thuế. Nếu chọn <strong>Công ty</strong> thì địa chỉ và mã số thuế  mặc định bằng  địa chỉ, mã số thuế của công ty đã chọn</p>
+</li>
+<li>
+<p>Nhập thông tin chức vụ, số điện thoại, số di động , email, website, xưng hô</p>
+</li>
+<li>
+<p>Thay đổi ảnh đại diện của khách hàng bằng cách nhấn nút <img src="images/fin_danhmuc_nv_anh.png" style="zoom:50%;" /> và lựa chọn ảnh đại diện mong muốn</p>
+</li>
+<li>
+<p>Có thể bổ sung thêm địa chỉ liên lạc của khách hàng bằng cách vào nhóm <strong>Các liên lạc &amp; địa chỉ</strong>, thêm mới địa chỉ</p>
+</li>
+</ul>
+<p><img alt="CRM_Khách hàng_Lienhe1" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng_Lienhe1.png" /></p>
+<p>Thực hiện khai báo Địa chỉ và Liên hệ &gt;&gt; Nhấn Lưu &amp; Đóng sau khi khai báo</p>
+<p><img alt="CRM_Khách hàng_Lienhe2" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng_Lienhe2.png" /></p>
+<p>Bước 3: Nhấn <strong>Lưu</strong> để lưu thông tin đã khai báo</p>
+<p><img alt="CRM_Khách hàng_Lưu" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng_L%C6%B0u.png" /></p>
+<h4 id="tim-trung-khach-hang_1">Tìm trùng khách hàng</h4>
+<p>Bước 1: Vào <strong>Hành động</strong> &gt;&gt; Nhấn <strong>Tìm trùng</strong></p>
+<p><img alt="CRM_Khách hàng_Timtrung" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng_Timtrung.png" /></p>
+<p>Bước 2: Nhập <strong>Điều kiện tìm trùng</strong> &gt;&gt; Nhấn <strong>Tìm kiếm</strong></p>
+<p><img alt="CRM_Khách hàng_Timtrung1" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng_Timtrung1.png" /></p>
+<p>Hệ thống sẽ thông báo nếu không có bản ghi nào trùng theo điều kiện tìm trùng đã nhập</p>
+<p><img alt="CRM_Khách hàng_Timtrung2" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng_Timtrung2.png" /></p>
+<h4 id="chia-se-khach-hang_1">Chia sẻ khách hàng</h4>
+<p>Bước 1: Vào <strong>Hành động</strong> &gt;&gt; Nhấn <strong>Chia sẻ</strong></p>
+<p><img alt="CRM_Khách hàng_Chiase" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng_Chiase.png" /></p>
+<p>Bước 2: Nhập <strong>Đội ngũ bán hàng</strong>, <strong>Nhân viên</strong> nhận bàn giao và phân <strong>quyền sửa</strong> hoặc <strong>quyền xem</strong> tương ứng</p>
+<p><img alt="CRM_Khách hàng_Chiase1" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng_Chiase1.png" /></p>
+<p>Bước 3: Nhấn <strong>Lưu</strong></p>
+<h4 id="ban-giao-khach-hang_1">Bàn giao khách hàng</h4>
+<p>Bước 1: Vào <strong>Hành động</strong> &gt;&gt; Nhấn <strong>Bàn giao</strong></p>
+<p><img alt="CRM_Khách hàng_Bangiao1" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng_Bangiao1.png" /></p>
+<p>Bước 2: Chọn <strong>Đội ngũ bán hàng</strong> và <strong>Nhân viên</strong> nhận bàn giao</p>
+<p><img alt="CRM_Khách hàng_Bangiao" src="../images/CRM_Kh%C3%A1ch%20h%C3%A0ng_Bangiao.png" /></p>
+<p>Bước 3: Nhấn <strong>Bàn giao</strong></p>
+<h3 id="lien-he">Liên hệ</h3>
+<p><strong>Mục đích</strong>: Quản lý thông tin liên hệ của khách hàng, khách hàng tiềm năng để phục vụ cho việc chăm sóc khách hàng, maketing, bán hàng</p>
+<p><strong>Xem video hướng dẫn</strong></p>
+<p><iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Khách hàng" 
+    src="https://www.youtube.com/embed/R5vytHs2jAg"
+></iframe>
+</p>
+<p>Bước 1: Vào <strong>Khách hàng</strong>, Nhấn <strong>Liên hệ,</strong> Nhấn <strong>Tạo</strong> để thêm mới thông tin liên hệ</p>
+<p><img alt="CRM_Liên hệ_Tao" src="../images/CRM_Li%C3%AAn%20h%E1%BB%87_Tao.png" /></p>
+<p>Bước 2: Nhập các thông tin liên hệ</p>
+<p><img alt="CRM_Liên hệ_Nhap lieu" src="../images/CRM_Li%C3%AAn%20h%E1%BB%87_Nhap%20lieu.png" /></p>
+<ul>
+<li>Họ và Tên: Nhập Họ tên người liên hệ</li>
+<li>Công ty: Chọn công ty của người liên hệ</li>
+<li>Giới tính: Chọn giới Tính của người Liên hệ</li>
+<li>Chức vụ: Nhập chức vụ của người liên hệ</li>
+<li>Địa chỉ / Email: Nhập địa chỉ và Email của người liên hệ</li>
+<li>Nếu người liên hệ dùng chung cho tất cả đội ngũ bán hàng và nhân viên kinh doanh thì tại Tab <strong>Quản lý</strong> chọn <strong>Dùng chung</strong> = True</li>
+</ul>
+<p>Bước 3: Nhấn <strong>Lưu</strong> để lưu thông tin liên hệ</p>
+<h2 id="maketing">Maketing</h2>
+<h3 id="chien-dich">Chiến dịch</h3>
+<p><strong>Mục đích</strong>: Quản lý các kế hoạch tổng thể để tiếp cận khách hàng giới thiệu về sản phẩm và quảng cáo thương hiệu của doanh nghiệp theo từng chiến dịch</p>
+<p><strong>Xem video hướng dẫn</strong>: </p>
+<p><iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Khách hàng" 
+    src="https://www.youtube.com/embed/iwV8tIPXCpk"
+></iframe>
+</p>
+<p><strong>Hướng dẫn trên phần mềm</strong></p>
+<p>Bước 1: Nhấn <strong>Maketing</strong>, Nhấn <strong>Chiến Dịch</strong>, Nhấn <strong>Tạo</strong> để tạo mới chiến dịch</p>
+<p><img alt="CRM_Chiến dịch_Tao" src="../images/CRM_Chi%E1%BA%BFn%20d%E1%BB%8Bch_Tao.png" /></p>
+<p>Bước 2: Nhập thông tin chiến dịch</p>
+<p><img alt="CRM_Chiến dịch_nhaplieu" src="../images/CRM_Chi%E1%BA%BFn%20d%E1%BB%8Bch_nhaplieu.png" /></p>
+<ul>
+<li>Tên chiến dịch : Nhập Tên của chiến dịch</li>
+<li>Loại: Chọn Mạng xã hội hoặc Mặc định</li>
+<li>Ngày bắt đầu....đến: Chọn thời gian thực hiện chiến dịch</li>
+<li>Nội dung: Nhập nội dung hoặc mô tả cho chiến dịch</li>
+</ul>
+<p>Bước 3: Khai báo Tab Thông tin chiến dịch</p>
+<p>Tại Tab Thông tin chiến dịch nhấn <strong>Thêm một dòng</strong></p>
+<p><img alt="CRM_Chiến dịch_Thông tin chiến dịch" src="../images/CRM_Chi%E1%BA%BFn%20d%E1%BB%8Bch_Th%C3%B4ng%20tin%20chi%E1%BA%BFn%20d%E1%BB%8Bch.png" /></p>
+<p>Chọn người phụ trách chiến dịch &gt;&gt; Nhấn <strong>Chọn</strong> để lưu người phụ trách chiến dịch vào Tab Thông tin chiến dịch</p>
+<p><img alt="CRM_Chiến dịch_Thông tin chiến dịch1" src="../images/CRM_Chi%E1%BA%BFn%20d%E1%BB%8Bch_Th%C3%B4ng%20tin%20chi%E1%BA%BFn%20d%E1%BB%8Bch1.png" /></p>
+<p>Bước 4: Tại Danh sách Maketing, Nhấn Thêm một dòng</p>
+<p><img alt="CRM_Chiến dịch_DanhsachMaketing" src="../images/CRM_Chi%E1%BA%BFn%20d%E1%BB%8Bch_DanhsachMaketing.png" /></p>
+<p>Thực hiện tích chọn Danh sách Maketing, Nhấn <strong>Chọn</strong> để lưu danh sách</p>
+<p><img alt="CRM_Chiến dịch_DanhsachMaketing1" src="../images/CRM_Chi%E1%BA%BFn%20d%E1%BB%8Bch_DanhsachMaketing1.png" /></p>
+<p>Bước 5: Tại <strong>Phương pháp tiếp cận</strong>  nhấn <strong>Thêm một dòng</strong> &gt;&gt; Thực hiện nhập <strong>Phương pháp</strong> để tiếp cận khách hàng</p>
+<p><img alt="CRM_Chiến dịch_PP tiếp cận" src="../images/CRM_Chi%E1%BA%BFn%20d%E1%BB%8Bch_PP%20ti%E1%BA%BFp%20c%E1%BA%ADn.png" /></p>
+<p>Bước 6: Nhấn <strong>Lưu</strong> để lưu thông tin chiến dịch đã khai báo</p>
+<p><img alt="CRM_Chiến dịch_Lưu" src="../images/CRM_Chi%E1%BA%BFn%20d%E1%BB%8Bch_L%C6%B0u.png" /></p>
+<p>Bước 7: Nhấn <strong>Bắt đầu</strong> để chuyển trạng thái chiến dịch sang <strong>Đang thực hiện</strong></p>
+<p>Bước 8: Nhấn <strong>Kết thúc</strong> để hoàn thành chiến dịch</p>
+<h3 id="danh-sach-maketing">Danh sách Maketing</h3>
+<p><strong>Mục đích</strong>: Quản lý các thông tin như: Khách hàng, Liên hệ, Khách hàng tiềm năng, Chiến dịch theo từng danh sách maketing</p>
+<p><strong>Xem video hướng dẫn</strong></p>
+<p><iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Khách hàng" 
+    src="https://www.youtube.com/embed/lHt22aUq36k"
+></iframe>
+</p>
+<p><strong>Hướng dẫn trên phần mềm</strong></p>
+<p>Bước 1: Vào <strong>Maketing</strong>, Nhấn <strong>Danh sách Maketing</strong>, Nhấn <strong>Tạo</strong></p>
+<p><img alt="CRM_DanhsachMaketing_Tao" src="../images/CRM_DanhsachMaketing_Tao.png" /></p>
+<p>Bước 2: Khai báo Danh sách Maketing</p>
+<p><img alt="CRM_DanhsachMaketing_Khaibao" src="../images/CRM_DanhsachMaketing_Khaibao.png" /></p>
+<ul>
+<li><strong>Tên danh sách Maketing</strong>: Nhập tên danh sách</li>
+<li><strong>Người phụ trách</strong>: Người phụ trách danh sách Maketing</li>
+<li><strong>Loại</strong>: Mặc định hoặc Mạng xã hội</li>
+</ul>
+<p>Bước 3: Tại Tab <strong>Khách hàng</strong>, Nhấn <strong>Thêm một dòng</strong></p>
+<p><img alt="CRM_DanhsachMaketing_Khachhang" src="../images/CRM_DanhsachMaketing_Khachhang.png" /></p>
+<p>Tích chọn khách hàng muốn thêm vào danh sách, nhấn <strong>Chọn</strong> để lưu các khách hàng đã chọn</p>
+<p><img alt="CRM_DanhsachMaketing_Khachhang1" src="../images/CRM_DanhsachMaketing_Khachhang1.png" /></p>
+<p>Bước 4: Tại Tab <strong>Khách hàng tiềm năng</strong>, nhấn <strong>Thêm một dòng</strong></p>
+<p><img alt="CRM_DanhsachMaketing_Khachhangtiemnang" src="../images/CRM_DanhsachMaketing_Khachhangtiemnang.png" /></p>
+<p>Tích chọn khách hàng muốn thêm vào danh sách, nhấn <strong>Chọn</strong> để lưu các khách hàng tiềm năng đã chọn</p>
+<p><img alt="CRM_DanhsachMaketing_Khachhangtiemnang1" src="../images/CRM_DanhsachMaketing_Khachhangtiemnang1.png" /></p>
+<p>Bước 5: Tại tab <strong>Liên hệ</strong> nhấn <strong>Thêm một dòng</strong></p>
+<p><img alt="CRM_DanhsachMaketing_Lienhe" src="../images/CRM_DanhsachMaketing_Lienhe.png" /></p>
+<p>Tích chọn Liên hệ vào danh sách để Maketing, nhấn <strong>Chọn</strong> để lưu danh sách</p>
+<p><img alt="CRM_DanhsachMaketing_Lienhe1" src="../images/CRM_DanhsachMaketing_Lienhe1.png" /></p>
+<p>Bước 6: Tại tab <strong>Chiến dịch</strong> nhấn Thêm một dòng để thêm chiến dịch vào Danh sách Maketing</p>
+<p><img alt="CRM_DanhsachMaketing_Chiendich1" src="../images/CRM_DanhsachMaketing_Chiendich1.png" /></p>
+<p>Tích chiến dịch và nhấn <strong>Chọn</strong> để lưu chiến dịch đã tích chọn vào danh sách</p>
+<p><img alt="CRM_DanhsachMaketing_Chiendich2" src="../images/CRM_DanhsachMaketing_Chiendich2.png" /></p>
+<p>Bước 7: Nhấn <strong>Lưu</strong> để lưu Danh sách Maketing</p>
+<p>Bước 8: Nhấn <strong>Xác nhận</strong> để thực hiện Maketing theo danh sách</p>
+<h2 id="ban-hang">Bán hàng</h2>
+<h3 id="co-hoi">Cơ hội</h3>
+<p><strong>Xem video hướng dẫn</strong></p>
+<p><iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Khách hàng" 
+    src="https://www.youtube.com/embed/ne2hQiWqr4Q"
+></iframe>
+</p>
+<p><strong>Hướng dẫn trên phần mềm</strong></p>
+<p>Bước 1: Vào <strong>Bán hàng</strong>, vào <strong>Cơ hội,</strong> nhấn <strong>Tạo</strong> để tạo mới cơ hội</p>
+<p><img alt="CRM_Cohoi_Tao" src="../images/CRM_Cohoi_Tao.png" /></p>
+<p>Bước 2: Khai báo thông tin cơ hội</p>
+<p><img alt="CRM_Cohoi_Nhaplieu" src="../images/CRM_Cohoi_Nhaplieu.png" /></p>
+<ul>
+<li><strong>Doanh thu mong  đợi</strong>: Doanh thu mục tiêu của cơ hội</li>
+<li><strong>Xác xuất thành công</strong>: Xác xuất bán hàng thành công của cơ hội</li>
+<li><strong>Khách hàng</strong>: Khách hàng của cơ hội bán hàng</li>
+<li><strong>Đội ngũ bán hàng, nhân viên</strong>: Chọn đội ngũ bán hàng và nhân viên quản lý cơ hội</li>
+<li><strong>Nguồn</strong>: Nguồn hình thành cơ hội bán hàng cho khách hàng</li>
+<li><strong>Đánh giá</strong>: Đánh giá tiềm năng của cơ hội</li>
+<li><strong>Chiến dịch</strong>: Chiến dịch hình thành cơ hội</li>
+<li>Tab <strong>sản phấm</strong>: Hiển thị mặc định sản phẩm đã được tạo trong Tab sản phẩm của Khách hàng đã chọn, nếu muốn thêm sản phẩm cho cơ hội này thì nhấn <strong>Thêm một dòng</strong> để nhập thông tin</li>
+<li>Tab <strong>Liên hệ &amp; Địa chỉ</strong>: Mặc định bằng liên hệ &amp; địa chỉ của Khách hàng</li>
+</ul>
+<p>Bước 2: Nhấn <strong>Lưu</strong> để lưu thông tin đã khai báo cơ hội</p>
+<p><img alt="CRM_Cohoi_Luu" src="../images/CRM_Cohoi_Luu.png" /></p>
+<p>Bước 3: Nhấn <strong>Tạo báo giá</strong> để tạo báo giá sản phẩm cho khách hàng theo cơ hội</p>
+<p>Bước 4: Nếu cơ hội thành công thì nhấn <strong>Thành công</strong>, nhấn <strong>Thất bại</strong> nếu cơ hội bán hàng này thất bại</p>
+<h3 id="bao-gia">Báo giá</h3>
+<p><strong>Xem video hướng dẫn</strong></p>
+<p><iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Khách hàng" 
+    src="https://www.youtube.com/embed/wWBKGlMPObw"
+></iframe>
+</p>
+<p><strong>Hướng dẫn trên phần mềm</strong></p>
+<p>Bước 1: Tại <strong>Bán hàng</strong> vào <strong>Báo giá</strong>, nhấn <strong>Tạo</strong> để tạo mới báo giá</p>
+<p><img alt="CRM_Báo giá_Tạo" src="../images/CRM_B%C3%A1o%20gi%C3%A1_T%E1%BA%A1o.png" /></p>
+<p>Bước 2: Khai báo thông tin <strong>Báo giá</strong></p>
+<p><img alt="CRM_Báo giá_Nhaplieu" src="../images/CRM_B%C3%A1o%20gi%C3%A1_Nhaplieu.png" /></p>
+<ul>
+<li>Khách hàng: Chọn khách hàng để báo giá</li>
+<li>Ngày báo giá: Nhập ngày báo giá</li>
+<li>Hiêu lực đến: Hiệu lực của bảng báo giá</li>
+<li>Chi tiết đơn hàng: Mặc định theo thông tin sản phẩm của khách hàng</li>
+</ul>
+<p>Bước 3: Nhấn <strong>Lưu</strong></p>
+<p>Bước 4: Nhấn <strong>Xác nhận</strong> để hoàn thành báo giá</p>
+<h3 id="on-hang">Đơn hàng</h3>
+<p><strong>Xem video hướng dẫn</strong></p>
+<p><iframe
+    width="920"
+    height="450"
+    frameborder="0"
+    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
+    allowfullscreen
+    title="Khách hàng" 
+    src="https://www.youtube.com/embed/-ZWgQTDNOSA"
+></iframe>
+</p>
+<p><strong>Hướng dẫn trên phần mềm</strong></p>
+<p>Bước 1: Vào <strong>Bán hàng</strong>, vào <strong>Đơn hàng</strong>, nhấn <strong>Tạo</strong> để thêm mới đơn hàng</p>
+<p><img alt="CRM_Đơn hàng_Tạo" src="../images/CRM_%C4%90%C6%A1n%20h%C3%A0ng_T%E1%BA%A1o.png" /></p>
+<p>Bước 2: Khai báo Đơn hàng</p>
+<p><img alt="CRM_Đơn hàng_Nhaplieu" src="../images/CRM_%C4%90%C6%A1n%20h%C3%A0ng_Nhaplieu.png" /></p>
+<ul>
+<li><strong>Khách hàng</strong>: Chọn khách hàng bán hàng</li>
+<li><strong>Ngày giáo giá</strong>: Ngày báo giá Đơn hàng</li>
+<li><strong>Chi tiết đơn hàng</strong>: Mặc định bằng sản phẩm của Khách hàng</li>
+</ul>
+<p>Bước 3: Nhấn <strong>Lưu</strong></p>
+<p>Bướ 4: Nhấn <strong>Xác nhận</strong></p>
+<h2 id="cham-soc-khach-hang">Chăm sóc khách hàng</h2>
+<h3 id="phan-hoi">Phản hồi</h3>
+<p><strong>Mục đích</strong>: Quản lý các phản hồi, đánh giá theo từng khách hàng và sản phẩm liên quan. Giúp đội bán hàng, quản lý đưa ra phương án xử lý tốt nhất.</p>
+<p><strong>Hướng dẫn trên phần mềm</strong></p>
+<p>Bước 1: Nhấn <strong>Chăm sóc khách hàng</strong>, vào <strong>Phản hồi</strong>, nhấn <strong>Tạo</strong> để thực hiện thêm mới bản ghi</p>
+<p><img alt="CRM_Phanhoi_Tao" src="../images/CRM_Phanhoi_Tao.png" /></p>
+<p>Bước 2: Khai báo thông tin phản hồi</p>
+<p><img alt="CRM_Phanhoi_Nhaplieu" src="../images/CRM_Phanhoi_Nhaplieu.png" /></p>
+<ul>
+<li><strong>Phản hồi</strong>: Nhập nội dung phản hồi của khách hàng</li>
+<li><strong>Khách hàng</strong>: Chọn khách hàng phản ồi</li>
+<li><strong>Loại</strong>: Câu hỏi/Phát sinh/ Phản hồi/ Than phiền</li>
+<li><strong>Tab thông tin</strong>: Chọn sản phẩm phản hồi</li>
+<li><strong>Tab giải pháp</strong>: Nhập giải pháp xử lý phản hồi của khách hàng</li>
+</ul>
+<p>Bước 3: Nhấn <strong>Lưu</strong> để lưu thông tin phản hồi</p>
+<h3 id="faqs">FAQS</h3>
+<p><strong>Mục đích</strong>:  Tạo các mẫu câu hỏi và câu trả lời thường gặp theo chủ đề của từng sản phẩm</p>
+<p><strong>Hướng dẫn trên phần mềm</strong></p>
+<p>Bước 1: Nhấn <strong>Chăm sóc khách hàng</strong>, vào <strong>FAQS</strong>, nhấn <strong>Tạo</strong> để thực hiện thêm mới bản ghi</p>
+<p><img alt="CRM_FAQS_TAO" src="../images/CRM_FAQS_TAO.png" /></p>
+<p>Bước 2: Khai báo thông tin</p>
+<p><img alt="CRM_FAQS_NHAPLIEU" src="../images/CRM_FAQS_NHAPLIEU.png" /></p>
+<ul>
+<li>Câu hỏi: Nhập câu hỏi thường gặp</li>
+<li>Sản phẩm liên quan: Nhập sản phẩm liên quan đến câu hỏi</li>
+<li>Câu trả lời: Trả lời cho câu hỏi</li>
+</ul>
+<p>Bước 3: Nhấn <strong>Lưu</strong> để lưu câu hỏi và câu trả lời</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../fin-giathanh/" class="btn btn-neutral float-left" title="Giá thành"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../fin-bao-cao/" class="btn btn-neutral float-right" title="Báo cáo">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>Prepared by <a href="https://vess.vn/">vESS Team - Viettel Group.</a></p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../fin-giathanh/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../fin-bao-cao/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../js/extra.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
