@@ -34,6 +34,7 @@ nav:
         - 'Tài sản cố định': 'finance/fin-tscd.md'
         - 'Công cụ dụng cụ': 'finance/fin-ccdc.md'
         - 'Giá thành': 'finance/fin-giathanh.md'
+        - 'CRM': 'finance/fin_CRM.md'
         - 'Báo cáo': 'finance/fin-bao-cao.md'
         - 'Lịch sử phát triển sản phẩm': 'finance/fin-log-histories.md'
     - 'Kế toán - Dành cho hộ, cá thể':
