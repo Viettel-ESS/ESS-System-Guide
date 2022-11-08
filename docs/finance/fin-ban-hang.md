@@ -655,9 +655,10 @@ Cách 2: Người bán hàng chuyển đổi hóa đơn bán hàng thành khoả
     frameborder="0"
     allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
     allowfullscreen
-    title="Tạo hóa đơn giảm giá" 
-    src="https://www.youtube.com/embed/fV4wocdQ2HY?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
+    title="Tạo hóa đơn trả hàng" 
+    src="https://www.youtube.com/embed/J1TmJ_HQWh8"
 ></iframe>
+
 
 
 #### Tạo hóa đơn trả hàng không có thiết lập bán hàng kiêm phiếu xuất kho

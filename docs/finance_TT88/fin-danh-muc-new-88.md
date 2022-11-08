@@ -780,6 +780,34 @@ Cách 2: Vào ứng dụng **Kho vận**, chọn **Báo cáo**, chọn **Báo c�
 
 ![](images/fin_bc_tonkho_2.png)
 
+### Số lô/sê-ri
+
+**Mục đích**
+
+Quản lý danh sách số lô/sê-ri của sản phẩm, phục vụ cho công tác quản lý tồn kho, nhập kho, xuất kho hàng hóa trong hộ kinh doanh.
+
+Chức năng Danh mục **Số lô/sê-ri** được quản lý tập trung tại phần **Vật tư hàng hóa** của Phân hệ **Kho vận**
+
+**Các bước thực hiện**
+
+**Bước 1:** Vào phân hệ **Kho vận**; chọn menu **Vật tư hàng hóa**: chọn **Số lô/sê-ri
+
+![image-solo](images/image-solo.png)
+
+**Bước 2:** Để khai báo thêm **Số lô/sê-ri**, người dùng nhấn nút **Tạo**Trên màn hình **Số lô/sê-ri** và thực hiện Khai báo các thông tin:
+
+**Số lô/sê-ri**: Hệ thống tự sinh theo thứ tự tăng dần, người dùng có thể nhập lại theo quy tắc quản lý số lô/sê-ri của hộ kinh doanh mình
+
+**Sản phẩm**: Người dùng chọn sản phẩm có số lô này
+
+![image-20220913110450985](images/image-20220913110450985.png)
+
+**Bước 3:** Nhấn nút **Lưu**
+
+**Lưu ý:**
+
+Nhấn **Sửa**: Nếu muốn thay đổi thông tin số lô/sê-ri đã khai báo
+
 ### **Kho hàng** 
 
 **Mục đích**
