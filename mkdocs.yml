@@ -92,6 +92,7 @@ nav:
     - 'Release Notes': 'release-notes.md'
     - 'CRM':
         - 'CRM': 'crm/CRM.md'
+        - '': ''
 theme:
     name: readthedocs
     navigation_depth: 100
