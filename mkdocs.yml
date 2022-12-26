@@ -53,16 +53,6 @@ nav:
         - 'Thuế': 'finance_TT88/fin-thue-88.md'
         - 'Báo cáo': 'finance_TT88/fin-bao-cao-88.md'
         - 'Lịch sử phát triển sản phẩm': 'finance_TT88/fin-log-histories-88.md'
-    - 'Tài liệu': 
-        - 'Giới thiệu về ứng dụng Tài liệu': 'document/introduction.md'
-        - 'Các thuật ngữ và từ viết tắt': 'document/abbreviations.md'
-        - 'Thiết lập và khai báo ban đầu': 'document/initialization.md'
-        - 'Tài liệu': 'document/document.md'
-        - 'Quản lý tài liệu trên điện thoại': 'document/Addon-Tailieu-mobile.md'
-    - 'Ký số': 
-        - 'Giới thiệu về ứng dụng Ký số': 'esign/introduction.md'
-        - 'Thiết lập và khai báo ban đầu': 'esign/initialization.md'
-        - 'Ký số': 'esign/esign.md' 
     - 'Digital workplace': 
         - 'Giới thiệu về phân hệ Digital workplace': 'digitalworkplace/Gioi-thieu-digital-workplace.md'
         - 'Thiết lập và khai báo ban đầu': 'digitalworkplace/dw-initialization.md'
@@ -78,6 +68,8 @@ nav:
         - 'Phê duyệt trên web': 'digitalworkplace/Addon-PheDuyet-Web.md'
         - 'Cuộc họp trực tuyến': 'digitalworkplace/Addon-meeting.md'
         - 'Lịch sử phát triển sản phẩm': 'digitalworkplace/Lich-su-phat-trien.md'
+        - 'Tài liệu': 'digitalworkplace/document/document.md'
+        - 'Ký số': 'digitalworkplace/esign/esign.md' 
     - 'vESS Mobile': 
         - 'Giới thiệu về vESS mobile': 'vESS_mobile/Gioi-thieu-vess-mobile.md'
         - 'Thiết lập và khai báo ban đầu': 'vESS_mobile/Mobile-initialization.md'
