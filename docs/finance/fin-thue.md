@@ -56,7 +56,7 @@ Nhân viên kinh doanh sẽ tiếp thị, giới thiệu sản phẩm dịch v�
 
 **Bước 2 :** Tại **Chọn kỳ tính thuế** thực hiện nhập dữ liệu đầu vào của tờ khai thuế
 
-![](images/dbt_Thue_ThueTNDN_03_NhapTTKyTinhThue.png)
+![](images/dbt_Thue_ThueTNDN_03_NhapTTKyTinhThue00.png)
 
 * Tại Đơn vị: Chọn Đơn vị cần quyết toán thuế
 
@@ -76,7 +76,7 @@ Hệ thống không cho phép tạo tờ khai bổ sung khi đã tồn tại t�
 
 **Bước 4 :** Tại tab Tờ khai nhấn **Sửa** để thực hiện nhập thông tin tờ khai
 
-![](images/dbt_Thue_ThueTNDN_03_ToKhai.png)
+![](images/dbt_Thue_ThueTNDN_03_ToKhai00.png)
 
 - Tại Phụ lục: Chọn Phục lục nộp thuế  Tích chọn **Doanh nghiệp có quy mô vừa và nhỏ** hoặc **Doanh nghiệp có cơ sở hạch toán phụ thuộc** hoặc **Doanh nghiệp thuộc đối tượng kê khai thông tin giao dịch liên kết**
 
@@ -105,11 +105,11 @@ Phụ lục kết quả hoạt động sản xuất kinh doanh dành cho ngườ
 
 Để thêm mới phụ lục thì người dùng có thể chọn lúc tạo tờ khai quyết toán thuế doanh nghiệp hoặc nhấn **Thêm phụ lục** và chọn Phụ lục 03-01A/TNDN
 
-![](images/dbt_Thue_ThueTNDN_03_ThemPL.png)
+![](images/dbt_Thue_ThueTNDN_03_ThemPL00.png)
 
 Nhấn Lấy dữ liệu để hệ thống tự động tính dữ liệu theo các chỉ tiêu được cấu hình ở Cấu hình *Phụ lục 03-1A_TNDN* tại Cấu hình thuế thu nhập doanh nghiệp.
 
-![](images/dbt_Thue_ThueTNDN_03_PL03_01A.png)
+![](images/dbt_Thue_ThueTNDN_03_PL03_01A00.png)
 
 **Phụ lục 03-02A/TNDN**
 
@@ -117,11 +117,11 @@ Khi làm tờ khai quyết toán thuế TNDN 03/TNDN, nếu doanh nghiệp của
 
 Để thêm mới phụ lục thì người dùng có thể chọn lúc tạo tờ khai quyết toán thuế doanh nghiệp hoặc nhấn **Thêm phụ lục** và chọn Phụ lục 03-02A/TNDN
 
-![](images/dbt_Thue_ThueTNDN_03_ThemPL.png)
+![](images/dbt_Thue_ThueTNDN_03_ThemPL00.png)
 
 Nhấn *Lấy dữ liệu* để hệ thống tự động tính dữ liệu theo các chỉ tiêu được cấu hình ở Cấu hình **Phụ lục 03-2A_TNDN** tại Cấu hình thuế thu nhập doanh nghiệp.
 
-![](images/dbt_Thue_ThueTNDN_03_PL03_02A.png)
+![](images/dbt_Thue_ThueTNDN_03_PL03_02A00.png)
 
 -  Năm phát sinh lỗ: Hiển thị năm năm gần nhất với năm quyết toán
 -  Số lỗ phát sinh: Tự động tính tổng tiền thuế của chỉ tiêu C4 tại tab Chỉ tiêu tờ khai nếu C4 < 0 với Tờ khai theo từng năm 
@@ -219,7 +219,7 @@ Thực hiện khai báo thông tin theo từng chỉ tiêu trong bảng tờ kha
 
 **Bước 6:** Nhấn **Xuất XML** để thực hiện xuất file xml theo yêu cầu
 
-![](images/dbt_Thue_ThueTNCN_XuatXML.png)
+![](images/dbt_Thue_ThueTNCN_XuatXML00.png)
 
 #### Tờ khai quyết toán thuế TNCN
 
@@ -231,7 +231,7 @@ Thực hiện khai báo thông tin theo từng chỉ tiêu trong bảng tờ kha
 
 **Bước 2:** Tại tab *Chọn kỳ tính thuế* thực hiện khai báo các thông tin để tạo tờ khai thuế
 
-![](images/dbt_Thue_ThueTNCN_ToKhaiQT_NhapTTKyTinhThue.png)
+![](images/dbt_Thue_ThueTNCN_ToKhaiQT_NhapTTKyTinhThue00.png)
 
  
 
@@ -283,7 +283,11 @@ Note:  Tại các Tab bảng kê 05-1BK-QTT-TNCN, 05-2BK-QTT-TNCN, 05-3BK-QTT-TN
 
 **Bước 6:** Nhấn **Xuất XML** để thực hiện xuất file xml theo yêu cầu
 
-![](images/dbt_Thue_ThueTNCN_ToKhaiQT_XuatXML.png)
+![](images/dbt_Thue_ThueTNCN_ToKhaiQT_XuatXML00.png)
+
+**Bước 7:** Nhấn **Xuất Excel** để thực hiện xuất file excel theo yêu cầu
+
+![](images/dbt_Thue_ThueTNCN_ToKhaiQT_XuatExcel.png)
 
 ## *Thuế tài nguyên*
 
@@ -320,19 +324,15 @@ Note:  Tại các Tab bảng kê 05-1BK-QTT-TNCN, 05-2BK-QTT-TNCN, 05-3BK-QTT-TN
 
 **Bước 2:** Tại tab *Tờ khai thuế tài nguyên (01/TAIN)* thực hiện khai báo các thông tin để tạo tờ khai thuế
 
-![](images/dbt_Thue_ThueTN_NhapTtToKhai.png)
+![](images/dbt_Thue_ThueTN_NhapTtToKhai00.png)
 
 * Tại Đơn vị: Chọn Đơn vị kê khai thuế
 
 - Tích chọn Tờ khai tháng hoặc Tờ khai lần phát sinh
 
-+ Nếu tờ khai tháng: Chọn Tháng kê khai thuế
-
-![](images/dbt_Thue_ThueTN_NhapTtToKhaiThang.png)
-
 * Nếu Tờ khai lần phát sinh: Chọn ngày kê khai thuế 
 
-![](images/dbt_Thue_ThueTN_NhapTtToKhaiNgay.png)
+![](images/dbt_Thue_ThueTN_NhapTtToKhaiNgay00.png)
 
 - Tích chọn Loại tờ khai 
   -  Nếu tờ khai bổ sung: Nhập lần khai bổ sung. Hệ thống mặc định số lần tính theo kỳ khai báo thuế
@@ -359,11 +359,15 @@ Nhấn **Thêm một dòng** để thực hiện khai báo thuế thông tin cá
 
 **Bước 5:** Người dùng nhấn **Xác nhận** để hoàn thành kê khai thuế
 
-![](images/dbt_Thue_ThueTN_Tokhai_XacNhan.png)
+![](images/dbt_Thue_ThueTN_Tokhai_XacNhan00.png)
 
 **Bước 6:** Nhấn **Xuất XML** để thực hiện xuất file xml theo yêu cầu
 
-![](images/dbt_Thue_ThueTN_Tokhai_XuatXML.png)
+![](images/dbt_Thue_ThueTN_Tokhai_XuatXML00.png)
+
+**Bước 7:** Nhấn **Xuất Excel** để thực hiện xuất file excel theo yêu cầu
+
+![](images/dbt_Thue_ThueTN_Tokhai_XuatExcel.png)
 
 #### Tờ khai quyết toán thuế tài nguyên (02/TAIN)
 
@@ -407,11 +411,15 @@ Nhấn **Thêm một dòng** để kê khai các tài nguyên tính thuế phát
 
 **Bước 5:** Người dùng nhấn **Xác nhận** để hoàn thành kê khai thuế
 
-![](images/dbt_Thue_ThueTN_ToKhaiQT_XacNhan.png)
+![](images/dbt_Thue_ThueTN_ToKhaiQT_XacNhan00.png)
 
-Bước 6: Nhấn **Xuất XML** để thực hiện xuất file xml theo yêu cầu
+**Bước 6**: Nhấn **Xuất XML** để thực hiện xuất file xml theo yêu cầu
 
-![](images/dbt_Thue_ThueTN_ToKhaiQT_XuatXML.png)
+![](images/dbt_Thue_ThueTN_ToKhaiQT_XuatXML00.png)
+
+**Bước 7:** Nhấn **Xuất Excel** để thực hiện xuất file excel theo yêu cầu
+
+![](images/dbt_Thue_ThueTN_ToKhaiQT_XuatExcel.png)
 
 ## *Thuế tiêu thụ đặc biệt*
 
@@ -447,7 +455,7 @@ Bước 6: Nhấn **Xuất XML** để thực hiện xuất file xml theo yêu c
 
 **Bước 2:** Tại tab *Chọn kỳ tính thuế* Khai báo các thông tin để tạo tờ khai thuế
 
-![](images/dbt_Thue_ThueTTDB_NhapTtKyTinhThue.png)
+![](images/dbt_Thue_ThueTTDB_NhapTtKyTinhThue00.png)
 
 * Tại Đơn vị: Chọn Đơn vị kê khai thuế
 
@@ -489,13 +497,15 @@ Nhấn **Thêm phụ lục** hoặc thực hiện chọn Phụ lục **PL01-1/TT
 
 **Bước 5:** Người dùng nhấn **Xác nhận** để hoàn thành kê khai thuế
 
-![](images/dbt_Thue_ThueTTDB_XacNhan.png)
+![](images/dbt_Thue_ThueTTDB_XacNhan00.png)
 
 **Bước 6:** Nhấn **Xuất XML** để thực hiện xuất file xml theo yêu cầu
 
-![](images/dbt_Thue_ThueTN_Tokhai_XuatXML.png)
+![](images/dbt_Thue_ThueTN_Tokhai_XuatXML00.png)
 
+**Bước 7:** Nhấn **Xuất Excel** để thực hiện xuất file excel theo yêu cầu
 
+![](images/dbt_Thue_ThueTN_Tokhai_XuatExcel.png)
 
 ## *Thuế giá trị gia tăng*
 
@@ -536,7 +546,7 @@ Khi phát sinh nghiệp vụ thuế GTGT, thông thường sẽ có các hoạt 
 
 **Bước 2:** Tại tab *Chọn kỳ tính thuế* thực hiện khai báo các thông tin để tạo tờ khai thuế
 
-![](images/dbt_Thue_ThueGTGT_01_NhapTtKyTinhThue.png)
+![](images/dbt_Thue_ThueGTGT_01_NhapTtKyTinhThue00.png)
 
 - Tại Đơn vị: Chọn đơn vị kê khai thuế
 
@@ -592,17 +602,21 @@ Tại tab **PL01-7/GTGT** nhấn ***Thêm một dòng*** *để kê khai bảng 
 
 **Bước 4:** Nhấn **Lưu** sau khi đã kê khai xong
 
-![](images/dbt_Thue_ThueGTGT_01_Luu.png)
+![](images/dbt_Thue_ThueGTGT_01_Luu00.png)
 
 **Bước 5:** Người dùng nhấn **Xác nhận** để hoàn thành kê khai thuế
 
-![](images/dbt_Thue_ThueGTGT_01_XacNhan.png)
+![](images/dbt_Thue_ThueGTGT_01_XacNhan00.png)
 
 
 
 **Bước 6:** Nhấn **Xuất XML** để thực hiện xuất file xml theo yêu cầu
 
-​												 ![](images/dbt_Thue_ThueGTGT_01_XuatXML.png)
+​												 ![](images/dbt_Thue_ThueGTGT_01_XuatXML00.png)
+
+**Bước 7:** Nhấn **Xuất Excel** để thực hiện xuất file excel theo yêu cầu
+
+![](images/dbt_Thue_ThueTN_Tokhai_XuatExcel.png)
 
 #### Thuế GTGT đầu tư (02/GTGT)
 
@@ -625,7 +639,7 @@ Các trường hợp phải lập tờ khai thuế GTGT cho dự án đầu tư:
 
 **Bước 2:** Khai báo các thông tin để tạo tờ khai thuế
 
-![](images/dbt_Thue_ThueGTGT_02_NhapTtKyTinhThue.png)
+![](images/dbt_Thue_ThueGTGT_02_NhapTtKyTinhThue00.png)
 
 - Tại Đơn vị: Chọn đơn vị kê khai thuế
 
@@ -673,15 +687,19 @@ Nhấn **Sửa** để thực hiện khai báo thông tin cho tờ khai thuế:
 
 **Bước 4:** Nhấn **Lưu** sau khi đã kê khai xong
 
-![](images/dbt_Thue_ThueGTGT_02_Luu.png)
+![](images/dbt_Thue_ThueGTGT_02_Luu00.png)
 
 **Bước 5:** Người dùng nhấn **Xác nhận** để hoàn thành kê khai thuế
 
-![](images/dbt_Thue_ThueGTGT_02_XacNhan.png)
+![](images/dbt_Thue_ThueGTGT_02_XacNhan00.png)
 
 **Bước 6:** Nhấn **Xuất XML** để thực hiện xuất file xml theo yêu cầu
 
-![](images/dbt_Thue_ThueGTGT_02_XuatXML.png)
+![](images/dbt_Thue_ThueGTGT_02_XuatXML00.png)
+
+**Bước 7:** Nhấn **Xuất Excel** để thực hiện xuất file excel theo yêu cầu
+
+![](images/dbt_Thue_ThueGTGT_02_XuatExcel.png)
 
 #### Thuế GTGT trực tiếp trên GTGT (03/GTGT)
 
@@ -734,14 +752,16 @@ Hệ thống không cho phép tạo tờ khai bổ sung khi đã tồn tại t�
 
 **Bước 4:** Nhấn **Lưu** sau khi đã kê khai xong
 
-![](images/dbt_Thue_ThueGTGT_03_Luu.png)
+![](images/dbt_Thue_ThueGTGT_03_Luu00.png)
 
 **Bước 5:** Người dùng nhấn **Xác nhận** để hoàn thành kê khai thuế
 
-![](images/dbt_Thue_ThueGTGT_03_XacNhan.png)
+![](images/dbt_Thue_ThueGTGT_03_XacNhan00.png)
 
 **Bước 6:** Nhấn **Xuất XML** để thực hiện xuất file xml theo yêu cầu
 
-![](images/dbt_Thue_ThueGTGT_03_XuatXML.png)
+![](images/dbt_Thue_ThueGTGT_03_XuatXML00.png)
 
- 
+ **Bước 7:** Nhấn **Xuất Excel** để thực hiện xuất file excel theo yêu cầu
+
+![](images/dbt_Thue_ThueGTGT_03_XuatExcel.png)

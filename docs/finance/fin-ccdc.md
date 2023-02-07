@@ -42,7 +42,7 @@ Quản lý thông tin các Loại Công cụ dụng cụ theo thực tế tại 
 
 **Bước 1:** Vào phân hệ **Kế toán Công cụ dụng cụ** -> Chọn chức năng **Danh mục** -> Chọn **Loại Công cụ dụng cụ**
 
- ![](images/fin_CCDC_TaoloaiCCDC.png)
+ ![](images/fin_CCDC_TaoloaiCCDC00.png)
 
 **Bước 2:** Nhấn vào nút *Tạo* để thêm mới loại CCDC
 
@@ -105,7 +105,7 @@ Quản lý thông tin CCDC trên hệ thống bao gồm: Giá trị CCDC và cá
 
 **Bước 1:** Vào phân hệ **Kế toán Công cụ dụng cụ** -> chọn chức năng **CCDC** -> Chọn **Công cụ dụng cụ**
 
-![](images/fin_CCDC_VaophanboCCDC.png)
+![](images/fin_CCDC_VaophanboCCDC00.png)
 
 **Bước 2:** Nhấn nút *Tạo* để khai báo CCDC và các thông tin liên quan đến Phân bổ CCDC
 
@@ -179,7 +179,7 @@ Kết quả khấu hao sẽ được trả về tại tab **Bảng phân bổ ư
 
 **Bước 1:** Vào chức năng **Kế toán CCDC** -> Chọn **CCDC** -> Chọn bản ghi CCDC muốn điều chỉnh -> Chọn **Điều chỉnh CCDC**
 
-![](images/fin_CCDC_Tanggiam_1.png)
+![](images/fin_CCDC_Tanggiam_01.png)
 
 
 
@@ -195,7 +195,7 @@ Kết quả khấu hao sẽ được trả về tại tab **Bảng phân bổ ư
 + Ngày điều chỉnh -> Hệ thống thực hiện ghi nhận thay đổi từ ngày này
 + Thông tin các đầu Tài khoản ghi nhận thay đổi tại mục *Kế toán điều chỉnh*
 
-![](images/fin_CCDC_Dieuchinh.png)
+![](images/fin_CCDC_Dieuchinh00.png)
 
 **Bước 3**: Nhấn nút *Điều chỉnh*
 
@@ -226,7 +226,7 @@ Kết quả khấu hao sẽ được trả về tại tab **Bảng phân bổ ư
 
 **Bước 1:** Vào chức năng **Kế toán CCDC** -> Chọn **CCDC** -> Chọn bản ghi CCDC muốn điều chỉnh -> Chọn **Điều chỉnh CCDC**
 
-![](images/fin_CCDC_Tanggiam_1.png)
+![](images/fin_CCDC_Tanggiam_01.png)
 
 **Bước 2:** Người dùng thực hiện nhập liệu các thông tin liên quan đến
 
@@ -240,7 +240,7 @@ Kết quả khấu hao sẽ được trả về tại tab **Bảng phân bổ ư
 + Ngày điều chỉnh -> Hệ thống thực hiện ghi nhận thay đổi từ ngày này
 + Thông tin các đầu Tài khoản ghi nhận thay đổi tại mục *Kế toán điều chỉnh*
 
-![](images/fin_CCDC_Dieuchinh.png)
+![](images/fin_CCDC_Dieuchinh00.png)
 
 **Bước 3**: Nhấn nút *Điều chỉnh*
 
@@ -294,7 +294,7 @@ Kết quả khấu hao sẽ được trả về tại tab **Bảng phân bổ ư
 
 **Bước 2**: Nhập thông tin liên quan đến giá trị, thời gian tại mục Giá trị điều chỉnh và các đầu tài khoản để ghi nhận sự thay đổi tại Kế toán điều chỉnh
 
-+ ![](images/fin_CCDC_Dieuchinh.png)
++ ![](images/fin_CCDC_Dieuchinh00.png)
 
   **Bước 3:** Nhấn nút  *Điều chỉnh* . Sau đó, CCDC sẽ được tiếp tục tính khấu hao kể từ Ngày điều chỉnh với giá trị khấu hao và thời gian khấu hao tại mục Giá trị điều chỉnh
 
@@ -334,7 +334,7 @@ Kết quả khấu hao sẽ được trả về tại tab **Bảng phân bổ ư
 
 **Bước 1:** Vào chức năng **Kế toán CCDC** -> Chọn **CCDC** -> Chọn **Điều chuyển CCDC** -> Chọn **Tạo**
 
-![](images/fin_CCDC_Dieuchuyen.png)
+![](images/fin_CCDC_Dieuchuyen00.png)
 
 **Bước 2**: Người dùng nhập thông tin Người bàn giao, Người tiếp nhận và Ngày bàn giao,...
 
@@ -406,11 +406,11 @@ Kết quả khấu hao sẽ được trả về tại tab **Bảng phân bổ ư
 
 + Cách 1: Vào chức năng **Kế toán CCDC** -> Chọn **CCDC** -> Chọn **Công cụ dụng cụ** -> Chọn CCDC muốn thanh lý -> Nhấn nút **Thanh lý**
 
-![](images/fin_CCDC_Thanhly.png)
+![](images/fin_CCDC_Thanhly00.png)
 
 + Cách 2: Vào chức năng **Kế toán CCDC** -> Chọn **CCDC** -> Chọn **Thanh lý CCDC** -> Nhấn nút **Tạo**
 
-  ![](images/fin_CCDC_VaoThanhly.png)
+  ![](images/fin_CCDC_VaoThanhly00.png)
 
 **Bước 2**: Tại màn hình thanh lý, người dùng thực hiện các thao tác:
 
@@ -444,7 +444,7 @@ Kết quả khấu hao sẽ được trả về tại tab **Bảng phân bổ ư
 
 **Bước 1:** Vào chức năng **Kế toán CCDC** -> Chọn **CCDC** -> Chọn **Thanh lý CCDC**
 
-![](images/fin_CCDC_Thanhly_2.png)
+![](images/fin_CCDC_Thanhly_02.png)
 
 **Bước 2:** Người dùng có thể chọn xem CCDC thanh lý bất kỳ trên màn hình danh sách các CCDC đã được thanh lý hoặc tìm kiếm CCDC thanh lý theo Mã CCDC, Tên CCDC, ...
 
@@ -483,7 +483,7 @@ Kết quả khấu hao sẽ được trả về tại tab **Bảng phân bổ ư
 
 **Bước 1:** Vào chức năng **Kế toán CCDC** -> Chọn **Quản lý CCDC** -> Chọn **Kiểm kế CCDC**
 
- ![](images/fin_CCDC_Kiemke.png)
+ ![](images/fin_CCDC_Kiemke00.png)
 
 **Bước 2**: Chọn nút *Tạo*
 

@@ -14,9 +14,9 @@ Chức năng Danh mục **Nhóm đối tượng** được quản lý tập trun
 
 **Các bước thực hiện**
 
-**Bước 1:** Vào **Danh mục**: chọn **Nhóm đối tượng** và nhấn nút **Chi tiết**
+**Bước 1:** Vào **Danh mục**: chọn **Nhóm đối tượng** 
 
-![](images/fin_DM_NhomDoiTuong_1.png)
+![](images/fin_DM_NhomDoiTuong_01.png)
 
 Thông tin **Danh mục Nhóm đối tượng** được hiển thị để người dùng khai báo
 
@@ -53,9 +53,9 @@ Chức năng Danh mục **Khách hàng** được quản lý tập trung tại p
 
 **Hướng dẫn trên phần mềm**
 
-**Bước 1**: Vào Danh mục/Đối tượng/Khách hàng. Nhấn **Chi tiết** để vào danh mục
+**Bước 1**: Vào **Danh mục/Đối tượng/Khách hàng**. 
 
-![](images/fin_danhmuc_danhsach.png)
+![](images/fin_danhmuc_danhsach00.png)
 
 **Bước 2**: Nhấn nút **tạo ** ![](images/fin_banhang_taomoi.png)để thực hiên thêm mới khách hàng 
 
@@ -137,9 +137,9 @@ Quản lý danh sách các nhà cung cấp, phục vụ cho việc lập và h�
 
 **Hướng dẫn trên phần mềm**
 
-**Bước 1**: Vào Danh mục/Đối tượng/Nhà cung cấp. Nhấn **Chi tiết** để vào danh mục
+**Bước 1**: Vào **Danh mục/Đối tượng/Nhà cung cấp**. 
 
-![](images/fin_danhmuc_danhsach.png)
+![](images/fin_danhmuc_danhsach00.png)
 
 **Bước 2**: Nhấn nút **tạo ** ![](images/fin_banhang_taomoi.png)để thực hiên thêm mới nhà cung cấp
 
@@ -219,9 +219,9 @@ Danh mục nhân viên quản lý thông tin về các nhóm đối tượng kh�
 
 **Hướng dẫn trên phần mềm**
 
-**Bước 1**: Vào Danh mục/Đối tượng/Nhân viên. Nhấn **Chi tiết** để vào danh mục
+**Bước 1**: Vào **Danh mục/Đối tượng/Nhân viên**. 
 
-![](images/fin_danhmuc_danhsach.png)
+![](images/fin_danhmuc_danhsach00.png)
 
 **Bước 2**: Nhấn nút **tạo ** ![](images/fin_banhang_taomoi.png)để thực hiên thêm mới nhân viên 
 
@@ -299,9 +299,9 @@ Chức năng Danh mục **Nhóm Vật tư hàng hóa** được quản lý tập
 
 **Các bước thực hiện**
 
-**Bước 1:** Vào Danh mục: chọn **Nhóm VTHH** và nhấn nút **Chi tiết**
+**Bước 1:** Vào Danh mục: chọn **Nhóm VTHH** 
 
-![image-20210929171103894](images/image-20210929171103894.png)
+![](images/fin_danhmuc_nhomVTHH00.png)
 
 Thông tin **Nhóm VTHH** được hiển thị để người dùng khai báo
 
@@ -347,9 +347,9 @@ Danh mục vật tư, hàng hoá cho phép quản lý toàn bộ vật tư, hàn
 
 ##### Tạo mới hàng hóa trực tiếp trên giao diện
 
-**Bước 1**: Vào Danh mục/Hàng hóa vật tư/Vật tư hàng hóa. Nhấn **Chi tiết** để vào danh mục
+**Bước 1**: Vào **Danh mục/Hàng hóa vật tư**: chọn **Vật tư hàng hóa**.
 
-![](images/fin_danhmuc_hh.png)
+![](images/fin_danhmuc_hh00.png)
 
 **Bước 2**: Tại màn hình danh sách, Nhấn nút **tạo ** ![](images/fin_banhang_taomoi.png)để thực hiên thêm mới hàng hóa
 
@@ -676,7 +676,7 @@ Các bước thực hiện import đơn mua hàng được mô tả chi tiết t
 
 Vào phân hệ **Mua hàng**, Chọn **Đơn mua hàng** 
 
-![](images/fin_muahang_donmh.png)
+![](images/fin_muahang_donmh00.png)
 
 Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống
 
@@ -722,7 +722,7 @@ Nếu không còn nhu cầu mua hàng, người bán nhấn **Hủy** hoặc th�
 
 Sau khi có đơn hàng, sản phẩm sẽ được nhận từ nhà cung cấp và nhập vào kho
 
-![](images/fin_muahang_donmh_xoa.png)
+![](images/fin_muahang_donmh_xoa00.png)
 
 **Bước 5:** Tại Đơn mua hàng vừa xác nhận ở bước 4, kích Nhận sản phẩm, hệ thống sẽ hiển thị phiếu nhập kho tương ứng,
 
@@ -792,9 +792,9 @@ Chức năng Danh mục **Số lô/sê-ri** được quản lý tập trung tạ
 
 **Các bước thực hiện**
 
-**Bước 1:** Vào phân hệ **Kho vận**; chọn chức năng **Cấu hình**: chọn **Số lô/sê-ri**
+**Bước 1:** Vào **Danh mục**: chọn **Số Lô/Seri**
 
-![](images/2022-09-14_111912.png)
+![](images/fin_danhmuc_solo00.png)
 
 **Bước 2:** Để khai báo thêm **Số lô/sê-ri**, người dùng nhấn nút **Tạo**Trên màn hình **Số lô/sê-ri** và thực hiện Khai báo các thông tin:
 
@@ -931,9 +931,9 @@ Chức năng Danh mục **Hệ thống tài khoản** được quản lý tập 
 
 **Các bước thực hiện**
 
-**Bước 1:** Vào Danh mục: chọn **Hệ thống tài khoản** và nhấn nút **Chi tiết**
+**Bước 1:** Vào Danh mục: chọn **Hệ thống tài khoản** 
 
-![](images/fin_DM_HeThongTK_1.png)
+![](images/fin_DM_HeThongTK_01.png)
 
 Thông tin **Hệ thống tài khoản** được hiển thị để người dùng khai báo
 
@@ -967,9 +967,9 @@ Chức năng Danh mục **Tiền tệ** được quản lý tập trung tại ph
 
 **Các bước thực hiện**
 
-**Bước 1:** Vào Danh mục: chọn **Tiền tệ** và nhấn nút **Chi tiết**
+**Bước 1:** Vào Danh mục: chọn **Tiền tệ** 
 
-![](images/fin_DM_TienTe_1.png)
+![](images/fin_DM_TienTe_01.png)
 
 Thông tin **Tiền tệ** được hiển thị để người dùng khai báo
 
@@ -997,9 +997,9 @@ Chức năng Danh mục **Định khoản tự động** được quản lý t�
 
 **Các bước thực hiện**
 
-**Bước 1:** Vào Danh mục: chọn **Định khoản tự động** và nhấn nút **Chi tiết**
+**Bước 1:** Vào Danh mục: chọn **Định khoản tự động** 
 
-![](images/fin_DM_DKTD_VaoCN.png)
+![](images/fin_DM_DKTD_VaoCN00.png)
 
 Thông tin **Định khoản tự động** được hiển thị để người dùng khai báo và quản lý
 
@@ -1025,9 +1025,9 @@ Thông tin **Định khoản tự động** được hiển thị để người
 
 ### Mẫu số hóa đơn
 
-**Bước 1**: Vào Danh mục/Kế toán/Mẫu số hóa đơn. Nhấn **Chi tiết** để vào danh mục
+**Bước 1**: Vào **Danh mục**: chọn **Mẫu số hoá đơn**
 
-![](images/fin_danhmuc_mshd.png)
+![](images/fin_danhmuc_mshd00.png)
 
 **Bước 2**: Tại màn hình danh sách, Nhấn nút **tạo ** ![](images/fin_banhang_taomoi.png)để thực hiên thêm mới mẫu số
 
@@ -1049,7 +1049,7 @@ Quản lý toàn bộ thông tin Loại hóa đơn hiện đang được áp d�
 
 Hệ thống tự động tạo sẵn các Loại hóa đơn đang tồn tại. Người dùng có thể quản lý và chỉnh sửa/bổ sung thông tin
 
-**Bước 1:** Vào **Danh mục**: chọn **Loại hóa đơn** và nhấn nút **Chi tiết**
+**Bước 1:** Vào **Danh mục**: chọn **Loại hóa đơn**
 
 ![](images/fin_DM_LHD_ViewCN.png)
 
@@ -1073,9 +1073,9 @@ Thông tin **Loại tài khoản** được hiển thị để người dùng kh
 
 Quản lý toàn bộ thông tin Năm đang được thực hiện khai báo và nhập liệu sổ sách của Doanh nghiệp.
 
-**Bước 1:** Vào **Danh mục**: chọn **Năm tài chính** và nhấn nút **Chi tiết**
+**Bước 1:** Vào **Danh mục**: chọn **Năm tài chính**
 
-![](images/fin_DM_NTC_ViewCN.png)
+![](images/fin_DM_NTC_ViewCN00.png)
 
 Thông tin **Năm tài chính** được hiển thị để người dùng khai báo và quản lý
 
@@ -1107,9 +1107,9 @@ Chức năng Danh mục **Ngân hàng** được quản lý tập trung tại ph
 
 **Các bước thực hiện**
 
-**Bước 1:** Vào  **Danh mục**: chọn **Ngân hàng** và nhấn nút **Chi tiết**
+**Bước 1:** Vào  **Danh mục**: chọn **Ngân hàng** 
 
-![image-20210929162554689](images/image-20210929162554689.png)
+![](images/fin_danhmuc_Nganhang00.png)
 
 Thông tin **Ngân hàng** được hiển thị để người dùng khai báo
 
@@ -1141,9 +1141,9 @@ Chức năng Danh mục **Tài khoản ngân hàng** được quản lý tập t
 
 **Các bước thực hiện**
 
-**Bước 1:** Vào Danh mục: chọn **Tài khoản ngân hàng** và nhấn nút **Chi tiết**
+**Bước 1:** Vào Danh mục: chọn **Tài khoản ngân hàng** 
 
-![](images/fin_DM_TKNganHang_1.png)
+![](images/fin_DM_TKNganHang_01.png)
 
 Thông tin **Tài khoản ngân hàng** được hiển thị để người dùng khai báo
 
@@ -1175,9 +1175,9 @@ Chức năng Danh mục **Đối tượng tập hợp chi phí** được quản
 
 **Các bước thực hiện**
 
-**Bước 1:** Vào Danh mục: chọn **Đối tượng tập hợp chi phí** và nhấn nút **Chi tiết**
+**Bước 1:** Vào Danh mục: chọn **Đối tượng tập hợp chi phí** 
 
-![image-20210929174139156](images/image-20210929174139156.png)
+![](images/fin_danhmuc_DTTHCP_00.png)
 
 Thông tin **Đối tượng tập hợp chi phí** được hiển thị để người dùng khai báo
 
@@ -1204,9 +1204,9 @@ Chức năng Danh mục **Khoản mục chi phí** được quản lý tập tru
 
 **Các bước thực hiện**
 
-**Bước 1:** Vào Danh mục: chọn **Khoản mục chi phí** và nhấn nút **Chi tiết**
+**Bước 1:** Vào Danh mục: chọn **Khoản mục chi phí** 
 
-![](images/fin_DM_KhoanMucCP_1.png)
+![](images/fin_DM_KhoanMucCP_01.png)
 
 Thông tin **Khoản mục chi phí** được hiển thị để người dùng khai báo
 
@@ -1227,9 +1227,9 @@ Thông tin **Khoản mục chi phí** được hiển thị để người dùng
 
 Quản lý toàn bộ thông tin Nhóm công trình của Doanh nghiệp.
 
-**Bước 1:** Vào **Danh mục**: chọn **Nhóm công trình** và nhấn nút **Chi tiết**
+**Bước 1:** Vào **Danh mục**: chọn **Nhóm công trình**
 
-![](images/fin_DM_NCTrinh_ViewCN.png)
+![](images/fin_DM_NCTrinh_ViewCN00.png)
 
 Thông tin **Nhóm công trình** được hiển thị để người dùng khai báo và quản lý
 
@@ -1252,9 +1252,9 @@ Thông tin **Nhóm công trình** được hiển thị để người dùng kha
 
 Quản lý toàn bộ thông tin Công trình của Doanh nghiệp.
 
-**Bước 1:** Vào **Danh mục**: chọn **Công trình** và nhấn nút **Chi tiết**
+**Bước 1:** Vào **Danh mục**: chọn **Công trình**
 
-![fin_danhmuc_H_Congtrinh](images/fin_danhmuc_H_Congtrinh.png)
+![fin_danhmuc_H_Congtrinh](images/fin_danhmuc_H_Congtrinh00.png)
 
 **Bước 2**: Tại màn hình danh sách, Nhấn nút **Tạo** để thực hiên thêm mới công trình
 
@@ -1285,9 +1285,9 @@ Chức năng Danh mục **Sổ nhật ký** được quản lý tập trung tạ
 
 **Các bước thực hiện**
 
-**Bước 1:** Vào **Danh mục**: chọn **Sổ nhật ký** và nhấn nút **Chi tiết**
+**Bước 1:** Vào **Danh mục**: chọn **Sổ nhật ký**
 
-![](images/fin_DM_SoKeToan_1.png)
+![](images/fin_DM_SoKeToan_01.png)
 
 Thông tin **Danh mục Sổ kế toán** được hiển thị để người dùng khai báo
 
@@ -1316,9 +1316,9 @@ Chức năng Danh mục **Nhóm bán hàng** được quản lý tập trung t�
 
 **Các bước thực hiện**
 
-**Bước 1:** Vào **Danh mục**: chọn **Nhóm bán hàng** và nhấn nút **Chi tiết**
+**Bước 1:** Vào **Danh mục**: chọn **Nhóm bán hàng**
 
-![fin-danhmuc_H_NhomBH](images/fin-danhmuc_H_NhomBH.png)
+![fin-danhmuc_H_NhomBH](images/fin-danhmuc_H_NhomBH00.png)
 
 **Bước 2**: Nhấn **Tạo**
 
@@ -1347,9 +1347,9 @@ Chức năng Danh mục **Điều khoản thanh toán** được quản lý tậ
 
 **Các bước thực hiện**
 
-**Bước 1:** Vào **Danh mục**: chọn **Điều khoản thanh toán** và nhấn nút **Chi tiết**
+**Bước 1:** Vào **Danh mục**: chọn **Điều khoản thanh toán**
 
-![fin-danhmuc_H_NhomBH](images/fin_danhmuc_H_DieukhoanTT.png)
+![fin-danhmuc_H_NhomBH](images/fin_danhmuc_H_DieukhoanTT00.png)
 
 Hệ thống hiển thị Danh sách điều khoản mặc định
 
@@ -1421,9 +1421,9 @@ Chức năng Danh mục **Thuế** được quản lý tập trung tại phần 
 
 **Các bước thực hiện**
 
-**Bước 1:** Vào **Danh mục**: chọn **Thuế** và nhấn nút **Chi tiết**
+**Bước 1:** Vào **Danh mục**: chọn **Thuế**
 
-![fin_danhmuc_H_Thue](images/fin_danhmuc_H_Thue.png)
+![fin_danhmuc_H_Thue](images/fin_danhmuc_H_Thue00.png)
 
 Hiển thị danh sách **Thuế** mặc định của hệ thống
 
@@ -1454,9 +1454,9 @@ Chức năng Danh mục **Nhóm Thuế** được quản lý tập trung tại p
 
 **Các bước thực hiện**
 
-**Bước 1:** Vào **Danh mục**: chọn **Nhóm thuế** và nhấn nút **Chi tiết**
+**Bước 1:** Vào **Danh mục**: chọn **Nhóm thuế**
 
-![fin_danhmuc_H_NhomThue](images/fin_danhmuc_H_NhomThue.png)
+![fin_danhmuc_H_NhomThue](images/fin_danhmuc_H_NhomThue00.png)
 
 Hiển thị danh sách nhóm thuế
 
@@ -1484,9 +1484,9 @@ Chức năng Danh mục **Ngành nghề kinh doanh** được quản lý tập t
 
 **Các bước thực hiện**
 
-**Bước 1:** Vào **Danh mục**: chọn **Ngành nghề kinh doanh** và nhấn nút **Chi tiết**
+**Bước 1:** Vào **Danh mục**: chọn **Ngành nghề kinh doanh**
 
-![fin_danhmuc_nganhngheKD](images/fin_danhmuc_nganhngheKD.png)
+![fin_danhmuc_nganhngheKD](images/fin_danhmuc_nganhngheKD00.png)
 
 Hiển thị danh sách ngành nghề kinh doanh
 
@@ -1514,9 +1514,9 @@ Chức năng Danh mục **Cơ quan thuế** được quản lý tập trung tạ
 
 **Các bước thực hiện**
 
-**Bước 1:** Vào **Danh mục**: chọn **Cơ quan thuế** và nhấn nút **Chi tiết**
+**Bước 1:** Vào **Danh mục**: chọn **Cơ quan thuế**
 
-![fin_Danhmuc_H_Coquanthue](images/fin_Danhmuc_H_Coquanthue.png)
+![fin_Danhmuc_H_Coquanthue](images/fin_Danhmuc_H_Coquanthue00.png)
 
 Hiển thị danh sách cơ quan thuế
 
@@ -1544,9 +1544,9 @@ Chức năng Danh mục **Cơ quan thuế** được quản lý tập trung tạ
 
 **Các bước thực hiện**
 
-**Bước 1:** Vào **Danh mục**: chọn **Thiết lập cơ quan thuế, đại lý thuế** và nhấn nút **Chi tiết**
+**Bước 1:** Vào **Danh mục**: chọn **Thiết lập cơ quan thuế, đại lý thuế**
 
-![fin_danhmuc_H_Thietlap](images/fin_danhmuc_H_Thietlap.png)
+![fin_danhmuc_H_Thietlap](images/fin_danhmuc_H_Thietlap00.png)
 
 **Bước 2**: Nhấn **Tạo** để khai báo:
 
@@ -1569,9 +1569,9 @@ Chức năng Danh mục **Mã mục, mã tiểu mục nộp thuế** được qu
 
 **Các bước thực hiện**
 
-**Bước 1:** Vào **Danh mục**: chọn **Mã mục, mã tiểu mục nộp thuế** và nhấn nút **Chi tiết**
+**Bước 1:** Vào **Danh mục**: chọn **Mã mục, mã tiểu mục nộp thuế**
 
-![fin_danhmuc_H_mamucnopthue](images/fin_danhmuc_H_mamucnopthue.png)
+![fin_danhmuc_H_mamucnopthue](images/fin_danhmuc_H_mamucnopthue00.png)
 
 Hiển thị danh sách mã mục, mã tiểu mục nộp thuế
 
@@ -1599,9 +1599,9 @@ Chức năng Danh mục **Biểu thuế tiêu thụ đặc biệt** được qu�
 
 **Các bước thực hiện**
 
-**Bước 1:** Vào **Danh mục**: chọn **Biểu thuế tiêu thụ đặc biệt** và nhấn nút **Chi tiết**
+**Bước 1:** Vào **Danh mục**: chọn **Biểu thuế tiêu thụ đặc biệt**
 
-![fin_Danhmuc_BieuthueTTDB](images/fin_Danhmuc_BieuthueTTDB.png)
+![fin_Danhmuc_BieuthueTTDB](images/fin_Danhmuc_BieuthueTTDB00.png)
 
 Hiển thị danh sách Biểu thuế tiêu thụ đặc biệt
 
@@ -1629,9 +1629,9 @@ Chức năng Danh mục **Hệ thống ngành kinh tế Việt Nam** được qu
 
 **Các bước thực hiện**
 
-**Bước 1:** Vào **Danh mục**: chọn **Hệ thống ngành kinh tế Việt Nam** và nhấn nút **Chi tiết**
+**Bước 1:** Vào **Danh mục**: chọn **Hệ thống ngành kinh tế Việt Nam**
 
-![fin_danhmuc_H_Hethongnganhnghe](images/fin_danhmuc_H_Hethongnganhnghe.png)
+![fin_danhmuc_H_Hethongnganhnghe](images/fin_danhmuc_H_Hethongnganhnghe00.png)
 
 Hiển thị danh sách Hệ thống ngành kinh tế Việt Nam
 
@@ -1658,9 +1658,9 @@ Chức năng Danh mục **Biểu thuế tài nguyên** được quản lý tập
 
 **Các bước thực hiện**
 
-**Bước 1:** Vào **Danh mục**: chọn **Biểu thuế tài nguyên** và nhấn nút **Chi tiết**
+**Bước 1:** Vào **Danh mục**: chọn **Biểu thuế tài nguyên**
 
-![fin_danhmuc_H_BieuthueTN](images/fin_danhmuc_H_BieuthueTN.png)
+![fin_danhmuc_H_BieuthueTN](images/fin_danhmuc_H_BieuthueTN00.png)
 
 Hiển thị danh sách Biểu thuế tài nguyên
 
@@ -1688,9 +1688,9 @@ Chức năng Danh mục **Phí bảo vệ môi trường** được quản lý t
 
 **Các bước thực hiện**
 
-**Bước 1:** Vào **Danh mục**: chọn **Phí bảo vệ môi trường** và nhấn nút **Chi tiết**
+**Bước 1:** Vào **Danh mục**: chọn **Phí bảo vệ môi trường**
 
-![fin_danhmuc_H_PhiBVMT](images/fin_danhmuc_H_PhiBVMT.png)
+![fin_danhmuc_H_PhiBVMT](images/fin_danhmuc_H_PhiBVMT00.png)
 
 Hiển thị danh sách các loại Phí bảo vệ môi trường
 
@@ -1718,9 +1718,9 @@ Chức năng Danh mục **Thuế bảo vệ môi trường** được quản lý
 
 **Các bước thực hiện**
 
-**Bước 1:** Vào **Danh mục**: chọn **Thuế bảo vệ môi trường** và nhấn nút **Chi tiết**
+**Bước 1:** Vào **Danh mục**: chọn **Thuế bảo vệ môi trường**
 
-![fin_danhmuc_H_ThueBVMT](images/fin_danhmuc_H_ThueBVMT.png)
+![fin_danhmuc_H_ThueBVMT](images/fin_danhmuc_H_ThueBVMT00.png)
 
 Hiển thị danh sách các loại Thuế bảo vệ môi trường
 
@@ -1750,9 +1750,9 @@ Chức năng Danh mục **Đơn vị tính** được quản lý tập trung t�
 
 **Các bước thực hiện**
 
-**Bước 1:** Vào **Danh mục**: chọn **Đơn vị tính** và nhấn nút **Chi tiết**
+**Bước 1:** Vào **Danh mục**: chọn **Đơn vị tính**
 
-![](images/fin_Danhmuc_DVT.png)
+![](images/fin_Danhmuc_DVT00.png)
 
 **Bước 2**: Thông tin trên Danh sách
 

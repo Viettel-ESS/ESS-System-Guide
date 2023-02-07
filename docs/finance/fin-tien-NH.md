@@ -448,3 +448,37 @@ Thông tin chi tiết của Phiếu chi thanh toán lương
 ***Lưu ý:*** Với các Bảng lương đã được thanh toán Chi trả, hệ thống thể hiện thông tin Số lượng Phiếu chi tương ứng đã được thanh toán của Bảng lương
 
 ![](images/fin_nganquy_tiengui_bangluong.png)
+
+## Dự báo dòng tiền
+
+### Hướng dẫn trên phần mềm
+
+**Bước 1**: Vào phân hệ **Ngân quỹ**, 
+
+- Chọn **Tiền mặt**, chọn **Dự báo dòng tiền**: Nếu muốn theo dõi dòng **Tiền mặt**
+
+  ![](images/fin_tienmat_Dubaodongtien_01.png)
+
+- Chọn **Tiền gửi**, chọn **Dự báo dòng tiền**: Nếu muốn thoe dõi dòng **Tiền gửi ngân hàng** 
+
+![](images/fin_tiengui_Dubaodongtien_01.png)
+
+**Bước 2**: Hệ thống hiển thị màn hình danh sách các bản ghi dự bảo dòng tiền:
+
+![](images/fin_tienmat_Dubaodongtien_02.png)
+
+**Bước 3:**  Nhấn **Tạo** để thêm bản ghi
+
+![](images/fin_tienmat_Dubaodongtien_tao.png)
+
+**Bước 2:** Khai báo các thông tin tab chung 
+
+- Tại mục **Đơn vị**: Thực hiện chọn **Đơn vị** để theo dõi dòng tiền
+- Tại mục **Đến ngày**: Chọn ngày.
+
+![](images/fin_tienmat_Dubaodongtien_03.png)
+
+Tab Chi tiết: Hệ thống sẽ tự lấy lên các dòng liệt kê đủ các thông tin Thu Chi dự kiến trong tương lại đến thời điểm được chọn tại trường **Đến ngày** 
+
+![](images/fin_tienmat_Dubaodongtien_04.png)
+

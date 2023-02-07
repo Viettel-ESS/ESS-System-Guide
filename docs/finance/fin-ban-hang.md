@@ -4,7 +4,7 @@ Phân hệ **Bán hàng** quản lý toàn bộ quy trình bán hàng từ bư�
 
  **Quy trình**
 
-![](images/fin_banhang_quytrinh.png)
+![](images/fin_BanHang_QuyTrinh.png)
 
 
 
@@ -17,8 +17,6 @@ Phân hệ **Bán hàng** quản lý toàn bộ quy trình bán hàng từ bư�
 ·     Xuất kho từ đơn bán hàng. Chi tiết thao tác chức năng [**tại đây**](#xuat-kho-on-ban-hang)
 
 ·     Tạo chứng từ bán hàng. Chi tiết thao tác chức năng **[tại đây](#hoa-on-ban-hang)**
-
-·     Tạo chứng từ bán hàng - Giảm thuế 20%. Chi tiết thao tác chức năng **[tại đây](#hoa-on-ban-hang-giam-thue-20)**
 
 ·     Xuất kho từ chứng từ bán hàng. Chi tiết thao tác chức năng [**tại đây**](#xuat-kho-on-ban-hang)
 
@@ -200,13 +198,13 @@ Khi có nhu cầu mua sản phẩm, khách hàng sẽ liên hệ với hộ kinh
 
 **Bước 1:** Vào phân hệ **Bán hàng**, Chọn **Đơn bán hàng**, chọn **Báo giá** 
 
-![](images/fin_banhang_vaochucnang.png)
+![](images/fin_banhang_vaochucnang00.png)
 
 Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống
 
 ![](images/fin_banhang_vaochucnang_nhanh.png)
 
-![](images/fin_banhang_danhsach.png)
+![](images/fin_banhang_danhsach00.png)
 
 **Bước 2:** Nhấn nút **Tạo** ![](images/fin_banhang_taomoi.png)trên chức năng để thực hiện thêm một đơn hàng mới. Khai báo các thông tin chi tiết trên đơn bán hàng. 
 
@@ -220,7 +218,7 @@ Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm ki
 
 hoặc vào đường dẫn **Danh mục/Khách hàng** và thực hiện thêm mới
 
-![](images/fin_banhang_danhmuc_khachhang.png)
+![](images/fin_banhang_danhmuc_khachhang00.png)
 
 ·     Chọn ***bảng giá***,  là tiền tệ giao dịch trong Đơn hàng
 
@@ -244,7 +242,7 @@ Mục **Điều khoản thanh toán**: Nếu có thỏa thuận về điều ki�
 
 **Bước 1**: Sau khi đã có đơn hàng để gửi khách hàng, Thực hiện **In đơn hàng** bằng cách chọn chức năng **In**
 
-![](images/fin_banhang_donhang_in.png)
+![](images/fin_banhang_donhang_in00.png)
 
 **Bước 2:** Thực hiện **Gửi qua Email** đến khách hàng sau khi hoàn thành  báo giá, có thể tùy chỉnh thông tin mẫu gửi báo giá theo yêu cầu
 
@@ -278,7 +276,7 @@ Khi thiết lập kho không chọn "**Chứng từ bán hàng kiêm phiếu xu�
 
 Sau khi thực hiện **Xác nhận đơn hàng**, chương trình tự động sinh ra một yêu cầu giao hàng. Người dùng có thể theo dõi tình trạng giao hàng của sản phẩm trên phiếu xuất kho đã sinh ra và xác nhận số lượng sản phẩm bàn giao theo đơn hàng 
 
-![](images/fin_banhang_donhang_phieuxuat.png)
+![](images/fin_banhang_donhang_phieuxuat00.png)
 
 **Xem video hướng dẫn**
 
@@ -301,7 +299,7 @@ Sau khi thực hiện **Xác nhận đơn hàng**, chương trình tự động 
 
 **Bước 2**: Tại đơn bán hàng, nhấn **xác nhận** đơn hàng, chương trình tự động sinh ra một yêu cầu giao hàng
 
-![](images/fin_banhang_donhang_phieuxuat.png)
+![](images/fin_banhang_donhang_phieuxuat00.png)
 
 **Bước 3**: Chọn **Phiếu xuất kho**, hệ thống chuyển sang chức năng phiếu xuất kho. 
 
@@ -383,7 +381,7 @@ Người dùng có thể lập hóa đơn bán hàng theo các cách khác nhau
 
 **Lưu ý:** Để nhìn lại tình trạng hóa đơn của đơn bán hàng, người dùng có thể vào chức năng đơn bán hàng, nhấn chọn **Hóa đơn** tại góc phải màn hình 
 
-![](images/fin_banhang_donhang_hoadon_button.png)
+![](images/fin_banhang_donhang_hoadon_button00.png)
 
 #### Lập hóa đơn bán hàng từ đơn bán hàng (sinh phiếu xuất kho)
 
@@ -445,16 +443,15 @@ Nếu như đủ hàng còn tồn trong kho, hệ thống sẽ xác nhận thàn
     title="Lập hóa đơn bán hàng không từ đơn bán hàng" 
     src="https://www.youtube.com/embed/-6xgVLYA9Ys?list=PLcdARb5pnnj9pfGcrvZ16mj-aXdfnNQJe"
 ></iframe>
-
 **Bước 1**: Vào phân hệ **Bán hàng**, Chọn **Hóa đơn** , chọn **Hóa đơn bán hàng** 
 
-![](images/fin_banhang_hoadon.png)
+![](images/fin_banhang_hoadon00.png)
 
 Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống
 
-![](images/fin_banhang_hoadon_timkiemnhanh.png)
+![](images/fin_banhang_hoadon_timkiemnhanh00.png)
 
-![](images/fin_banhang_hoadon_viewdanhsach.png)
+![](images/fin_banhang_hoadon_viewdanhsach00.png)
 
 **Bước 2**: Nhấn nút **tạo** ![](images/fin_banhang_taomoi.png) để thêm hóa đơn. 
 
@@ -464,7 +461,7 @@ Trên thông tin Hóa đơn bán hàng, Nhân viên kế toán thực hiện nh�
 
 hoặc vào đường dẫn **Danh mục/Khách hàng** và thực hiện thêm mới
 
-![](images/fin_banhang_danhmuc_khachhang.png)
+![](images/fin_banhang_danhmuc_khachhang00.png)
 
 - Nhập bổ sung thông tin gồm: Ngày hóa đơn, Mẫu số, Ký hiệu hóa đơn ,Số hóa đơn, hạn thanh toán
 
@@ -480,7 +477,7 @@ Thông tin dữ liệu bút toán phát sinh:
 
 - Căn cứ thông tin Thuế  đã lựa chọn cùng với thông tin Chiết khấu, Đơn giá, Số lượng đã nhập bên chi tiết hóa đơn, hệ thống thực hiện mặc định thông tin các bút toán tương ứng
 
-![](images/fin_banhang_hoadon_buttoan.png)
+![](images/fin_banhang_hoadon_buttoan00.png)
 
 **Bước 4**: Nhân viên Kế toán thực hiện nhấn **Xác nhận** để hoàn thành xuất hóa đơn bán hàng
 
@@ -502,82 +499,15 @@ Tại chứng từ bán hàng, khi người dùng nhấn **Đưa về dự thả
 
 ![](images/fin_banhang_donhang_hoadon_tabchung3.png)
 
-## *Chứng từ bán hàng - Giảm thuế 20%*
+#### Huỷ chứng từ hàng loạt
 
-### Mô tả nghiệp vụ
+Chọn các chứng tư bán hàng cần huỷ, chọn **Hành động**: **Huỷ hàng loạt**
 
-Sau khi giao hàng thành công, người dùng thực hiện kiểm tra dữ liệu và lập hóa đơn bán hàng cho những mặt hàng được quy định giảm thuế 20% theo Nghị quyết số 43/2022/QH15 và gửi hóa đơn cho khách hàng. 
+![](images/fin_banhang_huyhangloat.png)
 
-**Giảm thuế 20%** Chỉ áp dụng với Công ty có **Thiết lập** tại nhóm **Kế toán** với **Phương pháp tính thuế GTGT** = **Trực tiếp trên doanh thu**
+Hệ thống hiển thị cảnh báo số lượng chứng từ huỷ thành công, số lượng chứng từ huỷ không thành công
 
-(Đối với Hộ kinh doanh cá thể: Thông tin thiết lập này được mặc định là  **Trực tiếp trên doanh thu**)
-
-### Hướng dẫn trên phần mềm
-
-#### Lập hóa đơn bán hàng có Giảm thuế 20%
-
-**Xem video hướng dẫn**
-
-<iframe
-    width="920"
-    height="450"
-    frameborder="0"
-    allow="autoplay; encrypted-media; clipboard-write; gyroscope; picture-in-picture "
-    allowfullscreen
-    title="Hóa đơn giảm thuế" 
-    src="https://www.youtube.com/embed/T-Gz3db3b-M?list=PLcdARb5pnnj8jeyvyhaptnwL3sxxT_QaK"
-></iframe>
-
-
-
-
-Đối tượng thực hiện: Người bán hàng
-
-**Bước 1**: Vào Màn hình qua 2 cách :
-
-- **Cách 1**: Lập hóa đơn từ Đơn bán hàng bằng cách: Vào phân hệ **Bán hàng**, Chọn **Đơn bán hàng** đã hoàn thành Giao hàng cho khách hàng và Nhấn **Tạo hóa đơn**
-
-![](images/fin_banhang_donhang_taohoadon.png)
-
-Trên màn hình **Tạo Hóa đơn**, kế toán thực hiện chọn loại hóa đơn thanh toán dựa trên số tiền khách hành thanh toán
-
-![](images/fin_banhang_donhang_taohoadon_popup.png)
-
-- Hóa đơn thông thường: Hệ thống tạo 1 hóa đơn với số lượng, số tiền tương ứng với đơn bán hàng
-
-- Tiền đặt cọc (Theo phần trăm): Hệ thống tạo 1 hóa đơn với số tiền thanh toán theo tỷ lệ phần trăm với số tiền bên đơn bán hàng
-
-- Tiền đặt cọc (Số tiền cố định): Hệ thống tạo 1 hóa đơn với số tiền thanh toán bằng số tiền đã nhập sẵn trên giao diện
-
-  Chọn **Tạo & xem hóa đơn** hoặc **Tạo hóa đơn** để thực hiện sinh hóa đơn theo yêu cầu
-
-- **Cách 2**: Lập Hóa đơn bán hàng không từ Đơn bán hàng (Lập trực tiếp) bằng cách: Vào phân hệ **Bán hàng**, Chọn **Hóa đơn** , chọn **Hóa đơn bán hàng** 
-
-![](images/fin_banhang_hoadon.png)
-
-Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống
-
-![](images/fin_banhang_hoadon_timkiemnhanh.png)
-
-![](images/fin_banhang_hoadon_viewdanhsach.png)
-
-* Nhấn nút **tạo** ![](images/fin_banhang_taomoi.png) để thêm hóa đơn. 
-
-**Bước 2**: Trên thông tin **Hóa đơn bán hàng** vừa được tạo , Nhân viên thực hiện nhập các dữ liệu về:
-
-- Hóa đơn: **Ngày hóa đơn, Mẫu số hóa đơn,  Số hóa đơn** và **Tích chọn 'Giảm 20% thuế GTGT theo NQ 43** (Khi tích chọn giá trị này chương trình sẽ tự động tính phần giảm của Thuế GTGT )
-
-  ![](images/fin_banhang_taohoadon_giamthue.png)
-
-  
-
-- Chọn và nhập thông tin về Mặt hàng và Chiết khấu tương ứng của Đơn hàng (Nếu có), thông tin Thuế GTGT được giảm sẽ tính trực tiếp trên từng dòng mặt hàng
-
-  ![](images/fin_banhang_taohoadon_giamthue_tabChitiet.png)
-
-
-
-**Bước 3**: Nhân viên thực hiện nhấn **Xác nhận**
+![](images/fin_banhang_huyhangloat_canhbao.png)
 
 ## *Ghi nhận thanh toán từ khách hàng*
 
@@ -605,11 +535,11 @@ Người dùng thực hiện ghi nhận và theo dõi việc thanh toán của h
 
 **Bước 1**: Vào phân hệ **Bán hàng**, chọn **Hóa đơn**, chọn **Hóa đơn bán hàng**. Trên danh sách hóa đơn bán hàng, kế toán tìm tới các hóa đơn đã được ghi sổ
 
-![](images/fin_banhang_hoadon_danhsach.png)
+![](images/fin_banhang_hoadon_danhsach00.png)
 
 **Bước 2**: Chọn hóa đơn cần thanh toán, Nhấn nút **Ghi nhận thanh toán**. 
 
-![](images/fin_BanHang_HoaDon_GhiNhanThanhToan.png)
+![](images/fin_BanHang_HoaDon_GhiNhanThanhToan00.png)
 
 Người dùng nhập và sửa thông tin Tài khoản ngân hàng người nhận, khách hàng, ngày thanh toán tiền, số tiền khách hàng đã trả
 
@@ -621,11 +551,11 @@ Người dùng nhập và sửa thông tin Tài khoản ngân hàng người nh�
 
 Nếu Tại thông tin **Ghi nhận thanh toán**, **Sổ nhật ký** được chọn là **tiền mặt** thì người dùng vào chức năng **Ngân quỹ/Tiền mặt/Phiếu thu**. 
 
-![](images/fin_banhang_hoadon_phieuthu.png)
+![](images/fin_banhang_hoadon_phieuthu00.png)
 
 Nếu Tại thông tin **Ghi nhận thanh toán**, **Sổ nhật ký** được chọn là **tiền gửi** thì người dùng vào chức năng **Ngân quỹ/Tiền gửi/Báo có**. 
 
-![](images/fin_banhang_hoadon_baoco.png)
+![](images/fin_banhang_hoadon_baoco00.png)
 
 Người dùng có thể tìm thấy phiếu thu tiền dựa trên ngày thanh toán, đối tác thanh toán, tổng tiền, nội dung giao dịch
 
@@ -710,7 +640,7 @@ Tại chứng từ trả hàng, khi người dùng nhấn **Đưa về dự th�
 
 Bước 1: Vào phân hệ **Bán hàng**, chọn **Hóa đơn**, chọn **Hóa đơn bán hàng**. Trên danh sách hóa đơn bán hàng, kế toán tìm tới hóa đơn có nhu cầu hoàn hàng, nhấn chọn tiện ích/chuyển đổi thành khoản hoàn tiền/công nợ giảm
 
-![](images/fin_BanHang_HoaDon_ButtonChuyenDoi.png)
+![](images/fin_BanHang_HoaDon_ButtonChuyenDoi00.png)
 
 Hệ thống chuyển đổi từ hóa đơn bán hàng thành hóa đơn giảm giá/trả hàng, các thông tin được giữ nguyên
 
@@ -770,7 +700,7 @@ Sau đó, người dùng sẽ **xuất hóa đơn** để gửi lại cho khách
 
 Bước 1: Vào phân hệ **Bán hàng**, chọn **Hóa đơn**, chọn **Hóa đơn bán hàng**. Trên danh sách hóa đơn bán hàng, kế toán tìm tới hóa đơn có nhu cầu hoàn hàng, nhấn chọn tiện ích/chuyển đổi thành khoản hoàn tiền/công nợ giảm
 
-![](images/fin_BanHang_HoaDon_ButtonChuyenDoi.png)
+![](images/fin_BanHang_HoaDon_ButtonChuyenDoi00.png)
 
 Hệ thống chuyển đổi từ hóa đơn bán hàng thành hóa đơn giảm giá/trả hàng, các thông tin được giữ nguyên
 

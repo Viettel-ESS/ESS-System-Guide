@@ -55,11 +55,11 @@ Lưu ý: Mẫu số hóa đơn cần phải trùng với mẫu số khai báo tr
 
 **Bước 1**: Chọn nghị định để xuất hóa đơn bằng cách vào **Hóa đơn**, chọn nghị định
 
-![](images/fin_hdt_nghidinh.png)
+![](images/fin_hdt_nghidinh00.png)
 
 **Bước 2**: Vào chức năng **Bán hàng/Hóa đơn/Hóa đơn bán hàng** hoặc **Bán hàng/Hóa đơn/Hóa đơn giảm giá/trả hàng** , tìm tới các hóa đơn **đã vào sổ** và **chưa phát hành** hóa đơn điện tử
 
-![](images/fin_hdt_dieukien.png)
+![](images/fin_hdt_dieukien00.png)
 
 **Bước 3**: Chọn hóa đơn, nhấn nút xuất hóa đơn điện tử. 
 
@@ -67,7 +67,7 @@ Lưu ý: Mẫu số hóa đơn cần phải trùng với mẫu số khai báo tr
 
 Nếu phần mềm hiển thị thông báo lỗi "Mẫu số hóa đơn băt buộc nhập!!!", người dùng nhấn Sửa và nhập bổ sung mẫu số hóa đơn
 
-![](images/fin_hdt_ms.png)
+![](images/fin_hdt_ms00.png)
 
 Nếu chưa đăng nhập Sinvoice, phần mềm sẽ mở ra cửa sổ đăng nhập hệ thống Sinvoice
 
@@ -83,7 +83,7 @@ Khi xuất hóa đơn điện thử thành công, hệ thống tự động sinh
 
 ![](images/fin_hdt_danhsach.png)
 
-![](images/fin_hdt_dsbtn.png)
+![](images/fin_hdt_dsbtn00.png)
 
 
 
@@ -93,7 +93,7 @@ Khi xuất hóa đơn điện thử thành công, hệ thống tự động sinh
 
 Người dùng kiểm tra thông tin, Nếu đã chính xác thì thực hiện nhấn **Phát hành hóa đơn**. Khi đó hóa đơn điện tử sẽ chuyển sang trạng thái đã phát hành
 
-![](images/fin_hdt_chitiet.png)
+![](images/fin_hdt_chitiet00.png)
 
 - Chọn **Tải hóa đơn** ![](images/fin_hdt_taihoadon.png), hệ thống xuất hóa đơn dưới dạng .xml
 

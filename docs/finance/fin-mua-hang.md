@@ -4,7 +4,7 @@ Quản lý toàn bộ quy trình Mua hàng từ bước Lập đơn hàng, nhậ
 
 **Quy trình**
 
-![](images/fin_muahang_quytrinh.png)
+![](images/fin_MuaHang_QuyTrinh.png)
 
 **Các luồng quy trình**
 
@@ -73,7 +73,7 @@ Danh sách báo giá được hiển thị
 
 
 
-![](images/fin_MuaHang_YCBG_1.png)
+![](images/fin_MuaHang_YCBG_01.png)
 
 **Bước 2:** Khai báo các thông tin chi tiết của **Yêu cầu báo giá:**
 
@@ -104,7 +104,7 @@ Danh sách báo giá được hiển thị
 
 **Bước 1**: Vào phân hệ **Mua hàng**, trên **Danh sách Yêu cầu báo giá**, tìm thông tin Yêu cầu đã được Nhà cung cấp xác nhận và thực hiện trả 
 
-![](images/fin_MuaHang_YCBG_2.png)
+![](images/fin_MuaHang_YCBG_02.png)
 
 **Bước 2**: Thực hiện xác nhận thông tin Số lượng sản phẩm mà Nhà cung cấp bàn giao
 
@@ -112,7 +112,7 @@ Danh sách báo giá được hiển thị
 
 ·     Trường hợp Nhà cung cấp trả hàng còn thiếu/thừa so với Yêu cầu: Khi đó người dùng cần Vào từng sản phẩm để xác nhận theo đúng số lượng thực tế nhận về
 
-![](images/fin_MuaHang_YCBG_3.png)
+![](images/fin_MuaHang_YCBG_03.png)
 
 **Bước 3**: Nhấn nút **Xác nhận**
 
@@ -154,7 +154,7 @@ Hợp đồng mua hàng được thực hiện sau luồng Yêu cầu báo giá 
 
 **Bước 1**: Vào phân hệ **Mua hàng**, Chọn **Hợp đồng mua hàng** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
 
-![](images/fin_MuaHang_HDM_1.png)
+![](images/fin_MuaHang_HDM_01.png)
 
 **Bước 2:** Tại phần **Thông tin chung** của Hợp đồng
 
@@ -185,7 +185,7 @@ Hợp đồng mua hàng được thực hiện sau luồng Yêu cầu báo giá 
 
 **Bước 1:** Vào phân hệ **Mua hàng**, Chọn **Hợp đồng mua hàng** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
 
-![](images/fin_MuaHang_HDM_1.png)
+![](images/fin_MuaHang_HDM_01.png)
 
 **Bước 2:** Tại phần Xem thông tin của Hợp đồng
 
@@ -237,7 +237,7 @@ Có hai cách để thực hiện lập đơn mua hàng
 
 **Bước 1:** Vào phân hệ **Mua hàng**, Chọn **Đơn mua hàng** 
 
-![](images/fin_muahang_donmh.png)
+![](images/fin_muahang_donmh00.png)
 
 Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống
 
@@ -255,7 +255,7 @@ Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm ki
 
   hoặc vào đường dẫn **Danh mục/Nhà cung cấp** và thực hiện thêm mới
 
-  ![](images/fin_muahang_dm_ncc.png)
+  ![](images/fin_muahang_dm_ncc00.png)
 
 - Khai báo thông tin về Hạn đặt hàng, Ngày đơn hàng, nội dung chi tiết đơn hàng
 
@@ -274,7 +274,7 @@ Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm ki
 
 **Bước 1:** Vào phân hệ **Mua hàng**, Chọn **Đơn mua hàng** 
 
-![](images/fin_muahang_donmh.png)
+![](images/fin_muahang_donmh00.png)
 
 Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống
 
@@ -329,7 +329,7 @@ Khi import thành công, hệ thống  sẽ tự động quay về màn hình da
 
 **Bước 1**: Sau khi đã có đơn hàng báo giá để gửi khách hàng, Thực hiện **In** đơn hàng bằng cách chọn chức năng In
 
-![](images/fin_muahang_donmh_in.png)
+![](images/fin_muahang_donmh_in00.png)
 
 **Bước 2:** Thực hiện **Gửi qua Email** đến nhà cung cấp sau khi hoàn thành  đơn hàng, có thể tùy chỉnh thông tin mẫu gửi báo giá theo yêu cầu
 
@@ -345,7 +345,7 @@ Nếu không còn nhu cầu mua hàng, người bán nhấn **Hủy** hoặc th�
 
 Sau khi có đơn hàng, sản phẩm sẽ được nhận từ nhà cung cấp và nhập vào kho
 
-![](images/fin_muahang_donmh_xoa.png)
+![](images/fin_muahang_donmh_xoa00.png)
 
 ## *Nhập kho đơn mua hàng*
 
@@ -458,7 +458,7 @@ Cách 2: Lập hóa đơn mua hàng không từ đơn mua hàng. Chi tiết nghi
 
 **Lưu ý:** Để nhìn lại tình trạng hóa đơn của đơn bán hàng, người dùng có thể vào chức năng đơn bán hàng, nhấn chọn **Hóa đơn** tại góc phải màn hình 
 
-![](images/fin_muahang_hoadon_button.png)
+![](images/fin_muahang_hoadon_button00.png)
 
 #### Lập hóa đơn mua hàng không từ đơn mua hàng
 
@@ -477,13 +477,13 @@ Cách 2: Lập hóa đơn mua hàng không từ đơn mua hàng. Chi tiết nghi
 
 **Bước 1**: Vào phân hệ **Mua hàng**, Chọn **Hóa đơn** , chọn **Hóa đơn mua hàng** 
 
-![](images/fin_muahang_hdmh.png)
+![](images/fin_muahang_hdmh00.png)
 
 Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống
 
-![](images/fin_muahang_hdmh_timkiem.png)
+![](images/fin_muahang_hdmh_timkiem00.png)
 
-![](images/fin_muahang_hdmh_ds.png)
+![](images/fin_muahang_hdmh_ds00.png)
 
 **Bước 2**: Nhấn nút **tạo** ![](images/fin_banhang_taomoi.png) để thêm hóa đơn. Có hai lựa chọn để tạo hóa đơn: Hóa đơn hàng hóa và Hóa đơn dịch vụ. 
 
@@ -497,7 +497,7 @@ Trên thông tin Hóa đơn mua hàng, Nhân viên kế toán thực hiện nh�
 
 hoặc vào đường dẫn **Danh mục/Nhà cung cấp** và thực hiện thêm mới
 
-![](images/fin_muahang_dm_ncc.png)
+![](images/fin_muahang_dm_ncc00.png)
 
 - Nhập bổ sung thông tin gồm: Ngày hóa đơn, Mẫu số, Ký hiệu hóa đơn ,Số hóa đơn, hạn thanh toán
 
@@ -513,7 +513,7 @@ Thông tin dữ liệu bút toán phát sinh:
 
 - Căn cứ thông tin Thuế  đã lựa chọn cùng với thông tin Chiết khấu, Đơn giá, Số lượng đã nhập bên chi tiết hóa đơn, hệ thống thực hiện mặc định thông tin các bút toán tương ứng
 
-![](images/fin_muahang_hd_buttoan.png)
+![](images/fin_muahang_hd_buttoan00.png)
 
 **Bước 4**: Nhân viên Kế toán thực hiện nhấn **Xác nhận** để hoàn thành xuất hóa đơn mua hàng
 
@@ -608,6 +608,16 @@ Khi đó xảy ra các trường hợp sau:
 
 - **Nếu mặt hàng trong Phiếu nhập kho Chưa tham gia vào quá trình xuất hàng/trả hàng:** hệ thống đưa Chứng từ mua hàng về Dự thảo thành công. Đồng thời thông tin Phiếu nhập kho được tạo ra từ Chứng từ sẽ bị xóa khỏi hệ thống, và số lượng tồn kho sẽ giảm tương ứng.
 
+#### Huỷ chứng từ hàng loạt
+
+Chọn các chứng tư mua hàng cần huỷ, chọn **Hành động**: **Huỷ hàng loạt**
+
+![](images/fin_muahang_huyhangloat.png)
+
+Hệ thống hiển thị cảnh báo số lượng chứng từ huỷ thành công, số lượng chứng từ huỷ không thành công
+
+![](images/fin_banhang_huyhangloat_canhbao.png)
+
 ## ***Thanh toán cho Nhà cung cấp***
 
 ### **Mô tả nghiệp vụ**
@@ -635,11 +645,11 @@ Khi đó xảy ra các trường hợp sau:
 
 **Bước 1:** Vào phân hệ **Mua hàng**, Chọn **Hóa đơn mua hàng** đã hoàn thành **Vào sổ** 
 
-![](images/fin_muahang_hd_thanhtoan.png)
+![](images/fin_muahang_hd_thanhtoan00.png)
 
 **Bước 2**: Chọn hóa đơn cần thanh toán, Nhấn nút **Ghi nhận thanh toán**. 
 
-![](images/fin_muahang_hd_ghinhantt.png)
+![](images/fin_muahang_hd_ghinhantt00.png)
 
 Tại màn hình **Ghi nhận thanh toán** kế toán thanh toán thực hiện:
 
@@ -653,17 +663,17 @@ Tại màn hình **Ghi nhận thanh toán** kế toán thanh toán thực hiện
 
 Trường hợp nếu số tiền chi thanh toán  vượt quá số tiền còn tồn thì phần mềm sẽ báo lỗi 'Số tiền chi vượt quá số dư tài khoản'
 
-![](images/fin_muahang_hd_ttvuot.png)
+![](images/fin_muahang_hd_ttvuot00.png)
 
 Để kiểm tra lại phiếu chi tiền, người dùng có thể tìm phiếu chi bằng cách:
 
 Nếu Tại thông tin **Ghi nhận thanh toán**, **Sổ nhật ký** được chọn là **tiền mặt** thì người dùng vào chức năng **Ngân quỹ/Tiền mặt/Phiếu chi**. 
 
-![](images/fin_muahang_phieuchi.png)
+![](images/fin_muahang_phieuchi00.png)
 
 Nếu Tại thông tin **Ghi nhận thanh toán**, **Sổ nhật ký** được chọn là **tiền gửi** thì người dùng vào chức năng **Ngân quỹ/Tiền gửi/Báo nợ**. 
 
-![](images/fin_muahang_baono.png)
+![](images/fin_muahang_baono00.png)
 
 Người dùng có thể tìm thấy phiếu chi tiền dựa trên ngày thanh toán, đối tác thanh toán, tổng tiền, nội dung giao dịch
 
@@ -701,13 +711,9 @@ Sau khi hoàn thành việc thỏa thuận với Nhà cung cấp về các mặt
 
 **Bước 1:** Vào phân hệ **Mua hàng**, Chọn **Hóa đơn mua hàng** đã hoàn thành Nhận hàng từ Nhà cung cấp. Trên danh sách hóa đơn mua hàng, kế toán tìm tới các hóa đơn đã được ghi sổ, nhấn chọn **Tạo HĐ giảm giá**
 
-![](images/fin_muahang_hdgg.png)
+![](images/fin_muahang_hdgg00.png)
 
-**Bước 2**: Nhập Lý do tạo hóa đơn, Nhấn **Đảo ngược**
-
-![](images/fin_BanHang_HoaDon_TaoHDGiamGia_popup.png)
-
-Hệ thống tự sinh hóa đơn giảm giá với thông tin tương ứng với hóa đơn bán hàng. 
+**Bước 2**: Hệ thống tự sinh hóa đơn giảm giá với thông tin tương ứng với hóa đơn bán hàng. 
 
 Trên hóa đơn giảm giá được sinh ra, kế toán khai báo  các thông tin trên chứng từ giảm giá hàng bán như: số lượng hàng được giảm, giá trị giảm
 
@@ -723,7 +729,7 @@ Sau đó, người dùng sẽ **xuất hóa đơn** để gửi lại cho khách
 
 Bước 1: Vào phân hệ **Mua hàng**, chọn **Hóa đơn**, chọn **Hóa đơn mua hàng**. Trên danh sách hóa đơn mua hàng, kế toán tìm tới hóa đơn có nhu cầu hoàn hàng, nhấn chọn tiện ích/chuyển đổi thành khoản hoàn tiền/công nợ giảm
 
-![](images/fin_muahang_hdmh_chuyendoi.png)
+![](images/fin_muahang_hdmh_chuyendoi00.png)
 
 Hệ thống chuyển đổi từ hóa đơn mua hàng thành hóa đơn giảm giá/trả hàng, các thông tin được giữ nguyên
 
@@ -830,7 +836,7 @@ Khi đó xảy ra các trường hợp sau:
 
 **Bước 1:** Vào phân hệ **Mua hàng**, Chọn **Chứng từ trả hàng** 
 
-![](images/fin_Muahang_Trahang_trucTiep.png)
+![](images/fin_Muahang_Trahang_trucTiep00.png)
 
 **Bước 2**: Nhấn nút **tạo** ![](images/fin_banhang_taomoi.png) để thêm chứng từ.
 
@@ -988,7 +994,7 @@ Hệ thống đưa Chứng từ trả hàng về Dự thảo thành công. Đồ
 
 **Bước 1:** Vào phân hệ **Mua hàng**, Chọn **Chứng từ Giảm giá** 
 
-![](images/fin_Muahang_GiamGia_trucTiep.png)
+![](images/fin_Muahang_GiamGia_trucTiep00.png)
 
 **Bước 2**: Nhấn nút **tạo** ![](images/fin_banhang_taomoi.png) để thêm chứng từ.
 

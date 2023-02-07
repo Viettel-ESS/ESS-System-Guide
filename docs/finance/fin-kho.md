@@ -115,6 +115,10 @@ Lưu ý: Điều kiện để lệnh sản xuất được hoàn thành: Toàn b
 
 ![fin_LSX_HDN](images/fin_LSX_HDN.png)
 
+**Bước 4**: Sau khi đã có Lệnh sản xuất, Thực hiện **In lệnh sản xuất** bằng cách chọn chức năng **In**
+
+![](images/fin_kho_LSX_in.png)
+
 ### Chuyển về nháp hoặc Hủy Lệnh sản xuất
 
 Trường hợp Người dùng phát hiện thông tin Lệnh sản xuất bị lập sai (Sai thông tin Sản phẩm, sai thông tin số lượng...) trong khi Lệnh sản xuất đã được Hoàn thành (Tức đã lên tạo ra Phiếu xuất kho và Phiếu nhập kho tương ứng): Khi đó người dùng sử dụng tính năng **Chuyển về nháp** để đưa thông tin Lệnh sản xuất về trạng thái Dự thảo trước khi thực hiện Hủy phiếu
@@ -387,6 +391,20 @@ Khi đó hệ thống hiển thị thông báo xác nhận Chuyển Phiếu nh�
 
 ![](images/fin_PhieuNhapKho_Nhap_confirm_HuyDonMua_ctu.png)
 
+**Chuyển về Nháp nhiều Phiếu nhập kho cùng lúc:**
+
+**Bước 1**: Vào phân hệ **Kho vận**, Chọn nhóm **Hoạt động** , chọn chức năng **Phiếu nhập kho** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống; Hoặc mở thông tin **Phiếu nhập kho** từ phần Đơn mua hàng của Phiếu nhập)
+
+![](images/fin_kho_PNK_Vaochucnang.png)
+
+**Bước 2**: Chọn các Phiếu nhập kho muốn chuyển về nháp, sau đó chọn **Hành động**, **Đưa về dự thảo**
+
+![](images/fin_kho_PNK_Duaveduthao.png)
+
+Hệ thống hiển thị thông báo số lượng phiếu xuất kho chuyển về nháp thành công và số lượng chuyển về nháp không thành công.
+
+![](images/fin_kho_PNK_CanhbaoDVDT.png)
+
 ## *Lập phiếu xuất kho*
 
 ### Mô tả nghiệp vụ
@@ -589,7 +607,19 @@ Khi đó hệ thống hiển thị thông báo xác nhận Chuyển Phiếu nh�
 
 ![](images/fin_PhieuXuatKho_chuyenNhap_HuyDonHang.png)
 
- 
+**Chuyển về Nháp nhiều Phiếu xuất kho cùng lúc:**
+
+**Bước 1**: Vào phân hệ **Kho vận**, Chọn nhóm **Hoạt động** , chọn chức năng **Phiếu xuất kho** (Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống; Hoặc mở thông tin **Phiếu xuất kho** từ phần Đơn mua hàng của Phiếu nhập)
+
+![](images/fin_kho_PXK_Vaochucnang.png)
+
+**Bước 2**: Chọn các Phiếu xuất kho muốn chuyển về nháp, sau đó chọn **Hành động**, **Đưa về dự thảo**
+
+![](images/fin_kho_PXK_Duaveduthao.png)
+
+Hệ thống hiển thị thông báo số lượng phiếu xuất kho chuyển về nháp thành công và số lượng chuyển về nháp không thành công.
+
+![](images/fin_kho_PXK_CanhbaoDVDT.png) 
 
 ## *Phân bổ phụ phí*
 
@@ -619,7 +649,7 @@ Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm ki
 
 ![](images/fin_kho_PBPP_timkiem.png)
 
-![fin_Kho_Phanbo_tabchung](images/fin_Kho_Phanbo_tabchung.png)
+![fin_Kho_Phanbo_tabchung](images/fin_Kho_Phanbo_tabchung00.png)
 
 **Bước 2:** Người dùng nhập các thông tin ở tab chung
 
@@ -636,11 +666,11 @@ Cụ thể:
   - Chọn hóa đơn phụ phí: Hệ thống sẽ tự động đẩy thông tin phụ phí xuống tab chi tiết phụ phí. Trường hợp không phân bổ phụ phí cho tất cả các sản phẩm có trong phiếu nhập kho, người dùng có thể tích chọn ở cột Có phân bổ.
   - Người dùng có thể nhập trực tiếp thông tin phụ phí ở tab chi tiết phụ phí mà không cần chọn **Công nợ nhà cung cấp.**
 
-  ![fin_Kho_Phanbo_tabnhapkho](images/fin_Kho_Phanbo_tabnhapkho.png)
+  ![fin_Kho_Phanbo_tabnhapkho](images/fin_Kho_Phanbo_tabnhapkho00.png)
 
 **Bước 3:** Người dùng tích vào **Tính toán** (ở **góc cuối bên phải tab chi tiết phụ phí)**, kết quả sẽ được hiển thị ở tab chi tiết phân bổ.Giá trị mới sẽ được tính bằng giá trị gốc cộng với giá trị phân bổ cho từng phiếu nhập kho
 
-![fin_Kho_Phanbo_TabPhuphi](images/fin_Kho_Phanbo_TabPhuphi.png)
+![fin_Kho_Phanbo_TabPhuphi](images/fin_Kho_Phanbo_TabPhuphi00.png)
 
 ![fin_Kho_Phanbo_tabphanbo](images/fin_Kho_Phanbo_tabphanbo.png)
 
@@ -679,7 +709,7 @@ Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm ki
 
 ![](images/fin_kho_KKK_timkiem.png)
 
-![fin_Kho_KiemKeKho_TabChung](images/fin_Kho_KiemKeKho_TabChung.png)
+![fin_Kho_KiemKeKho_TabChung](images/fin_Kho_KiemKeKho_TabChung00.png)
 
 **Bước 2**: Người dùng nhập các thông tin ở tab chung
 

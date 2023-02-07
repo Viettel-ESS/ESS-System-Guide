@@ -9,7 +9,7 @@ Quy trình kế toán tổng hợp bao gồm:
 - Tổng hợp thu thập thông tin, chứng từ kế toán và các số liệu thông qua các nghiệp vụ phát sinh thực tế  và xử lý những thông tin này
 - Ghi chép các nghiệp vụ phát sinh của tài khoản và vào sổ sách kế toán của doanh nghiệp
 
-![](images/fin_tonghop_quytrinh.png)
+![](images/fin_TongHop_QuyTrinh.png)
 
 **Các luồng quy trình**
 
@@ -79,7 +79,7 @@ Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm ki
 
 - Chọn Định khoản: Xác định ghi chép số tiền của một nghiệp vụ kinh tế phát sinh. Khoản ghi chép có thể là chi phí bả	o hiểm xã hội, chi phí tiền lương, ... Người dùng có thể bổ sung khoản ghi chép mới bằng cách vào **Danh mục/Định khoản tự động** 
 
-  ![](images/fin_tonghop_ctnvk_dinhkhoantudong.png)
+  ![](images/fin_tonghop_ctnvk_dinhkhoantudong00.png)
 
   Thực hiện nhập bổ sung định khoản bằng cách Nhấn **Tạo**, nhập các thông tin cần thiết gồm Tên, Loại chứng từ = **Khác**, tài khoản nợ, tài khoản có. Nhấn **Lưu** để lưu định khoản mới
 
@@ -89,7 +89,7 @@ Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm ki
 
 - Sau mỗi lần chọn định khoản, hệ thống sẽ tự động sinh 2 dòng thông tin chi tiết tương ứng với số tiền và định khoản đã chọn. Người dùng có thể chọn nhiều định khoản trên cùng một chứng từ, hệ thống sẽ sinh tương ứng bấy nhiêu dòng chi tiết
 
-  ![](images/fin_tonghop_ctnvk_chitiet.png)
+  ![](images/fin_tonghop_ctnvk_chitiet00.png)
 
 **Bước 3**: Nhấn **Lưu lại. ** 
 
@@ -104,7 +104,7 @@ Nếu không muốn ghi sổ một bút toán đã hạch toán thì chọn nút
 
 **Bước 5** : Có thể in được chứng từ kế toán phản ánh nội dung nghiệp vụ kinh tế phát sinh bằng cách, chọn chứng từ cần in,  nhấn **In** và chọn mẫu chứng từ cần in.
 
-![](images/fin_tonghop_ctnvk_in.png)
+![](images/fin_tonghop_ctnvk_in00.png)
 
 **Bước 6**: Có thể tạo bút toán đảo ngược  bằng cách chọn chứng từ cần đảo ngược và đã ghi sổ, nhấn button **Bút toán đảo**
 
@@ -118,7 +118,15 @@ Hệ thống sẽ tự động sinh một chứng từ khác có thông tin gi�
 
 ![](images/fin_tonghop_ctnvk_ctdaonguoc.png)
 
+#### Huỷ bút toán hàng loạt
 
+Chọn các bút toán cần huỷ, chọn **Hành động**: **Huỷ hàng loạt**
+
+![](images/fin_tonghop_huyhangloat.png)
+
+Hệ thống hiển thị cảnh báo số lượng bút toán huỷ thành công, số lượng bút toán huỷ không thành công
+
+![](images/fin_tonghop_huyhangloat_canhbao.png)
 
 ## *Danh sách bút toán*
 
@@ -168,7 +176,7 @@ Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm ki
 
 ![](images/fin_tonghop_ctbt_nhanh.png)
 
-![](images/fin_tonghop_ctbt_danhsach.png)
+![](images/fin_tonghop_ctbt_danhsach00.png)
 
 Thực hiện tải xuống toàn bộ bút toán bằng cách nhấn nút **Tải xuống** ![](images/fin_taixuong.png) trên danh sách
 
@@ -1480,7 +1488,7 @@ Mục Tồn kho vật tư, hàng hóa cho phép người dùng quản lý tồn 
 
 **Bước 1**: Vào phân hệ **Tổng hợp**, Chọn **Tổng hợp**, Chọn **Khai báo số dư ban đầu**.
 
-![](images/fin_tonghop_menu.png)
+![](images/fin_tonghop_menu00.png)
 
  Nhấn **Tồn kho vật tư, hàng hóa** trên quy trình
 
